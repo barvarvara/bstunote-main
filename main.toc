@@ -1,22 +1,24 @@
 \babel@toc {russian}{}\relax 
 \contentsline {section}{ВВЕДЕНИЕ}{7}{section.9}%
-\contentsline {section}{\numberline {1}ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{8}{section.11}%
-\contentsline {subsection}{\numberline {1.1}Тематики выпускных квалификационных работ}{8}{subsection.12}%
-\contentsline {subsection}{\numberline {1.2}Структура и содержание пояснительной записки}{10}{subsection.35}%
-\contentsline {subsection}{\numberline {1.3}Иллюстративный материал}{15}{subsection.52}%
-\contentsline {section}{\numberline {2}ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{17}{section.70}%
-\contentsline {subsection}{\numberline {2.1}Параметры страницы}{17}{subsection.71}%
-\contentsline {subsection}{\numberline {2.2}Титульный лист, задание на ВКР, лист проверки заимствований}{18}{subsection.73}%
-\contentsline {subsection}{\numberline {2.3}Параметры основного текста}{19}{subsection.74}%
-\contentsline {subsection}{\numberline {2.4}Параметры рубрикации}{19}{subsection.75}%
-\contentsline {subsection}{\numberline {2.5}Оформление иллюстраций}{21}{subsection.76}%
-\contentsline {subsection}{\numberline {2.6}Оформление таблиц}{22}{subsection.86}%
-\contentsline {subsection}{\numberline {2.7}Оформление формул}{24}{subsection.87}%
-\contentsline {subsection}{\numberline {2.8}Оформление списков}{25}{subsection.89}%
-\contentsline {subsection}{\numberline {2.9}Оформление листингов}{26}{subsection.101}%
-\contentsline {subsection}{\numberline {2.10}Оформление списка литературы}{28}{subsection.111}%
-\contentsline {subsection}{\numberline {2.11}Требования к литературному стилю}{29}{subsection.112}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{32}{section.113}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{33}{section*.115}%
-\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Блок-схемы основных алгоритмов быстрого преобразования Фурье}{34}{appendix.117}%
-\contentsline {section}{ПРИЛОЖЕНИЕ\ Б\ Листинги разработанных подпрограмм для выполнения быстрого преобразования Фурье}{35}{appendix.119}%
+\contentsline {section}{\numberline {1}АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ}{8}{section.11}%
+\contentsline {subsection}{\numberline {1.1}Вклад кампании SiSEC MUS 2018 в задачу разделения источников}{9}{subsection.13}%
+\contentsline {section}{\numberline {2}ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{10}{section.14}%
+\contentsline {subsection}{\numberline {2.1}Тематики выпускных квалификационных работ}{10}{subsection.15}%
+\contentsline {subsection}{\numberline {2.2}Структура и содержание пояснительной записки}{12}{subsection.38}%
+\contentsline {subsection}{\numberline {2.3}Иллюстративный материал}{17}{subsection.55}%
+\contentsline {section}{\numberline {3}ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{19}{section.73}%
+\contentsline {subsection}{\numberline {3.1}Параметры страницы}{19}{subsection.74}%
+\contentsline {subsection}{\numberline {3.2}Титульный лист, задание на ВКР, лист проверки заимствований}{20}{subsection.76}%
+\contentsline {subsection}{\numberline {3.3}Параметры основного текста}{21}{subsection.77}%
+\contentsline {subsection}{\numberline {3.4}Параметры рубрикации}{21}{subsection.78}%
+\contentsline {subsection}{\numberline {3.5}Оформление иллюстраций}{23}{subsection.79}%
+\contentsline {subsection}{\numberline {3.6}Оформление таблиц}{24}{subsection.89}%
+\contentsline {subsection}{\numberline {3.7}Оформление формул}{26}{subsection.90}%
+\contentsline {subsection}{\numberline {3.8}Оформление списков}{27}{subsection.92}%
+\contentsline {subsection}{\numberline {3.9}Оформление листингов}{28}{subsection.104}%
+\contentsline {subsection}{\numberline {3.10}Оформление списка литературы}{30}{subsection.114}%
+\contentsline {subsection}{\numberline {3.11}Требования к литературному стилю}{31}{subsection.115}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{34}{section.116}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{35}{section*.118}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Блок-схемы основных алгоритмов быстрого преобразования Фурье}{36}{appendix.120}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ Б\ Листинги разработанных подпрограмм для выполнения быстрого преобразования Фурье}{37}{appendix.122}%
