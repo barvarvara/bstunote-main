@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  20 APR 2026 00:09
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  21 APR 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -973,377 +973,398 @@ Overfull \hbox (2.97255pt too wide) in paragraph at lines 3--3
  []
 
 
-Overfull \hbox (0.11668pt too wide) in paragraph at lines 8--8
+Overfull \hbox (11.16989pt too wide) in paragraph at lines 9--9
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Ограничения существующих решений для извлечения кон- 
+ []
+
+
+Overfull \hbox (0.11668pt too wide) in paragraph at lines 15--15
  [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИС- 
  []
 
 
-Overfull \hbox (4.36356pt too wide) in paragraph at lines 12--12
+Overfull \hbox (4.36356pt too wide) in paragraph at lines 19--19
  [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИС- 
  []
 
-)
+[6
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 
 Вёрстка раздела "ВВЕДЕНИЕ"
-[6
-
-]
+[7]
 Overfull \hbox (0.54053pt too wide) in paragraph at lines 417--418
 \TU/TimesNewRoman(0)/m/n/14.4 из полифонических композиций с учётом спектрального перекрытия (Частотно-
  []
 
 Вёрстка раздела "АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ"
-[7
+[8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 431--431
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []\TU/TimesNewRoman(0)/b/n/15 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ
  []
 
 File: figures/source_separation.png Graphic file (type bmp)
 <figures/source_separation.png>
 
-Overfull \hbox (13.32175pt too wide) in paragraph at lines 472--473
+Overfull \hbox (13.32175pt too wide) in paragraph at lines 455--456
 []\TU/TimesNewRoman(0)/m/n/14.4 Притом, такая задача подразумевает получение из одного аудиотрека (аудио-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []\TU/TimesNewRoman(0)/b/n/14.5 Вклад кампании SiSEC MUS 2018 в задачу разделения
  []
 
-Вёрстка раздела "Разработка архитектуры программного обеспечения"
-[8
-
-]
-Вёрстка раздела "Разработка алгоритмов и программного обеспечения"
 [9
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 473--473
+[]\TU/TimesNewRoman(0)/b/n/14.5 Способы представления звука для задачи разделения
+ []
+
+
+Overfull \hbox (8.70567pt too wide) in paragraph at lines 491--492
+[]\TU/TimesNewRoman(0)/m/n/14.4 Архитектуры, которые представляют собой SOTA (state of art)///////////////////// 
+ []
+
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
+[]\TU/TimesNewRoman(0)/b/n/14.4 Ограничения существующих решений для извлечения
+ []
+
+[12]
+Вёрстка раздела "Разработка архитектуры программного обеспечения"
+[13]
+Вёрстка раздела "Разработка алгоритмов и программного обеспечения"
+[14
+
+]
 Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[10
+[15
 
 ]
 Вёрстка раздела "ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ"
-[11
+[16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 698--698
 []\TU/TimesNewRoman(0)/b/n/15 ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ
  []
 
 
-Overfull \hbox (1.9229pt too wide) in paragraph at lines 583--584
+Overfull \hbox (1.9229pt too wide) in paragraph at lines 701--702
 []\TU/TimesNewRoman(0)/m/n/14.4 представлена постановка задачи и техническое задание на разработку про-
  []
 
 
-Overfull \hbox (6.69942pt too wide) in paragraph at lines 598--599
+Overfull \hbox (6.69942pt too wide) in paragraph at lines 716--717
 []\TU/TimesNewRoman(0)/m/n/14.4 результаты проведения вычислительных экспериментов на реальных и/или
  []
 
 
-Overfull \hbox (5.88377pt too wide) in paragraph at lines 602--605
+Overfull \hbox (5.88377pt too wide) in paragraph at lines 720--723
 []\TU/TimesNewRoman(0)/m/n/14.4 В ВКР обязательно должна присутствовать разработка программного обес-
  []
 
 
-Overfull \hbox (1.55655pt too wide) in paragraph at lines 607--608
+Overfull \hbox (1.55655pt too wide) in paragraph at lines 725--726
 []\TU/TimesNewRoman(0)/m/n/14.4 Прикладное программное обеспечение (редакторы, мультимедийные при-
  []
 
-[12
+[17
 
-] [13]
-Overfull \hbox (5.0394pt too wide) in paragraph at lines 645--646
+] [18]
+Overfull \hbox (5.0394pt too wide) in paragraph at lines 763--764
 \TU/TimesNewRoman(0)/m/n/14.4 для визуализации тел вращения, которое должно работать на платформе Arduino. 
  []
 
-[14]
-Overfull \hbox (7.37126pt too wide) in paragraph at lines 660--661
+[19]
+Overfull \hbox (7.37126pt too wide) in paragraph at lines 778--779
 []\TU/TimesNewRoman(0)/m/n/14.4 Создание руководства пользователя разработанного программного обес-
  []
 
 
-Overfull \hbox (0.64212pt too wide) in paragraph at lines 663--664
+Overfull \hbox (0.64212pt too wide) in paragraph at lines 781--782
 []\TU/TimesNewRoman(0)/m/n/14.4 Завершается введение кратким описанием структуры ВКР по главам. Объ-
  []
 
-[15] [16]
+[20] [21]
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 697.
+(Font)              scaled to size 12.9599pt on input line 815.
 
-Overfull \hbox (1.82484pt too wide) in paragraph at lines 702--703
+Overfull \hbox (1.82484pt too wide) in paragraph at lines 820--821
 []\TU/TimesNewRoman(0)/m/n/14.4 оценка вычислительной сложности разработанных алгоритмов, возмож-
  []
 
 
-Overfull \hbox (9.47366pt too wide) in paragraph at lines 704--705
+Overfull \hbox (9.47366pt too wide) in paragraph at lines 822--823
 []\TU/TimesNewRoman(0)/m/n/14.4 разработка структур баз данных (в виде диаграмм типа «сущность-связь»,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 833--834
 []\TU/TimesNewRoman(0)/m/n/14.4 Заголовок: \TU/PTMono(0)/m/n/14.4 int get_sum_and_max(const int* a, int n,
  []
 
-[17]
-Overfull \hbox (5.83388pt too wide) in paragraph at lines 731--732
+[22]
+Overfull \hbox (5.83388pt too wide) in paragraph at lines 849--850
 []\TU/TimesNewRoman(0)/m/n/14.4 оценка производительности, отказоустойчивости, метрологических и эр-
  []
 
-[18]
-Overfull \hbox (8.62364pt too wide) in paragraph at lines 770--771
+[23]
+Overfull \hbox (8.62364pt too wide) in paragraph at lines 888--889
 []\TU/TimesNewRoman(0)/m/n/14.4 По согласованию с дипломным руководителем в презентацию можно вклю-
  []
 
-[19]
+[24]
 Вёрстка раздела "ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ"
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 773--773
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 891--891
 []\TU/TimesNewRoman(0)/b/n/15 ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ
  []
 
 
-Overfull \hbox (0.25528pt too wide) in paragraph at lines 774--775
+Overfull \hbox (0.25528pt too wide) in paragraph at lines 892--893
 []\TU/TimesNewRoman(0)/m/n/14.4 Выпускная квалификационная работа (ВКР) может быть оформлена в тек-
  []
 
 
-Overfull \hbox (19.33363pt too wide) in paragraph at lines 774--775
+Overfull \hbox (19.33363pt too wide) in paragraph at lines 892--893
 \TU/TimesNewRoman(0)/m/n/14.4 требования к оформлению ВКР и руководство по использованию пакета \TU/PTMono(0)/m/n/14.4 bstunote\TU/TimesNewRoman(0)/m/n/14.4 . 
  []
 
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 785.
+(Font)              scaled to size 10.79993pt on input line 903.
 File: figures/wrongvkr.png Graphic file (type bmp)
 <figures/wrongvkr.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21
+[26
 
-] [22] [23]
-Underfull \hbox (badness 1584) in paragraph at lines 858--859
+] [27] [28]
+Underfull \hbox (badness 1584) in paragraph at lines 976--977
 []\TU/TimesNewRoman(0)/m/n/14.4 Представленные команды секционирования уже настроены. Команда
  []
 
 
-Overfull \hbox (25.33984pt too wide) in paragraph at lines 864--864
+Overfull \hbox (25.33984pt too wide) in paragraph at lines 982--982
  [] \TU/PTMono(0)/m/n/12 ДЛИННЫЙ ЗАГОЛОВОК, КОТОРЫЙ НЕ ПОМЕЩАЕТСЯ В ГРАФУ, С УМЕНЬШЕННЫМ РАЗМЕРОМ[] 
  []
 
-[24]
+[29]
 File: figures/hareBo.png Graphic file (type bmp)
 <figures/hareBo.png>
- [25]
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+ [30]
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 []|\TU/TimesNewRoman(0)/b/n/14.4 Сим-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 []|\TU/TimesNewRoman(0)/b/n/14.4 Название на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атом-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 \TU/TimesNewRoman(0)/b/n/14.4 ный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 \TU/TimesNewRoman(0)/b/n/14.4 но-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атомная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--924
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 \TU/TimesNewRoman(0)/b/n/14.4 масса
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 []|\TU/TimesNewRoman(0)/b/n/14.4 Плотность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 \TU/TimesNewRoman(0)/b/n/14.4 при нор-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 \TU/TimesNewRoman(0)/b/n/14.4 мальных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
 \TU/TimesNewRoman(0)/b/n/14.4 условиях
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
 []|\TU/TimesNewRoman(0)/b/n/14.4 Сим-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
 []|\TU/TimesNewRoman(0)/b/n/14.4 Название на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атом-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
 \TU/TimesNewRoman(0)/b/n/14.4 ный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
 \TU/TimesNewRoman(0)/b/n/14.4 но-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атомная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--931
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
 \TU/TimesNewRoman(0)/b/n/14.4 масса
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--932
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 []|\TU/TimesNewRoman(0)/b/n/14.4 Плотность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--932
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 \TU/TimesNewRoman(0)/b/n/14.4 при нор-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--932
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 \TU/TimesNewRoman(0)/b/n/14.4 мальных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 931--932
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 \TU/TimesNewRoman(0)/b/n/14.4 условиях
  []
 
 
-Overfull \hbox (0.5724pt too wide) in paragraph at lines 949--949
+Overfull \hbox (0.5724pt too wide) in paragraph at lines 1067--1067
 []|\TU/TimesNewRoman(0)/m/n/14.4 18,998403163| 
  []
 
 
-Overfull \hbox (0.5724pt too wide) in paragraph at lines 955--955
+Overfull \hbox (0.5724pt too wide) in paragraph at lines 1073--1073
 []|\TU/TimesNewRoman(0)/m/n/14.4 30,973761998| 
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [26]
-ignored: Infinite glue shrinkage found in box being split [27] [28] [29] [30] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+ignored: Infinite glue shrinkage found in box being split [31]
+ignored: Infinite glue shrinkage found in box being split [32] [33] [34] [35] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1079.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1197.
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 1079.
+(Font)              scaled to size 8.99994pt on input line 1197.
 
 
 LaTeX Font Warning: Font shape `TU/PTMono(0)/m/it' undefined
-(Font)              using `TU/PTMono(0)/m/n' instead on input line 1080.
+(Font)              using `TU/PTMono(0)/m/n' instead on input line 1198.
 
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 1080.
+(Font)              scaled to size 8.99994pt on input line 1198.
 LaTeX Font Info:    Font shape `TU/PTMono(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 1081.
+(Font)              scaled to size 8.99994pt on input line 1199.
 LaTeX Font Info:    Font shape `TU/PTMono(0)/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 1092.
+(Font)              scaled to size 12.9599pt on input line 1210.
 
-Overfull \hbox (17.75793pt too wide) in paragraph at lines 1097--1097
+Overfull \hbox (17.75793pt too wide) in paragraph at lines 1215--1215
  []\TU/PTMono(0)/m/n/12 float S = (y1 - y2) * (x0 - x2) + (x2 - x1) * (y0 - y2); // Площадь 
  []
 
-[31]
-Overfull \hbox (5.05173pt too wide) in paragraph at lines 1117--1120
+[36]
+Overfull \hbox (5.05173pt too wide) in paragraph at lines 1235--1238
 []\TU/TimesNewRoman(0)/m/n/14.4 Список литературы оформляется в соответствии с ГОСТ Р 7.0.100–2018 [[]]
  []
 
 
-Overfull \hbox (5.86505pt too wide) in paragraph at lines 1123--1124
+Overfull \hbox (5.86505pt too wide) in paragraph at lines 1241--1242
 []\TU/TimesNewRoman(0)/m/n/14.4 Список литературы можно формлять с использованием стандартного окру-
  []
 
 
-Overfull \hbox (14.08507pt too wide) in paragraph at lines 1128--1129
+Overfull \hbox (14.08507pt too wide) in paragraph at lines 1246--1247
 []\TU/TimesNewRoman(0)/m/it/14.4 Юров, В.И. \TU/TimesNewRoman(0)/m/n/14.4 Assembler : учебник для вузов / В. И. Юров. – 2-е изд. – СПб. : Пи-
  []
 
 
-Overfull \hbox (12.92613pt too wide) in paragraph at lines 1140--1141
+Overfull \hbox (12.92613pt too wide) in paragraph at lines 1258--1259
 \TU/TimesNewRoman(0)/m/n/14.4 таксических диаграмм с многовходовыми компонентами / Ю. Д. Рязанов, С. В. На-
  []
 
-[32]
-Overfull \hbox (22.57304pt too wide) in paragraph at lines 1154--1158
+[37]
+Overfull \hbox (22.57304pt too wide) in paragraph at lines 1272--1276
 \TU/TimesNewRoman(0)/m/n/14.4 мер, «метод beforeEach», «технология REST API», «API-функция», «HTTP-запрос»,
  []
 
 
-Overfull \hbox (6.81958pt too wide) in paragraph at lines 1154--1158
+Overfull \hbox (6.81958pt too wide) in paragraph at lines 1272--1276
 \TU/TimesNewRoman(0)/m/n/14.4 «паттерн MVC», «язык Python», «модуль CRM», «переменная file_name», «СУБД
  []
 
 
-Overfull \hbox (4.88728pt too wide) in paragraph at lines 1163--1164
+Overfull \hbox (4.88728pt too wide) in paragraph at lines 1281--1282
 \TU/TimesNewRoman(0)/m/n/14.4 языке), использовать не разрешается. К примеру, слова «хедер», «футер», «стор»,
  []
 
-[33]
+[38]
 Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[34] [35
+[39] [40
 
 ]
 Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
 
-Underfull \hbox (badness 1975) in paragraph at lines 1199--1200
+Underfull \hbox (badness 1975) in paragraph at lines 1317--1318
 \TU/TimesNewRoman(0)/m/n/14.4 2007. – № 5. – URL: [][]https://delo-press.ru/journals/documents/oformlenie-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
 \TU/TimesNewRoman(0)/m/n/14.4 dokumentov/34821-pravila-oformleniya-perechney/[][] (дата обращения:
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 1202--1203
+Underfull \hbox (badness 1292) in paragraph at lines 1320--1321
 []\TU/TimesNewRoman(0)/b/n/14.4 ГОСТ Р 7.0.100–2018. \TU/TimesNewRoman(0)/m/n/14.4 Библиографическая запись. Библиографическое
  []
 
-[36
+[41
 
 ]
 Вёрстка раздела "ПРИЛОЖЕНИЕ\ А"
-[37
+[42
 
 
 
@@ -1357,14 +1378,14 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 \c@lastPageNumber=\count371
- [38
+ [43
 
 
 ]
 Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
 (./main.lof
-Overfull \hbox (5.67682pt too wide) in paragraph at lines 2--2
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Упрощенный процесс разделения источников из аудиозаписи. Ав- 
+Overfull \hbox (5.269pt too wide) in paragraph at lines 2--2
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Упрощенный процесс разделения источников из аудиозаписи. Ис- 
  []
 
 )
@@ -1389,7 +1410,7 @@ Overfull \hbox (5.67682pt too wide) in paragraph at lines 2--2
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
- [38
+ [43
 
 
 ] 
@@ -1404,15 +1425,15 @@ L3 programming layer <2026-03-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 34FEF106AEC308334539C10866C974BC;8528.
+(rerunfilecheck)             Checksum: 26D111DA9DB0A9A8CF4F241DB0AEF8CD;11543.
  ) 
 Here is how much of TeX's memory you used:
- 31570 strings out of 467991
- 662905 string characters out of 5433157
- 1550845 words of memory out of 5000000
- 59929 multiletter control sequences out of 15000+600000
+ 31573 strings out of 467991
+ 662950 string characters out of 5433157
+ 1550854 words of memory out of 5000000
+ 59932 multiletter control sequences out of 15000+600000
  633474 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,10n,131p,1365b,1015s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (42 pages).
+Output written on main.pdf (47 pages).

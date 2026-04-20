@@ -1,27 +1,34 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{ВВЕДЕНИЕ}{7}{section.9}%
-\contentsline {section}{\numberline {1}АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ}{8}{section.11}%
-\contentsline {subsection}{\numberline {1.1}Вклад кампании SiSEC MUS 2018 в задачу разделения источников}{8}{subsection.13}%
-\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{9}{section.14}%
-\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{10}{section.15}%
-\contentsline {section}{\numberline {4}ЗАКЛЮЧЕНИЕ}{11}{section.16}%
-\contentsline {section}{\numberline {5}ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{12}{section.17}%
-\contentsline {subsection}{\numberline {5.1}Тематики выпускных квалификационных работ}{12}{subsection.18}%
-\contentsline {subsection}{\numberline {5.2}Структура и содержание пояснительной записки}{13}{subsection.41}%
-\contentsline {subsection}{\numberline {5.3}Иллюстративный материал}{19}{subsection.58}%
-\contentsline {section}{\numberline {6}ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{21}{section.76}%
-\contentsline {subsection}{\numberline {6.1}Параметры страницы}{21}{subsection.77}%
-\contentsline {subsection}{\numberline {6.2}Титульный лист, задание на ВКР, лист проверки заимствований}{22}{subsection.79}%
-\contentsline {subsection}{\numberline {6.3}Параметры основного текста}{23}{subsection.80}%
-\contentsline {subsection}{\numberline {6.4}Параметры рубрикации}{23}{subsection.81}%
-\contentsline {subsection}{\numberline {6.5}Оформление иллюстраций}{24}{subsection.82}%
-\contentsline {subsection}{\numberline {6.6}Оформление таблиц}{26}{subsection.92}%
-\contentsline {subsection}{\numberline {6.7}Оформление формул}{28}{subsection.93}%
-\contentsline {subsection}{\numberline {6.8}Оформление списков}{29}{subsection.95}%
-\contentsline {subsection}{\numberline {6.9}Оформление листингов}{30}{subsection.107}%
-\contentsline {subsection}{\numberline {6.10}Оформление списка литературы}{32}{subsection.117}%
-\contentsline {subsection}{\numberline {6.11}Требования к литературному стилю}{33}{subsection.118}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{35}{section.119}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{36}{section*.121}%
-\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Блок-схемы основных алгоритмов быстрого преобразования Фурье}{37}{appendix.123}%
-\contentsline {section}{ПРИЛОЖЕНИЕ\ Б\ Листинги разработанных подпрограмм для выполнения быстрого преобразования Фурье}{38}{appendix.125}%
+\contentsline {section}{ВВЕДЕНИЕ}{8}{section.9}%
+\contentsline {section}{\numberline {1}АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ}{9}{section.11}%
+\contentsline {subsection}{\numberline {1.1}Вклад кампании SiSEC MUS 2018 в задачу разделения источников}{10}{subsection.13}%
+\contentsline {subsection}{\numberline {1.2}Способы представления звука для задачи разделения источников}{10}{subsection.14}%
+\contentsline {subsection}{\numberline {1.3}Обзор архитектур разделения источников}{10}{subsection.15}%
+\contentsline {subsubsection}{\numberline {1.3.1}Классические методы source separation}{10}{subsubsection.16}%
+\contentsline {subsubsection}{\numberline {1.3.2}Современные нейронные архитектуры}{10}{subsubsection.17}%
+\contentsline {subsubsection}{\numberline {1.3.3}Ограничения существующих решений для извлечения конкретных инструментов}{12}{subsubsection.18}%
+\contentsline {subsubsection}{\numberline {1.3.4}Методы дообучения нейронных сетей извлечения источников}{12}{subsubsection.19}%
+\contentsline {subsection}{\numberline {1.4}Метрики оценки качества (SDR, SIR, SAR)}{13}{subsection.20}%
+\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{14}{section.21}%
+\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{15}{section.22}%
+\contentsline {section}{\numberline {4}ЗАКЛЮЧЕНИЕ}{16}{section.23}%
+\contentsline {section}{\numberline {5}ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{17}{section.24}%
+\contentsline {subsection}{\numberline {5.1}Тематики выпускных квалификационных работ}{17}{subsection.25}%
+\contentsline {subsection}{\numberline {5.2}Структура и содержание пояснительной записки}{18}{subsection.48}%
+\contentsline {subsection}{\numberline {5.3}Иллюстративный материал}{24}{subsection.65}%
+\contentsline {section}{\numberline {6}ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ}{26}{section.83}%
+\contentsline {subsection}{\numberline {6.1}Параметры страницы}{26}{subsection.84}%
+\contentsline {subsection}{\numberline {6.2}Титульный лист, задание на ВКР, лист проверки заимствований}{27}{subsection.86}%
+\contentsline {subsection}{\numberline {6.3}Параметры основного текста}{28}{subsection.87}%
+\contentsline {subsection}{\numberline {6.4}Параметры рубрикации}{28}{subsection.88}%
+\contentsline {subsection}{\numberline {6.5}Оформление иллюстраций}{29}{subsection.89}%
+\contentsline {subsection}{\numberline {6.6}Оформление таблиц}{31}{subsection.99}%
+\contentsline {subsection}{\numberline {6.7}Оформление формул}{33}{subsection.100}%
+\contentsline {subsection}{\numberline {6.8}Оформление списков}{34}{subsection.102}%
+\contentsline {subsection}{\numberline {6.9}Оформление листингов}{35}{subsection.114}%
+\contentsline {subsection}{\numberline {6.10}Оформление списка литературы}{37}{subsection.124}%
+\contentsline {subsection}{\numberline {6.11}Требования к литературному стилю}{38}{subsection.125}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{40}{section.126}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{41}{section*.128}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Блок-схемы основных алгоритмов быстрого преобразования Фурье}{42}{appendix.130}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ Б\ Листинги разработанных подпрограмм для выполнения быстрого преобразования Фурье}{43}{appendix.132}%
