@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  21 APR 2026 00:25
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  30 APR 2026 01:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -755,10 +755,8 @@ File: tikzlibrarymatrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@lib@dec@text@box=\box87
 )
 \tikz@lib@dec@te@box=\box88
-) (./main.aux
-Package babel Info: 'russian' activates 'russian' shorthands.
-(babel)             Reported on input line 8.
 )
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
@@ -786,7 +784,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (c:/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
+(c:/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
@@ -826,6 +824,8 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package babel Info: 'russian' activates 'russian' shorthands.
+(babel)             Reported on input line 122.
 LaTeX Info: Redefining \th on input line 122.
 
 Package fontspec Info: 
@@ -885,9 +885,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/PTMono(0)/b/n on input line 122.
 Package hyperref Info: Link coloring ON on input line 122.
-(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -967,46 +969,29 @@ Overfull \hbox (1.37956pt too wide) in paragraph at lines 391--392
 
 ]
 Вёрстка раздела "СОДЕРЖАНИЕ"
-[5] (./main.toc
-Overfull \hbox (2.97255pt too wide) in paragraph at lines 3--3
- [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕ- 
- []
-
-
-Overfull \hbox (11.16989pt too wide) in paragraph at lines 9--9
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Ограничения существующих решений для извлечения кон- 
- []
-
-
-Overfull \hbox (0.11668pt too wide) in paragraph at lines 15--15
- [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИС- 
- []
-
-
-Overfull \hbox (4.36356pt too wide) in paragraph at lines 19--19
- [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИС- 
- []
-
-[6
-
-])
+[5]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
 Вёрстка раздела "ВВЕДЕНИЕ"
-[7]
+[6
+
+]
 Overfull \hbox (0.54053pt too wide) in paragraph at lines 417--418
 \TU/TimesNewRoman(0)/m/n/14.4 из полифонических композиций с учётом спектрального перекрытия (Частотно-
  []
 
 Вёрстка раздела "АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ"
-[8
+[7
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []\TU/TimesNewRoman(0)/b/n/15 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ
  []
+
+
+LaTeX Warning: Reference `fig:sourcesep' on page 8 undefined on input line 444.
 
 File: figures/source_separation.png Graphic file (type bmp)
 <figures/source_separation.png>
@@ -1020,7 +1005,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []\TU/TimesNewRoman(0)/b/n/14.5 Вклад кампании SiSEC MUS 2018 в задачу разделения
  []
 
-[9
+[8
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 473--473
@@ -1032,339 +1017,484 @@ Overfull \hbox (8.70567pt too wide) in paragraph at lines 491--492
 []\TU/TimesNewRoman(0)/m/n/14.4 Архитектуры, которые представляют собой SOTA (state of art)///////////////////// 
  []
 
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+[9]
+
+LaTeX Warning: Citation `openunmix' on page 10 undefined on input line 501.
+
+
+LaTeX Warning: Citation `openunmix' on page 10 undefined on input line 509.
+
+
+LaTeX Warning: Reference `fig:openunmix' on page 10 undefined on input line 509.
+
+File: figures/openunmix.png Graphic file (type bmp)
+<figures/openunmix.png>
+
+LaTeX Warning: Citation `gitopenunmix' on page 10 undefined on input line 513.
+
+[10]
+Overfull \hbox (0.48894pt too wide) in paragraph at lines 536--542
+\TU/TimesNewRoman(0)/m/n/14.4 отвечает за моделирование нестационарных временных зависимостей му-
+ []
+
+
+Overfull \hbox (10.12659pt too wide) in paragraph at lines 547--548
+\TU/TimesNewRoman(0)/m/n/14.4 тых в энкодере. После извлечения временных зависимостей блоком BLSTM
+ []
+
+
+Overfull \hbox (6.88277pt too wide) in paragraph at lines 549--550
+[]\TU/TimesNewRoman(0)/m/n/14.4 Слои fc2 и fc3 (Fully Connected): Выполняют трансформацию скры-
+ []
+
+
+Overfull \hbox (5.71204pt too wide) in paragraph at lines 549--550
+\TU/TimesNewRoman(0)/m/n/14.4 того вектора в пространство признаков, совместимое с размерностью вход-
+ []
+
+[11]
+c:/2026V/диплом/bstunote-main/bstunote-main/main.tex:556: Undefined control sequence.
+<recently read> \mathmathbf 
+                            
+l.556 ...} = \mathbf{X} \odot \hat{\mathmathbf{M}}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/2026V/диплом/bstunote-main/bstunote-main/main.tex:556: Undefined control sequence.
+<argument> \mathmathbf 
+                       {M}
+l.556 ...} = \mathbf{X} \odot \hat{\mathmathbf{M}}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/2026V/диплом/bstunote-main/bstunote-main/main.tex:558: Undefined control sequence.
+l.558 где $\mathbf{X} \in \mathbb
+                                 {R}^{T \times F}$ --- исходная входная спек...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/2026V/диплом/bstunote-main/bstunote-main/main.tex:559: Undefined control sequence.
+l.559 $\hat{\mathbf{M}} \in \mathbb
+                                   {R}^{T \times F}$ --- предсказанная нейро...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 583--583
 []\TU/TimesNewRoman(0)/b/n/14.4 Ограничения существующих решений для извлечения
  []
 
-[12]
-Вёрстка раздела "Разработка архитектуры программного обеспечения"
+
+Overfull \hbox (7.80571pt too wide) in paragraph at lines 592--593
+[]\TU/TimesNewRoman(0)/m/n/14.4 В контексте моделей разделения источников звука (например, Open‑Unmix)
+ []
+
 [13]
+Overfull \hbox (39.87692pt too wide) in paragraph at lines 607--608
+[]\TU/TimesNewRoman(0)/m/n/14.4 Высокие требования к вычислительным ресурсам: требуется много GPU‑памяти
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 612--612
+[]\TU/TimesNewRoman(0)/b/n/14.4 Методы «параметрического» дообучения (адаптация части
+ []
+
+[14]
+Вёрстка раздела "Разработка архитектуры программного обеспечения"
+[15]
 Вёрстка раздела "Разработка алгоритмов и программного обеспечения"
-[14
-
-]
-Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[15
-
-]
-Вёрстка раздела "ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ"
 [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
+[17
+
+]
+Вёрстка раздела "ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ"
+[18
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
 []\TU/TimesNewRoman(0)/b/n/15 ТРЕБОВАНИЯ К СОДЕРЖАНИЮ ПОЯСНИТЕЛЬНОЙ
  []
 
 
-Overfull \hbox (1.9229pt too wide) in paragraph at lines 701--702
+Overfull \hbox (1.9229pt too wide) in paragraph at lines 796--797
 []\TU/TimesNewRoman(0)/m/n/14.4 представлена постановка задачи и техническое задание на разработку про-
  []
 
 
-Overfull \hbox (6.69942pt too wide) in paragraph at lines 716--717
+Overfull \hbox (6.69942pt too wide) in paragraph at lines 811--812
 []\TU/TimesNewRoman(0)/m/n/14.4 результаты проведения вычислительных экспериментов на реальных и/или
  []
 
 
-Overfull \hbox (5.88377pt too wide) in paragraph at lines 720--723
+Overfull \hbox (5.88377pt too wide) in paragraph at lines 815--818
 []\TU/TimesNewRoman(0)/m/n/14.4 В ВКР обязательно должна присутствовать разработка программного обес-
  []
 
 
-Overfull \hbox (1.55655pt too wide) in paragraph at lines 725--726
+Overfull \hbox (1.55655pt too wide) in paragraph at lines 820--821
 []\TU/TimesNewRoman(0)/m/n/14.4 Прикладное программное обеспечение (редакторы, мультимедийные при-
  []
 
-[17
+[19
 
-] [18]
-Overfull \hbox (5.0394pt too wide) in paragraph at lines 763--764
+] [20]
+Overfull \hbox (5.0394pt too wide) in paragraph at lines 858--859
 \TU/TimesNewRoman(0)/m/n/14.4 для визуализации тел вращения, которое должно работать на платформе Arduino. 
  []
 
-[19]
-Overfull \hbox (7.37126pt too wide) in paragraph at lines 778--779
+[21]
+Overfull \hbox (7.37126pt too wide) in paragraph at lines 873--874
 []\TU/TimesNewRoman(0)/m/n/14.4 Создание руководства пользователя разработанного программного обес-
  []
 
 
-Overfull \hbox (0.64212pt too wide) in paragraph at lines 781--782
+Overfull \hbox (0.64212pt too wide) in paragraph at lines 876--877
 []\TU/TimesNewRoman(0)/m/n/14.4 Завершается введение кратким описанием структуры ВКР по главам. Объ-
  []
 
-[20] [21]
-LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 815.
+[22]
 
-Overfull \hbox (1.82484pt too wide) in paragraph at lines 820--821
+LaTeX Warning: Citation `gost19201' on page 23 undefined on input line 905.
+
+[23]
+LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 910.
+
+Overfull \hbox (1.82484pt too wide) in paragraph at lines 915--916
 []\TU/TimesNewRoman(0)/m/n/14.4 оценка вычислительной сложности разработанных алгоритмов, возмож-
  []
 
 
-Overfull \hbox (9.47366pt too wide) in paragraph at lines 822--823
+Overfull \hbox (9.47366pt too wide) in paragraph at lines 917--918
 []\TU/TimesNewRoman(0)/m/n/14.4 разработка структур баз данных (в виде диаграмм типа «сущность-связь»,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--834
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 []\TU/TimesNewRoman(0)/m/n/14.4 Заголовок: \TU/PTMono(0)/m/n/14.4 int get_sum_and_max(const int* a, int n,
  []
 
-[22]
-Overfull \hbox (5.83388pt too wide) in paragraph at lines 849--850
+[24]
+Overfull \hbox (5.83388pt too wide) in paragraph at lines 944--945
 []\TU/TimesNewRoman(0)/m/n/14.4 оценка производительности, отказоустойчивости, метрологических и эр-
  []
 
-[23]
-Overfull \hbox (8.62364pt too wide) in paragraph at lines 888--889
+[25]
+Overfull \hbox (8.62364pt too wide) in paragraph at lines 983--984
 []\TU/TimesNewRoman(0)/m/n/14.4 По согласованию с дипломным руководителем в презентацию можно вклю-
  []
 
-[24]
+[26]
 Вёрстка раздела "ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ ЗАПИСКИ"
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 891--891
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 []\TU/TimesNewRoman(0)/b/n/15 ТРЕБОВАНИЯ К ОФОРМЛЕНИЮ ПОЯСНИТЕЛЬНОЙ
  []
 
 
-Overfull \hbox (0.25528pt too wide) in paragraph at lines 892--893
+Overfull \hbox (0.25528pt too wide) in paragraph at lines 987--988
 []\TU/TimesNewRoman(0)/m/n/14.4 Выпускная квалификационная работа (ВКР) может быть оформлена в тек-
  []
 
 
-Overfull \hbox (19.33363pt too wide) in paragraph at lines 892--893
+Overfull \hbox (19.33363pt too wide) in paragraph at lines 987--988
 \TU/TimesNewRoman(0)/m/n/14.4 требования к оформлению ВКР и руководство по использованию пакета \TU/PTMono(0)/m/n/14.4 bstunote\TU/TimesNewRoman(0)/m/n/14.4 . 
  []
 
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 903.
+(Font)              scaled to size 10.79993pt on input line 998.
+
+LaTeX Warning: Reference `fig:wrongvkr' on page 28 undefined on input line 1001.
+
 File: figures/wrongvkr.png Graphic file (type bmp)
 <figures/wrongvkr.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26
 
-] [27] [28]
-Underfull \hbox (badness 1584) in paragraph at lines 976--977
+LaTeX Warning: Citation `gost2104' on page 28 undefined on input line 1011.
+
+[28
+
+] [29]
+
+LaTeX Warning: Citation `gost2105' on page 30 undefined on input line 1053.
+
+[30]
+Underfull \hbox (badness 1584) in paragraph at lines 1071--1072
 []\TU/TimesNewRoman(0)/m/n/14.4 Представленные команды секционирования уже настроены. Команда
  []
 
 
-Overfull \hbox (25.33984pt too wide) in paragraph at lines 982--982
+Overfull \hbox (25.33984pt too wide) in paragraph at lines 1077--1077
  [] \TU/PTMono(0)/m/n/12 ДЛИННЫЙ ЗАГОЛОВОК, КОТОРЫЙ НЕ ПОМЕЩАЕТСЯ В ГРАФУ, С УМЕНЬШЕННЫМ РАЗМЕРОМ[] 
  []
 
-[29]
+
+LaTeX Warning: Reference `fig:harebo' on page 31 undefined on input line 1091.
+
+[31]
 File: figures/hareBo.png Graphic file (type bmp)
 <figures/hareBo.png>
- [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+ [32]
+
+LaTeX Warning: Reference `tab:chemical' on page 33 undefined on input line 1131.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
 []|\TU/TimesNewRoman(0)/b/n/14.4 Сим-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
 []|\TU/TimesNewRoman(0)/b/n/14.4 Название на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атом-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
 \TU/TimesNewRoman(0)/b/n/14.4 ный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
 \TU/TimesNewRoman(0)/b/n/14.4 но-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атомная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1137
 \TU/TimesNewRoman(0)/b/n/14.4 масса
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 []|\TU/TimesNewRoman(0)/b/n/14.4 Плотность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 \TU/TimesNewRoman(0)/b/n/14.4 при нор-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 \TU/TimesNewRoman(0)/b/n/14.4 мальных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 \TU/TimesNewRoman(0)/b/n/14.4 условиях
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
 []|\TU/TimesNewRoman(0)/b/n/14.4 Сим-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
 []|\TU/TimesNewRoman(0)/b/n/14.4 Название на
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атом-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
 \TU/TimesNewRoman(0)/b/n/14.4 ный
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
 \TU/TimesNewRoman(0)/b/n/14.4 но-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
 []|\TU/TimesNewRoman(0)/b/n/14.4 Атомная
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
 \TU/TimesNewRoman(0)/b/n/14.4 масса
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
 []|\TU/TimesNewRoman(0)/b/n/14.4 Плотность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
 \TU/TimesNewRoman(0)/b/n/14.4 при нор-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
 \TU/TimesNewRoman(0)/b/n/14.4 мальных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
 \TU/TimesNewRoman(0)/b/n/14.4 условиях
  []
 
 
-Overfull \hbox (0.5724pt too wide) in paragraph at lines 1067--1067
+Overfull \hbox (0.5724pt too wide) in paragraph at lines 1162--1162
 []|\TU/TimesNewRoman(0)/m/n/14.4 18,998403163| 
  []
 
 
-Overfull \hbox (0.5724pt too wide) in paragraph at lines 1073--1073
+Overfull \hbox (0.5724pt too wide) in paragraph at lines 1168--1168
 []|\TU/TimesNewRoman(0)/m/n/14.4 30,973761998| 
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [31]
-ignored: Infinite glue shrinkage found in box being split [32] [33] [34] [35] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+ignored: Infinite glue shrinkage found in box being split [33]
+ignored: Infinite glue shrinkage found in box being split [34]
+
+LaTeX Warning: Reference `eq:blackbody' on page 35 undefined on input line 1216.
+
+[35]
+
+LaTeX Warning: Citation `gost2105' on page 36 undefined on input line 1231.
+
+[36]
+
+LaTeX Warning: Citation `lotosh' on page 37 undefined on input line 1265.
+
+[37]
+
+LaTeX Warning: Reference `lst:inverse' on page 38 undefined on input line 1289.
+
+(c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1197.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1292.
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 1197.
+(Font)              scaled to size 8.99994pt on input line 1292.
 
 
 LaTeX Font Warning: Font shape `TU/PTMono(0)/m/it' undefined
-(Font)              using `TU/PTMono(0)/m/n' instead on input line 1198.
+(Font)              using `TU/PTMono(0)/m/n' instead on input line 1293.
 
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 1198.
+(Font)              scaled to size 8.99994pt on input line 1293.
 LaTeX Font Info:    Font shape `TU/PTMono(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 1199.
+(Font)              scaled to size 8.99994pt on input line 1294.
 LaTeX Font Info:    Font shape `TU/PTMono(0)/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 1210.
+(Font)              scaled to size 12.9599pt on input line 1305.
 
-Overfull \hbox (17.75793pt too wide) in paragraph at lines 1215--1215
+Overfull \hbox (17.75793pt too wide) in paragraph at lines 1310--1310
  []\TU/PTMono(0)/m/n/12 float S = (y1 - y2) * (x0 - x2) + (x2 - x1) * (y0 - y2); // Площадь 
  []
 
-[36]
-Overfull \hbox (5.05173pt too wide) in paragraph at lines 1235--1238
+[38]
+
+LaTeX Warning: Citation `gost70100' on page 39 undefined on input line 1330.
+
+
+LaTeX Warning: Citation `gost705' on page 39 undefined on input line 1330.
+
+
+Overfull \hbox (5.05173pt too wide) in paragraph at lines 1330--1333
 []\TU/TimesNewRoman(0)/m/n/14.4 Список литературы оформляется в соответствии с ГОСТ Р 7.0.100–2018 [[]]
  []
 
 
-Overfull \hbox (5.86505pt too wide) in paragraph at lines 1241--1242
+Overfull \hbox (5.86505pt too wide) in paragraph at lines 1336--1337
 []\TU/TimesNewRoman(0)/m/n/14.4 Список литературы можно формлять с использованием стандартного окру-
  []
 
 
-Overfull \hbox (14.08507pt too wide) in paragraph at lines 1246--1247
+Overfull \hbox (14.08507pt too wide) in paragraph at lines 1341--1342
 []\TU/TimesNewRoman(0)/m/it/14.4 Юров, В.И. \TU/TimesNewRoman(0)/m/n/14.4 Assembler : учебник для вузов / В. И. Юров. – 2-е изд. – СПб. : Пи-
  []
 
 
-Overfull \hbox (12.92613pt too wide) in paragraph at lines 1258--1259
+Overfull \hbox (12.92613pt too wide) in paragraph at lines 1353--1354
 \TU/TimesNewRoman(0)/m/n/14.4 таксических диаграмм с многовходовыми компонентами / Ю. Д. Рязанов, С. В. На-
  []
 
-[37]
-Overfull \hbox (22.57304pt too wide) in paragraph at lines 1272--1276
+[39]
+Overfull \hbox (22.57304pt too wide) in paragraph at lines 1367--1371
 \TU/TimesNewRoman(0)/m/n/14.4 мер, «метод beforeEach», «технология REST API», «API-функция», «HTTP-запрос»,
  []
 
 
-Overfull \hbox (6.81958pt too wide) in paragraph at lines 1272--1276
+Overfull \hbox (6.81958pt too wide) in paragraph at lines 1367--1371
 \TU/TimesNewRoman(0)/m/n/14.4 «паттерн MVC», «язык Python», «модуль CRM», «переменная file_name», «СУБД
  []
 
 
-Overfull \hbox (4.88728pt too wide) in paragraph at lines 1281--1282
+Overfull \hbox (4.88728pt too wide) in paragraph at lines 1376--1377
 \TU/TimesNewRoman(0)/m/n/14.4 языке), использовать не разрешается. К примеру, слова «хедер», «футер», «стор»,
  []
 
-[38]
+[40]
 Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[39] [40
+[41] [42
 
 ]
 Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
 
-Underfull \hbox (badness 1975) in paragraph at lines 1317--1318
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
+[]\TU/TimesNewRoman(0)/m/it/14.4 Uhlich S. et al. \TU/TimesNewRoman(0)/m/n/14.4 Open-Unmix: A Deep Neural Network Reference
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 1403--1404
+\TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation – GitHub. 2019. – URL:
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 1418--1419
 \TU/TimesNewRoman(0)/m/n/14.4 2007. – № 5. – URL: [][]https://delo-press.ru/journals/documents/oformlenie-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
+Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
 \TU/TimesNewRoman(0)/m/n/14.4 dokumentov/34821-pravila-oformleniya-perechney/[][] (дата обращения:
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 1320--1321
+Underfull \hbox (badness 1292) in paragraph at lines 1421--1422
 []\TU/TimesNewRoman(0)/b/n/14.4 ГОСТ Р 7.0.100–2018. \TU/TimesNewRoman(0)/m/n/14.4 Библиографическая запись. Библиографическое
  []
 
-[41
+[43
 
 ]
 Вёрстка раздела "ПРИЛОЖЕНИЕ\ А"
-[42
+[44
 
 
 
@@ -1378,30 +1508,25 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 \c@lastPageNumber=\count371
- [43
+ [45
 
 
 ]
 Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
-(./main.lof
-Overfull \hbox (5.269pt too wide) in paragraph at lines 2--2
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Упрощенный процесс разделения источников из аудиозаписи. Ис- 
- []
-
-)
+No file main.lof.
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [1
+[1
 
 
 ]
 Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
-(./main.lot)
+No file main.lot.
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [2
+[2
 
 
 ]
@@ -1410,7 +1535,7 @@ Overfull \hbox (5.269pt too wide) in paragraph at lines 2--2
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
- [43
+ [45
 
 
 ] 
@@ -1424,16 +1549,31 @@ L3 programming layer <2026-03-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 26D111DA9DB0A9A8CF4F241DB0AEF8CD;11543.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  517A6734985FFDA4EB88D8951B041752;12675.
+
+Package lastpage Warning: Rerun to get the references right on input line 1559.
+
  ) 
 Here is how much of TeX's memory you used:
- 31573 strings out of 467991
- 662950 string characters out of 5433157
- 1550854 words of memory out of 5000000
- 59932 multiletter control sequences out of 15000+600000
- 633474 words of font info for 108 fonts, out of 8000000 for 9000
+ 31571 strings out of 467991
+ 663243 string characters out of 5433157
+ 1549676 words of memory out of 5000000
+ 59938 multiletter control sequences out of 15000+600000
+ 633498 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,10n,131p,1365b,1015s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (47 pages).
+Output written on main.pdf (49 pages).
