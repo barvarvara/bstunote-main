@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  2 MAY 2026 01:12
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  3 MAY 2026 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,11 +972,6 @@ Overfull \hbox (2.97255pt too wide) in paragraph at lines 3--3
  [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕ- 
  []
 
-
-Overfull \hbox (11.16989pt too wide) in paragraph at lines 9--9
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Ограничения существующих решений для извлечения кон- 
- []
-
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1013,27 +1008,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--459
 [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 []\TU/TimesNewRoman(0)/b/n/14.5 Способы представления звука для задачи разделения
  []
 
 
-Overfull \hbox (8.70567pt too wide) in paragraph at lines 491--492
+Overfull \hbox (8.70567pt too wide) in paragraph at lines 504--505
 []\TU/TimesNewRoman(0)/m/n/14.4 Архитектуры, которые представляют собой SOTA (state of art)///////////////////// 
  []
 
 [9] [10]
-Overfull \hbox (16.56012pt too wide) in paragraph at lines 556--559
+Overfull \hbox (16.56012pt too wide) in paragraph at lines 569--572
 \TU/TimesNewRoman(0)/m/n/14.4 лучших результатов на бенчмарках (MUSDB18, FSD50k), превосходя LSTM-
  []
 
 
-Overfull \hbox (3.91667pt too wide) in paragraph at lines 556--559
+Overfull \hbox (3.91667pt too wide) in paragraph at lines 569--572
 \TU/TimesNewRoman(0)/m/n/14.4 подходы (Open-Unmix) по метрикам SDR (Signal-to-Distortion Ratio) и SAR
  []
 
 
-Overfull \hbox (9.87099pt too wide) in paragraph at lines 559--562
+Overfull \hbox (9.87099pt too wide) in paragraph at lines 572--575
 \TU/TimesNewRoman(0)/m/n/14.4 мания позволяет учитывать структуру музыкального произведения на боль-
  []
 
@@ -1041,147 +1036,162 @@ Overfull \hbox (9.87099pt too wide) in paragraph at lines 559--562
 File: figures/openunmix.png Graphic file (type bmp)
 <figures/openunmix.png>
  [12]
-Overfull \hbox (19.79675pt too wide) in paragraph at lines 631--643
+Overfull \hbox (19.79675pt too wide) in paragraph at lines 645--657
 \TU/TimesNewRoman(0)/m/n/14.4 правленной долговременной краткосрочной памяти (Bidirectional Long Short-
  []
 
 [13]
-Overfull \hbox (3.55342pt too wide) in paragraph at lines 651--654
+Overfull \hbox (3.55342pt too wide) in paragraph at lines 665--668
 \TU/TimesNewRoman(0)/m/n/14.4 обратного распространения, сохраняет низкоуровневую спектральную ин-
  []
 
 
-Overfull \hbox (9.92256pt too wide) in paragraph at lines 651--654
+Overfull \hbox (9.92256pt too wide) in paragraph at lines 665--668
 \TU/TimesNewRoman(0)/m/n/14.4 формацию и ускоряет сходимость оптимизатора без риска деградации пред-
  []
 
 
-Overfull \hbox (10.12659pt too wide) in paragraph at lines 655--659
+Overfull \hbox (10.12659pt too wide) in paragraph at lines 669--673
 \TU/TimesNewRoman(0)/m/n/14.4 тых в энкодере. После извлечения временных зависимостей блоком BLSTM
  []
 
 
-Overfull \hbox (6.88277pt too wide) in paragraph at lines 660--662
+Overfull \hbox (6.88277pt too wide) in paragraph at lines 674--676
 []\TU/TimesNewRoman(0)/m/n/14.4 Слои fc2 и fc3 (Fully Connected): Выполняют трансформацию скры-
  []
 
 
-Overfull \hbox (5.71204pt too wide) in paragraph at lines 660--662
+Overfull \hbox (5.71204pt too wide) in paragraph at lines 674--676
 \TU/TimesNewRoman(0)/m/n/14.4 того вектора в пространство признаков, совместимое с размерностью вход-
  []
 
 [14]
-Overfull \hbox (4.32921pt too wide) in paragraph at lines 704--709
+Overfull \hbox (4.32921pt too wide) in paragraph at lines 718--723
 \TU/TimesNewRoman(0)/m/n/14.4 рует конкурентоспособное качество на []бенчмарках[] (например, MUSDB18)
  []
 
 [15]
-Overfull \hbox (1.37022pt too wide) in paragraph at lines 727--733
+Overfull \hbox (1.37022pt too wide) in paragraph at lines 743--749
 \TU/TimesNewRoman(0)/m/n/14.4 ограничения модели связаны с вычислительной сложностью рекуррентных бло-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
-[]\TU/TimesNewRoman(0)/b/n/14.4 Ограничения существующих решений для извлечения
+Overfull \hbox (0.37018pt too wide) in paragraph at lines 751--757
+[]\TU/TimesNewRoman(0)/b/n/14.4 Spleeter \TU/TimesNewRoman(0)/m/n/14.4 Spleeter — это система разделения музыкальных источников, раз-
  []
 
-
-Overfull \hbox (7.80571pt too wide) in paragraph at lines 749--750
+[16] [17]
+Overfull \hbox (7.80571pt too wide) in paragraph at lines 814--815
 []\TU/TimesNewRoman(0)/m/n/14.4 В контексте моделей разделения источников звука (например, Open‑Unmix)
  []
 
-[16]
-Overfull \hbox (39.87692pt too wide) in paragraph at lines 764--765
+
+Overfull \hbox (39.87692pt too wide) in paragraph at lines 829--830
 []\TU/TimesNewRoman(0)/m/n/14.4 Высокие требования к вычислительным ресурсам: требуется много GPU‑памяти
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 769--769
+Underfull \hbox (badness 4792) in paragraph at lines 834--834
 []\TU/TimesNewRoman(0)/b/n/14.4 Методы «параметрического» дообучения (адаптация части
  []
 
-[17]
+[18] [19]
 Вёрстка раздела "Разработка архитектуры программного обеспечения"
-[18]
-Вёрстка раздела "Разработка алгоритмов и программного обеспечения"
-[19
+[20]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 904.
+
+
+Overfull \hbox (39.28343pt too wide) in paragraph at lines 928--935
+[]\TU/TimesNewRoman(0)/m/n/14.4 Во-первых, Open-Unmix позиционируется авторами как reference implementation
+ []
+
+
+Overfull \hbox (10.4231pt too wide) in paragraph at lines 928--935
+\TU/TimesNewRoman(0)/m/n/14.4 дульность архитектуры и стабильность процесса дообучения. В отличие от транс-
+ []
+
+
+Overfull \hbox (30.49248pt too wide) in paragraph at lines 936--944
+\TU/TimesNewRoman(0)/m/n/14.4 моническими инструментами, такими как фортепиано и акустическая/электрогитара
+ []
+
+[21
 
 ]
+Вёрстка раздела "Разработка алгоритмов и программного обеспечения"
+[22]
 Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[20
+[23
 
-] [21
+] [24
 
 ]
 Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
 
-Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
-[]\TU/TimesNewRoman(0)/m/it/14.4 A. Défossez, N. Usunier, L. Bottou, и F. Bach \TU/TimesNewRoman(0)/m/n/14.4 «Music Source
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 1021--1022
-\TU/TimesNewRoman(0)/m/n/14.4 Separation in the Waveform Domain», 2021, [Онлайн]. Доступно на:
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 1024--1025
+Underfull \hbox (badness 1888) in paragraph at lines 1132--1133
 []\TU/TimesNewRoman(0)/m/it/14.4 H. Huang и др.\TU/TimesNewRoman(0)/m/n/14.4 , «UNet 3+: A Full-Scale Connected UNet for Medical
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 1024--1025
+Underfull \hbox (badness 3460) in paragraph at lines 1132--1133
 \TU/TimesNewRoman(0)/m/n/14.4 Image Segmentation», ICASSP, IEEE Int. Conf. Acoust. Speech Signal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1132--1133
 \TU/TimesNewRoman(0)/m/n/14.4 Process. - Proc., т. 2020-May, вып. ii, сс. 1055–1059, 2020, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 \TU/TimesNewRoman(0)/m/n/14.4 IEEE Signal Process. Mag., т. 30, вып. 6, сс. 97–107, 2013, doi:
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1030--1031
+Underfull \hbox (badness 1509) in paragraph at lines 1138--1139
 []\TU/TimesNewRoman(0)/m/it/14.4 N. I. Bernardo \TU/TimesNewRoman(0)/m/n/14.4 «Short-time Fourier Transform-based Signal Recovery for
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 1033--1034
+Underfull \hbox (badness 3965) in paragraph at lines 1141--1142
 []\TU/TimesNewRoman(0)/m/it/14.4 S. Rouard, F. Massa, и A. Defossez\TU/TimesNewRoman(0)/m/n/14.4 , «Hybrid Transformers for Music
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 1033--1034
+Underfull \hbox (badness 5954) in paragraph at lines 1141--1142
 \TU/TimesNewRoman(0)/m/n/14.4 Source Separation», ICASSP, IEEE International Conference Acoustics.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1142
 \TU/TimesNewRoman(0)/m/n/14.4 Speech Signal Process. - Proc., т. 2023-June, сс. 2–6, 2023, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
+Underfull \hbox (badness 1430) in paragraph at lines 1144--1145
+\TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation // 2019 IEEE Workshop on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
 []\TU/TimesNewRoman(0)/m/it/14.4 Uhlich S. et al. \TU/TimesNewRoman(0)/m/n/14.4 Open-Unmix: A Deep Neural Network Reference
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 1039--1040
+Underfull \hbox (badness 3735) in paragraph at lines 1147--1148
 \TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation – GitHub. 2019. – URL:
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 1045--1046
+Underfull \hbox (badness 2027) in paragraph at lines 1153--1154
 []\TU/TimesNewRoman(0)/m/it/14.4 Schuster M., Paliwal K. \TU/TimesNewRoman(0)/m/n/14.4 Bidirectional recurrent neural networks // IEEE
  []
 
-[22
+[25
 
-]
+] [26]
 \c@lastPageNumber=\count371
 
 Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
@@ -1222,7 +1232,7 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 393.
 See the caption package documentation for explanation.
 
-[23
+[27
 
 
 ] 
@@ -1233,15 +1243,15 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F8F33B079EAA28926E5217EAC0C24C5B;6430.
+(rerunfilecheck)             Checksum: B44F2626FB900BA46EAB6E28A5D00E11;6733.
  ) 
 Here is how much of TeX's memory you used:
- 30727 strings out of 467991
- 648079 string characters out of 5433157
- 1108540 words of memory out of 5000000
- 59100 multiletter control sequences out of 15000+600000
+ 30731 strings out of 467991
+ 648126 string characters out of 5433157
+ 1108958 words of memory out of 5000000
+ 59104 multiletter control sequences out of 15000+600000
  633215 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,10n,131p,1033b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,10n,131p,1077b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (26 pages).
+Output written on main.pdf (30 pages).
