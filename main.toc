@@ -9,11 +9,11 @@
 \contentsline {subsection}{\numberline {1.4}Методы дообучения предобученных моделей разделения источников}{18}{subsection.54}%
 \contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{18}{subsubsection.55}%
 \contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{19}{subsubsection.58}%
-\contentsline {subsubsection}{\numberline {1.4.3}Низкоранговые методы (LoRA и аналоги)}{19}{subsubsection.64}%
-\contentsline {subsection}{\numberline {1.5}Метрики оценки качества (SDR, SIR, SAR)}{20}{subsection.65}%
-\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{21}{section.66}%
-\contentsline {subsubsection}{\numberline {2.0.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{21}{subsubsection.67}%
-\contentsline {subsection}{\numberline {2.1}Выбор способа дообучения}{21}{subsection.68}%
-\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{23}{section.69}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{24}{section.70}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{25}{section*.72}%
+\contentsline {subsubsection}{\numberline {1.4.3}Низкоранговые методы (LoRA и аналоги)}{20}{subsubsection.64}%
+\contentsline {subsection}{\numberline {1.5}Метрики оценки качества (SDR, SIR, SAR)}{20}{subsection.66}%
+\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{22}{section.67}%
+\contentsline {subsubsection}{\numberline {2.0.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{22}{subsubsection.68}%
+\contentsline {subsection}{\numberline {2.1}Выбор способа дообучения}{22}{subsection.69}%
+\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{24}{section.70}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{25}{section.71}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{26}{section*.73}%
