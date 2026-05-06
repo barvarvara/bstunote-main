@@ -10,11 +10,11 @@
 \contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{19}{subsubsection.55}%
 \contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{19}{subsubsection.58}%
 \contentsline {subsubsection}{\numberline {1.4.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{20}{subsubsection.64}%
-\contentsline {subsection}{\numberline {1.5}Функции потерь}{21}{subsection.66}%
-\contentsline {subsection}{\numberline {1.6}Метрики оценки качества (SDR, SIR, SAR)}{21}{subsection.67}%
-\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{23}{section.68}%
-\contentsline {subsubsection}{\numberline {2.0.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{23}{subsubsection.69}%
-\contentsline {subsection}{\numberline {2.1}Выбор способа дообучения}{23}{subsection.70}%
-\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{25}{section.71}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{26}{section.72}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{27}{section*.74}%
+\contentsline {subsection}{\numberline {1.5}Функции потерь}{22}{subsection.67}%
+\contentsline {subsection}{\numberline {1.6}Метрики оценки качества (SDR, SIR, SAR)}{22}{subsection.68}%
+\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{23}{section.69}%
+\contentsline {subsubsection}{\numberline {2.0.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{23}{subsubsection.70}%
+\contentsline {subsection}{\numberline {2.1}Выбор способа дообучения}{23}{subsection.71}%
+\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{25}{section.72}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{26}{section.73}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{27}{section*.75}%
