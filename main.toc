@@ -1,20 +1,22 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{ВВЕДЕНИЕ}{7}{section.9}%
-\contentsline {section}{\numberline {1}АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ}{8}{section.11}%
-\contentsline {subsection}{\numberline {1.1}Вклад кампании SiSEC MUS 2018 в задачу разделения источников}{9}{subsection.13}%
-\contentsline {subsection}{\numberline {1.2}Способы представления звука для задачи разделения источников}{9}{subsection.14}%
-\contentsline {subsection}{\numberline {1.3}Обзор архитектур разделения источников}{9}{subsection.15}%
-\contentsline {subsubsection}{\numberline {1.3.1}Классические методы source separation}{9}{subsubsection.16}%
-\contentsline {subsubsection}{\numberline {1.3.2}Современные нейронные архитектуры}{9}{subsubsection.17}%
-\contentsline {subsection}{\numberline {1.4}Анализ методов дообучения предобученных моделей разделения источников}{18}{subsection.54}%
-\contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{19}{subsubsection.55}%
-\contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{19}{subsubsection.58}%
-\contentsline {subsubsection}{\numberline {1.4.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{20}{subsubsection.64}%
-\contentsline {subsection}{\numberline {1.5}Функции потерь}{23}{subsection.74}%
-\contentsline {subsection}{\numberline {1.6}Метрики оценки качества (SDR, SIR, SAR)}{23}{subsection.75}%
-\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{24}{section.76}%
-\contentsline {subsubsection}{\numberline {2.0.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{24}{subsubsection.77}%
-\contentsline {subsection}{\numberline {2.1}Выбор способа дообучения}{24}{subsection.78}%
-\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{26}{section.79}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{27}{section.80}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{28}{section*.82}%
+\contentsline {section}{ВВЕДЕНИЕ}{6}{section.9}%
+\contentsline {section}{\numberline {1}АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ}{7}{section.11}%
+\contentsline {subsection}{\numberline {1.1}Вклад кампании SiSEC MUS 2018 в задачу разделения источников}{8}{subsection.13}%
+\contentsline {subsection}{\numberline {1.2}Способы представления звука для задачи разделения источников}{8}{subsection.14}%
+\contentsline {subsection}{\numberline {1.3}Обзор архитектур разделения источников}{8}{subsection.15}%
+\contentsline {subsubsection}{\numberline {1.3.1}Классические методы source separation}{8}{subsubsection.16}%
+\contentsline {subsubsection}{\numberline {1.3.2}Современные нейронные архитектуры}{8}{subsubsection.17}%
+\contentsline {subsection}{\numberline {1.4}Анализ методов дообучения предобученных моделей разделения источников}{17}{subsection.54}%
+\contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{18}{subsubsection.55}%
+\contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{18}{subsubsection.58}%
+\contentsline {subsubsection}{\numberline {1.4.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{19}{subsubsection.64}%
+\contentsline {subsection}{\numberline {1.5}Функции потерь}{22}{subsection.74}%
+\contentsline {subsection}{\numberline {1.6}Метрики оценки качества (SDR, SIR, SAR)}{22}{subsection.75}%
+\contentsline {subsubsection}{\numberline {1.6.1}Декомпозиция сигнала по методу BSS Eval}{22}{subsubsection.76}%
+\contentsline {subsubsection}{\numberline {1.6.2}Масштабно-инвариантная метрика (SI-SDR)}{24}{subsubsection.78}%
+\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{25}{section.79}%
+\contentsline {subsubsection}{\numberline {2.0.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{25}{subsubsection.80}%
+\contentsline {subsection}{\numberline {2.1}Выбор способа дообучения}{25}{subsection.81}%
+\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{27}{section.82}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{28}{section.83}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{29}{section*.85}%
