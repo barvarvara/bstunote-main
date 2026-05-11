@@ -13,10 +13,16 @@
     {1}{80.04494pt}}
 \HyPL@Entry{4<</S/D /St 4>>}
 \@writefile{toc}{\contentsline {section}{ВВЕДЕНИЕ}{6}{section.9}\protected@file@percent }
+\citation{source_sep_conf}
+\citation{waveform_domain}
+\citation{openunmix}
 \@writefile{toc}{\contentsline {section}{\numberline {1}АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ}{7}{section.11}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Упрощенный процесс разделения источников из аудиозаписи. Источник }}{7}{figure.caption.12}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Упрощенный процесс разделения источников из аудиозаписи ~\cite  {source_sep_conf}}}{7}{figure.caption.12}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:sourcesep}{{1.1}{7}{Упрощенный процесс разделения источников из аудиозаписи. Источник}{figure.caption.12}{}}
+\newlabel{fig:sourcesep}{{1.1}{7}{Упрощенный процесс разделения источников из аудиозаписи ~\cite {source_sep_conf}}{figure.caption.12}{}}
+\citation{MUSDB18}
+\citation{waveform_domain}
+\citation{MUSDB18_dop}
 \citation{demucs}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Вклад кампании SiSEC MUS 2018 в задачу разделения источников}{8}{subsection.13}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Способы представления звука для задачи разделения источников}{8}{subsection.14}\protected@file@percent }
@@ -68,45 +74,65 @@
 \citation{demucs}
 \citation{Spleeter}
 \citation{metrics}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Функции потерь}{22}{subsection.74}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6}Метрики оценки качества (SDR, SIR, SAR)}{22}{subsection.75}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.1}Декомпозиция сигнала по методу BSS Eval}{22}{subsubsection.76}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.6.2}Масштабно-инвариантная метрика (SI-SDR)}{24}{subsubsection.78}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Метрики оценки качества (SDR, SIR, SAR)}{22}{subsection.74}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.5.1}Декомпозиция сигнала по методу BSS Eval}{22}{subsubsection.75}\protected@file@percent }
+\citation{demucs}
+\citation{openunmix}
+\citation{Spleeter}
+\citation{openunmix}
+\citation{Spleeter}
+\newlabel{eq:SIR}{{1.8}{24}{Декомпозиция сигнала по методу BSS Eval}{equation.78}{}}
+\citation{Spleeter}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.5.2}Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное отношение сигнал/искажение}{25}{subsubsection.81}\protected@file@percent }
+\citation{demucs}
+\citation{hddemucs}
+\citation{source_sep_conf}
+\citation{hddemucs}
+\citation{source_sep_conf}
+\citation{metrics}
+\citation{polyphonic_audio}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{27}{section.84}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Проведение экспериментов и определение проблемы спектрального перекрытия}{27}{subsection.85}\protected@file@percent }
 \citation{openunmix}
 \citation{demucs}
 \citation{SpeechSep}
 \citation{openunmix}
 \citation{demucs}
 \citation{openunmix}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{25}{section.79}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.0.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{25}{subsubsection.80}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Выбор способа дообучения}{25}{subsection.81}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{27}{section.82}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{ЗАКЛЮЧЕНИЕ}{28}{section.83}\protected@file@percent }
-\bibcite{demucs}{1}
-\bibcite{unet}{2}
-\bibcite{STFTsourcesep}{3}
-\bibcite{STFT}{4}
-\bibcite{hddemucs}{5}
-\bibcite{openunmix}{6}
-\bibcite{gitopenunmix}{7}
-\bibcite{BLSTMoriginal}{8}
-\bibcite{BLSTM}{9}
-\bibcite{Spleeter}{10}
-\@writefile{toc}{\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{29}{section*.85}\protected@file@percent }
-\bibcite{SpleeterArch}{11}
-\bibcite{SpeechSep}{12}
-\bibcite{finetune}{13}
-\bibcite{finetune2}{14}
-\bibcite{goodfellow}{15}
-\bibcite{LoRA}{16}
-\bibcite{LoRA23}{17}
-\bibcite{metrics}{18}
-\bibcite{SDR}{19}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{29}{subsection.86}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Выбор способа дообучения}{30}{subsection.87}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{31}{section.88}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{ЗАКЛЮЧЕНИЕ}{32}{section.89}\protected@file@percent }
+\bibcite{source_sep_conf}{1}
+\bibcite{waveform_domain}{2}
+\bibcite{openunmix}{3}
+\bibcite{MUSDB18}{4}
+\bibcite{MUSDB18_dop}{5}
+\bibcite{demucs}{6}
+\bibcite{unet}{7}
+\bibcite{STFTsourcesep}{8}
+\bibcite{STFT}{9}
+\bibcite{hddemucs}{10}
+\@writefile{toc}{\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{33}{section*.91}\protected@file@percent }
+\bibcite{gitopenunmix}{11}
+\bibcite{BLSTMoriginal}{12}
+\bibcite{BLSTM}{13}
+\bibcite{Spleeter}{14}
+\bibcite{SpleeterArch}{15}
+\bibcite{SpeechSep}{16}
+\bibcite{finetune}{17}
+\bibcite{finetune2}{18}
+\bibcite{goodfellow}{19}
+\bibcite{LoRA}{20}
+\bibcite{LoRA23}{21}
+\bibcite{metrics}{22}
+\bibcite{SDR}{23}
+\bibcite{polyphonic_audio}{24}
+\citation{source_sep_conf}
 \citation{gitopenunmix}
-\HyPL@Entry{31<</S/D>>}
-\HyPL@Entry{33<</S/D /St 31>>}
-\newlabel{LastPage}{{4}{31}{ЗАКЛЮЧЕНИЕ}{page.34}{}}
-\gdef\lastpage@lastpage{31}
-\gdef\lastpage@lastpageHy{34}
-\gdef \@abspage@last{34}
+\HyPL@Entry{36<</S/D>>}
+\HyPL@Entry{38<</S/D /St 36>>}
+\newlabel{LastPage}{{4}{36}{ЗАКЛЮЧЕНИЕ}{page.39}{}}
+\gdef\lastpage@lastpage{36}
+\gdef\lastpage@lastpageHy{39}
+\gdef \@abspage@last{39}
