@@ -15,8 +15,8 @@
 \contentsline {subsubsection}{\numberline {1.5.2}Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное отношение сигнал/искажение}{25}{subsubsection.81}%
 \contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{27}{section.84}%
 \contentsline {subsection}{\numberline {2.1}Проведение экспериментов и определение проблемы спектрального перекрытия}{27}{subsection.85}%
-\contentsline {subsection}{\numberline {2.2}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{29}{subsection.86}%
-\contentsline {subsection}{\numberline {2.3}Выбор способа дообучения}{30}{subsection.87}%
-\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{31}{section.88}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{32}{section.89}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{33}{section*.91}%
+\contentsline {subsection}{\numberline {2.2}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{29}{subsection.99}%
+\contentsline {subsection}{\numberline {2.3}Выбор способа дообучения}{30}{subsection.100}%
+\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{31}{section.101}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{32}{section.102}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{33}{section*.104}%
