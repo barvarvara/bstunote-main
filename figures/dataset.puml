@@ -1,0 +1,90 @@
+@startuml dataset
+
+<style>
+legend {
+  BackGroundColor #d8e6daff
+}
+</style>
+
+title: Диаграмма последовательности сбора данных для дообучения
+
+participant "Google Colab" as gc
+participant "FreeSound API" as fs_api
+participant "HuggingFace API" as hf_api
+
+autonumber
+
+group Загрузка исходных аудиофайлов из FreeSound
+    activate gc
+    gc -> fs_api++ : Запрос на поиск аудиофайлов \nотдельно записанными гитары и пианины по фильтрам \n GET /apiv2/search/text/ (client.text_search())
+    fs_api -> fs_api : 1.Валидация токена доступа \n2.Поиск в базе FreeSound аудиофайлов \nпо фильтрам (длительность, теги)
+
+    fs_api --> gc : Метаданные по найденным аудиофайлам в формате JSON
+    
+    loop Для каждого найденного аудиофайла
+        gc -> fs_api : Загрузка аудиофайла \nGET /apiv2/sounds/{id}/download/ (sound.retrieve())
+        fs_api -> fs_api : 1.Валидация токена доступа \n2.Поиск аудиофайла
+        fs_api --> gc : Бинарный поток (.wav/.mp3/.ogg)
+        fs_api--
+        gc -> gc : Сохранение файла в локальное хранилищие.
+    end
+end
+
+group Формирование датасета и публикация в HuggingFace
+    gc -> gc : Постобработка данных: 1. Синтез аудиофайлов гитары и пианино \n2. Сериализация в Dataset.
+
+    gc -> hf_api++ : Запрос на загрузку датасета. \n POST /api/datasets/{username}/{repo}/commit (dataset.push_to_hub())
+    hf_api -> hf_api : 1. Валидация токена доступа \n2. Создание репозитория датасета, формирование \n представлений в формате .parquet, коммит.
+    hf_api ---> gc : Информация о датасете.
+end
+
+group Проверка, какие данные были загружены в HuggingFace
+    gc -> hf_api : Запрос данных о созданном наборе данных \n  GET /api/datasets/{repo}/tree/main (load_dataset(repo_id, token))
+    gc <- hf_api : Манифест структуры датасета (train/validation/test)
+    hf_api--
+    gc -> gc : 1.Обработка полученных данных.\n2.Отображение аудиофайлов, загруженных в наборе данных.
+end
+
+' mpi -> ips++ : Передача сведений \n ВС-1 **POST healthObservation** /\n ВС-2 **POST pndObservation**
+' ips -> ips++ : Проверка доступа
+' ips--
+
+' opt Доступа нет
+'     ips --> mpi : Ошибка доступа
+' end
+
+' ips -> rsosz++ : Передача сведений \n ВС-1 **POST healthObservation** / \n ВС-2 **POST pndObservation**
+' rsosz -> rsosz++ : Обработка запроса
+' rsosz--
+
+' ' Метод в случае успешного выполнения вернет batchId (batchId будет в любом случае?)
+' ' Метод в случае ошибки ФЛК вернет error
+' group Получение результата
+'     opt Данные не прошли первичный ФЛК
+'         rsosz --> ips : Ошибка ФЛК
+'         ips --> mpi : Ошибка ФЛК
+'     end
+
+'     rsosz --> ips : Идентификатор полученного пакета batchId
+'     ips --> mpi : Идентификатор полученного пакета batchId
+' end
+
+' mpi -> ips : Запрос статуса по batchId \n ВС-1 **GET healthObservation/packageStatus** / \n ВС-2 **GET pndObservation/packageStatus**
+' ips -> ips++ : Проверка доступа
+' ips--
+
+' opt Доступа нет
+'     ips --> mpi : Ошибка доступа
+' end
+
+' ips -> rsosz : Запрос статуса по batchId \n ВС-1 **GET healthObservation/packageStatus** / \n ВС-2 **GET pndObservation/packageStatus**
+' rsosz -> rsosz++ : Обработка запроса
+' rsosz--
+
+
+' group Получение результата
+'     rsosz --> ips : Статус обработки данных
+'     ips --> mpi : Статус обработки данных
+' end
+
+@enduml

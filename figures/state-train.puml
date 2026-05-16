@@ -1,0 +1,65 @@
+@startuml state_training
+skinparam stateStyle robust
+skinparam backgroundColor #FFFFFF
+title Диаграмма состояний процесса дообучения модели
+
+[*] --> Initialization : Запуск пайплайна
+state Initialization {
+  [*] --> LoadBaseModel : Загрузка umxl из openunmix.hub
+  LoadBaseModel --> InjectLoRA : Замена Linear -> LoRALinear
+  InjectLoRA --> FreezeWeights : Заморозка базовых параметров
+  FreezeWeights --> Ready : Проверка trainable_params < 0.5%
+}
+
+Ready --> DataLoader : Начало эпохи
+state DataLoader {
+  [*] --> FetchBatch : HF Dataset -> numpy arrays
+  FetchBatch --> ApplySTFT : torch.stft() -> [2, F, T]
+  ApplySTFT --> BatchReady : Передача на GPU
+}
+
+BatchReady --> ForwardPass
+state ForwardPass {
+  [*] --> PassThroughModel : mixture -> model(mix)
+  PassThroughModel --> PredictMasks : Выход [B, 2, 2, F, T]
+}
+
+PredictMasks --> LossCalc
+state LossCalc {
+  [*] --> ComputeL1 : L1(pred_guitar, true_guitar) + L1(pred_piano, true_piano)
+  ComputeL1 --> LossReady : Скалярное значение loss
+}
+
+LossReady --> BackwardPass : loss.backward()
+BackwardPass --> Optimization : optimizer.step()
+state Optimization {
+  [*] --> ClipGradients : clip_grad_norm_(max_norm=1.0)
+  ClipGradients --> UpdateLoRA : AdamW обновляет только lora_A/B
+  UpdateLoRA --> StepLR : CosineAnnealingLR
+}
+
+Optimization --> CheckEpochEnd : Все батчи эпохи?
+CheckEpochEnd --> No --> DataLoader
+CheckEpochEnd --> Yes --> Validation
+
+state Validation {
+  [*] --> EvalValSet : model.eval(), torch.no_grad()
+  EvalValSet --> CalcValLoss : Усреднение L1 по валидации
+  CalcValLoss --> CompareBest : val_loss < best_val_loss?
+}
+
+CompareBest --> Yes --> Checkpoint : torch.save(best_model.pt)
+CompareBest --> No --> LogMetrics
+Checkpoint --> LogMetrics : Обновление best_val_loss
+LogMetrics --> CheckEpochLimit : epoch < max_epochs?
+
+CheckEpochLimit --> Yes --> DataLoader : Следующая эпоха
+CheckEpochLimit --> No --> Termination
+
+Termination --> FinalTestLoad : Загрузка лучшего чекпоинта
+FinalTestLoad --> RunInference : Инференс на test split
+RunInference --> ISTFTReconstruct : Восстановление аудио
+ISTFTReconstruct --> CalculateSDR : museval.bss_eval()
+CalculateSDR --> GenerateReport : Таблицы, графики, сравнение с baseline
+GenerateReport --> [*]
+@enduml

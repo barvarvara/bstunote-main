@@ -1,0 +1,60 @@
+@startuml component_arch
+skinparam componentStyle rectangle
+skinparam backgroundColor #FFFFFF
+title Архитектура пайплайна дообучения модели разделения источников
+
+package "Среда выполнения (Google Colab)" {
+  [Jupyter Notebook Interface] as ui
+  [Python Runtime & GPU Accelerator] as runtime
+}
+
+package "Модуль сбора и подготовки данных" {
+  component [Freesound API Client] as fs_client
+  component [Audio Processor & Mixer] as audio_proc
+  component [STFT & Tensor Builder] as stft_builder
+}
+
+package "Хранилища данных" {
+  database [Локальный кэш /content] as local_fs
+  database [HuggingFace Hub\n(Apache Parquet Dataset)] as hf_hub
+}
+
+package "Модель и обучение" {
+  component [Open-Unmix (umxl)\nБазовая архитектура] as base_model
+  component [LoRA Adapter\n(Матрицы A ∈ ℝ^{r×d_in}, B ∈ ℝ^{d_out×r})] as lora
+  component [Output Projection\n(2 источника: Guitar/Piano)] as out_proj
+  component [Training Loop\n(PyTorch Engine)] as trainer
+}
+
+package "Модуль оценки" {
+  component [ISTFT Decoder] as istft
+  component [Metrics Calculator\n(museval: SDR/SIR/SAR)] as metrics
+  component [Baseline: htdemucs_6s] as baseline
+}
+
+ui --> runtime : Исполнение ячеек Python
+runtime --> fs_client : HTTP GET /apiv2/search & /download
+fs_client --> local_fs : .wav/.mp3/.ogg файлы
+local_fs --> audio_proc : Чтение, ресемплинг 44.1 кГц, синтез миксов
+audio_proc --> stft_builder : Комплексный STFT [2, F, T]
+stft_builder --> hf_hub : DatasetDict.push_to_hub()
+hf_hub --> trainer : Потоковая загрузка DataLoader
+
+trainer --> base_model : Замороженные веса (requires_grad=False)
+trainer --> lora : Обучаемые параметры (A, B)
+trainer --> out_proj : Расширенный выходной слой (4×F)
+base_model --> trainer : Прямой проход (Forward)
+lora --> trainer : Адаптация скрытых представлений
+
+trainer --> istft : Предсказанные маски -> Аудио
+istft --> metrics : BSS Eval расчёт
+baseline --> metrics : Сравнительный инференс
+metrics --> ui : Таблицы, графики, отчёт
+
+note right of trainer
+  Оптимизатор: AdamW (lr=1e-3)
+  Функция потерь: L1
+  Градиенты: только lora_A/B + out_proj
+  Gradient Clipping: max_norm=1.0
+end note
+@enduml

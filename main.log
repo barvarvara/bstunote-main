@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  11 MAY 2026 19:08
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  17 MAY 2026 01:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -945,4 +945,205 @@ Underfull \hbox (badness 6842) in paragraph at lines 186--187
  []
 
 [2]
-Overfull \hbox (1.62994pt too wide) in para
+Overfull \hbox (1.62994pt too wide) in paragraph at lines 225--240
+[]  
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+[4]
+Вёрстка раздела "OПРЕДЕЛЕНИЯ, СOКРAЩЕНИЯ И OБOЗНAЧЕНИЯ"
+Вёрстка раздела "СОДЕРЖАНИЕ"
+[4
+
+
+
+] (./main.toc
+Overfull \hbox (2.97255pt too wide) in paragraph at lines 3--3
+ [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕ- 
+ []
+
+
+Overfull \hbox (10.73622pt too wide) in paragraph at lines 15--15
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное 
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+
+Вёрстка раздела "ВВЕДЕНИЕ"
+[5
+
+]
+Overfull \hbox (0.54053pt too wide) in paragraph at lines 407--408
+\TU/TimesNewRoman(0)/m/n/14.4 из полифонических композиций с учётом спектрального перекрытия (Частотно-
+ []
+
+Вёрстка раздела "АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ"
+[6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[]\TU/TimesNewRoman(0)/b/n/15 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ
+ []
+
+File: figures/source_separation.png Graphic file (type bmp)
+<figures/source_separation.png>
+
+Overfull \hbox (13.32175pt too wide) in paragraph at lines 450--454
+[]\TU/TimesNewRoman(0)/m/n/14.4 Притом, такая задача подразумевает получение из одного аудиотрека (аудио-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
+[]\TU/TimesNewRoman(0)/b/n/14.5 Вклад кампании SiSEC MUS 2018 в задачу разделения
+ []
+
+[7
+
+]
+Overfull \hbox (14.11035pt too wide) in paragraph at lines 469--475
+[]\TU/TimesNewRoman(0)/m/n/14.4 В результате кампании SiSEC Mus 2018 был выпущен датасет MUSDB18 [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]\TU/TimesNewRoman(0)/b/n/14.5 Способы представления звука для задачи разделения
+ []
+
+
+Overfull \hbox (8.70567pt too wide) in paragraph at lines 505--506
+[]\TU/TimesNewRoman(0)/m/n/14.4 Архитектуры, которые представляют собой SOTA (state of art)///////////////////// 
+ []
+
+[8] [9]
+Overfull \hbox (16.56012pt too wide) in paragraph at lines 570--573
+\TU/TimesNewRoman(0)/m/n/14.4 лучших результатов на бенчмарках (MUSDB18, FSD50k), превосходя LSTM-
+ []
+
+
+Overfull \hbox (3.91667pt too wide) in paragraph at lines 570--573
+\TU/TimesNewRoman(0)/m/n/14.4 подходы (Open-Unmix) по метрикам SDR (Signal-to-Distortion Ratio) и SAR
+ []
+
+
+Overfull \hbox (9.87099pt too wide) in paragraph at lines 573--576
+\TU/TimesNewRoman(0)/m/n/14.4 мания позволяет учитывать структуру музыкального произведения на боль-
+ []
+
+[10]
+File: figures/openunmix.png Graphic file (type bmp)
+<figures/openunmix.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
+Overfull \hbox (19.79675pt too wide) in paragraph at lines 646--658
+\TU/TimesNewRoman(0)/m/n/14.4 правленной долговременной краткосрочной памяти (Bidirectional Long Short-
+ []
+
+[12]
+Overfull \hbox (3.55342pt too wide) in paragraph at lines 666--669
+\TU/TimesNewRoman(0)/m/n/14.4 обратного распространения, сохраняет низкоуровневую спектральную ин-
+ []
+
+
+Overfull \hbox (9.92256pt too wide) in paragraph at lines 666--669
+\TU/TimesNewRoman(0)/m/n/14.4 формацию и ускоряет сходимость оптимизатора без риска деградации пред-
+ []
+
+
+Overfull \hbox (10.12659pt too wide) in paragraph at lines 670--674
+\TU/TimesNewRoman(0)/m/n/14.4 тых в энкодере. После извлечения временных зависимостей блоком BLSTM
+ []
+
+
+Overfull \hbox (6.88277pt too wide) in paragraph at lines 675--677
+[]\TU/TimesNewRoman(0)/m/n/14.4 Слои fc2 и fc3 (Fully Connected): Выполняют трансформацию скры-
+ []
+
+
+Overfull \hbox (5.71204pt too wide) in paragraph at lines 675--677
+\TU/TimesNewRoman(0)/m/n/14.4 того вектора в пространство признаков, совместимое с размерностью вход-
+ []
+
+[13]
+Overfull \hbox (4.32921pt too wide) in paragraph at lines 719--724
+\TU/TimesNewRoman(0)/m/n/14.4 рует конкурентоспособное качество на []бенчмарках[] (например, MUSDB18)
+ []
+
+[14]
+Overfull \hbox (1.37022pt too wide) in paragraph at lines 744--750
+\TU/TimesNewRoman(0)/m/n/14.4 ограничения модели связаны с вычислительной сложностью рекуррентных бло-
+ []
+
+
+Overfull \hbox (0.37018pt too wide) in paragraph at lines 752--758
+[]\TU/TimesNewRoman(0)/b/n/14.4 Spleeter \TU/TimesNewRoman(0)/m/n/14.4 Spleeter — это система разделения музыкальных источников, раз-
+ []
+
+[15] [16] [17]
+Overfull \hbox (3.41115pt too wide) in paragraph at lines 854--857
+[]\TU/TimesNewRoman(0)/m/n/14.4 Основное преимущество данного подхода — максимальная гибкость адап-
+ []
+
+
+Overfull \hbox (0.21959pt too wide) in paragraph at lines 854--857
+\TU/TimesNewRoman(0)/m/n/14.4 пазона и перекрытию гармоник между инструментами. Также к преимуществам
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 868--868
+[]\TU/TimesNewRoman(0)/b/n/14.4 Методы «параметрического» дообучения (адаптация части
+ []
+
+[18]
+Overfull \hbox (5.72612pt too wide) in paragraph at lines 877--881
+\TU/TimesNewRoman(0)/m/n/14.4 го/сверточного блока, размораживается только выходной слой (декодер или клас-
+ []
+
+
+Overfull \hbox (9.11754pt too wide) in paragraph at lines 885--886
+[]\TU/TimesNewRoman(0)/m/n/14.4 Высокая стабельность: модель не теряет общие акустические паттерны [[]]
+ []
+
+
+Overfull \hbox (2.7703pt too wide) in paragraph at lines 900--903
+[]\TU/TimesNewRoman(0)/m/n/14.4 Метод LoRA (англ. Low Rank Adaptaion – дословно переводится как «адап-
+ []
+
+
+Overfull \hbox (13.39207pt too wide) in paragraph at lines 909--916
+\TU/TimesNewRoman(0)/m/n/14.4 ренняя размерность (ранг) матрицы весов $\OT1/cmr/m/n/14.4 ^^A\OML/cmm/m/it/14.4 W \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 W[] \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/m/it/14.4 W[]$ \TU/TimesNewRoman(0)/m/n/14.4 (где $\OML/cmm/m/it/14.4 W[]$
+ []
+
+[19]
+File: figures/lora.png Graphic file (type bmp)
+<figures/lora.png>
+ [20]
+Overfull \hbox (5.18886pt too wide) in paragraph at lines 969--970
+[]\TU/TimesNewRoman(0)/m/n/14.4 Среди преимуществ метода разработчики LoRA приводят следующие [[]]: 
+ []
+
+[21]
+Overfull \hbox (14.5761pt too wide) in paragraph at lines 1015--1021
+\TU/TimesNewRoman(0)/m/n/14.4 соответствующих методов применяются метрики, основанные на сравнении пред-
+ []
+
+[22]
+LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 1048.
+ [23]
+Overfull \hbox (6.89977pt too wide) in paragraph at lines 1079--1080
+[]\TU/TimesNewRoman(0)/b/n/14.4 Signal-to-Interference Ratio (SIR) — Отношение сигнал/интерференция 
+ []
+
+
+Overfull \hbox (0.73862pt too wide) in paragraph at lines 1105--1110
+\TU/TimesNewRoman(0)/m/n/14.4 важно естественное звучание (например, рестав�
