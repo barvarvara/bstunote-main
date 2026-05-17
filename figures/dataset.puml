@@ -1,11 +1,5 @@
 @startuml dataset
 
-<style>
-legend {
-  BackGroundColor #d8e6daff
-}
-</style>
-
 title: Диаграмма последовательности сбора данных для дообучения
 
 participant "Google Colab" as gc

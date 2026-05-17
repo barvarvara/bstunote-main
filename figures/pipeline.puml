@@ -3,6 +3,9 @@ skinparam componentStyle rectangle
 skinparam backgroundColor #FFFFFF
 title Архитектура пайплайна дообучения модели разделения источников
 
+' left to right direction
+skinparam linetype ortho
+
 package "Среда выполнения (Google Colab)" {
   [Jupyter Notebook Interface] as ui
   [Python Runtime & GPU Accelerator] as runtime

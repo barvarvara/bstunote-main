@@ -1,0 +1,51 @@
+@startuml deployment
+skinparam backgroundColor #FFFFFF
+skinparam nodeStyle rectangle
+skinparam defaultFontSize 12
+title Диаграмма развёртывания инфраструктуры экспериментального пайплайна
+
+node "Клиентская машина (Браузер)" as client {
+  [Jupyter Notebook Interface] as ui
+}
+
+node "Google Colab Runtime\n(Virtual Machine Linux)" as colab {
+  node "CPU & System RAM (12 GB)" as cpu
+  node "NVIDIA GPU\n(Tesla T4 / A100, 16 GB VRAM)" as gpu {
+    artifact "PyTorch CUDA Context" as cuda
+    artifact "Модель: umxl + LoRA Adapters" as model
+  }
+  folder "/content (Ephemeral Storage)" as storage {
+    artifact "Исходные сэмплы (.wav/.mp3)" as samples
+    artifact "Синтезированные миксы" as mixes
+    artifact "best_lora_guitar_piano.pt\n(Чекпоинт модели)" as ckpt
+  }
+}
+
+node "Freesound Platform <<Cloud>>" as fs {
+  database "Audio CDN & Metadata API" as fs_api
+}
+
+node "HuggingFace Hub <<Cloud>>" as hf {
+  database "Dataset Repository\n(Apache Parquet)" as hf_data
+  artifact "Model Registry & Files" as hf_files
+}
+
+ui ..> colab : HTTPS / WebSocket (Сессия ноутбука)
+cpu --> gpu : PCI-e Bus (Передача тензоров)
+cuda --> model : VRAM Allocation
+model --> ckpt : torch.save() / load_state_dict()
+
+colab --> fs : HTTPS / REST API v2
+fs_api --> samples : GET /apiv2/sounds/{id}/download/
+samples --> mixes : Локальная обработка (librosa/soundfile)
+mixes --> hf_data : SDK push_to_hub() / Сериализация .parquet
+hf_data --> cuda : DataLoader (Потоковая загрузка батчей)
+cuda --> hf_files : Commit / Download чекпоинтов
+hf_files --> ui : Экспорт отчётов (JSON/CSV/Plots)
+
+note right of gpu
+  Архитектура: CUDA 12.x
+  Вычисления: FP32 / Mixed Precision
+  Память: ~16 GB VRAM (бесплатный тариф)
+end note
+@enduml
