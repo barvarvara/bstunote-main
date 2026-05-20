@@ -1,0 +1,52 @@
+@startuml pipeline_flowchart
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontSize 12
+skinparam activityBackgroundColor #E8F5E9
+skinparam activityBorderColor #4CAF50
+skinparam activityStartColor #2196F3
+skinparam activityEndColor #F44336
+title Блок-схема алгоритма дообучения модели разделения источников
+
+start
+
+' partition "1. Офлайн-подготовка данных" {
+'   :Авторизация в API\n(Freesound, HuggingFace);
+'   :Поиск и загрузка исходных аудио\nчерез Freesound API v2;
+'   :Ресемплинг (44.1 кГц), нормализация,\nобрезка/pad до 4 секунд;
+'   :Синтез миксов (3 фиксированных сценария\nсоотношения громкости);
+'   :Стратифицированное разделение\nна train/val/test (80/10/10);
+'   :Сериализация в Parquet и публикация\nв репозиторий HuggingFace Hub;
+' }
+
+' partition "2. Рантайм-обучение модели" {
+  :Потоковая загрузка батчей\nчерез DataLoader из HF Hub;
+  :Динамическое STFT-преобразование\nв тензоры [B, 2, F, T];
+  :Инициализация umxl, внедрение LoRA,\nзаморозка базовых весов;
+
+  while (epoch < max_epochs\nИ не сработала ранняя остановка?) is (Нет)
+    :Прямой проход: model(mix)\n-> Маски [B, 2, 2, F, T];
+    :Расчёт L1-Loss между\nпредсказанными и целевыми масками;
+    :Обнуление градиентов (zero_grad);
+    :Обратный проход (loss.backward())\nи расчёт градиентов;
+    :Ограничение нормы градиентов\n(clip_grad_norm=1.0);
+    :Обновление параметров LoRA\nи выходного слоя (AdamW);
+    :Шаг планировщика скорости обучения\n(CosineAnnealingLR);
+
+    :Валидация на отдельной выборке;
+    if (val_loss < best_val_loss?) then (Да)
+      :Сохранение контрольной точки\n(best_lora.pt);
+    endif
+  endwhile (Да)
+' }
+
+' partition "3. Оценка и сравнение" {
+'   :Загрузка лучшей контрольной точки;
+'   :Однократный инференс на тестовой\nвыборке (test split);
+'   :Обратное преобразование iSTFT\n-> Восстановленные аудиосигналы;
+'   :Запуск модели-эталона\n(htdemucs_6s) на тех же миксах;
+'   :Расчёт метрик SDR, SIR, SAR\nчерез библиотеку museval;
+'   :Генерация сравнительных таблиц,\nграфиков и итогового отчёта;
+' }
+
+stop
+@enduml

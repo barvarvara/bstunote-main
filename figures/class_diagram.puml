@@ -1,0 +1,103 @@
+@startuml class_diagram
+skinparam classAttributeIconSize 0
+skinparam backgroundColor #FFFFFF
+skinparam classFontSize 11
+title Диаграмма классов архитектуры системы разделения источников
+
+left to right direction
+
+package "📦 Модуль данных (Data Pipeline)" {
+  class FreesoundDataCollector {
+    - api_token: str
+    - output_dir: Path
+    + search_and_download(query: str, num: int, tag: str) -> List[Path]
+    - _fetch_metadata(client, query, filters) -> List[Sound]
+    - _save_binary(sound, path) -> bool
+  }
+  class AudioMixer {
+    - sr: int
+    - seg_dur: float
+    - scenarios: Dict[str, Tuple[float, float]]
+    + generate(guitar_paths, piano_paths, out_dir) -> Dict
+    - _load_and_pad(path) -> np.ndarray
+    - _mix(g, p, scenario) -> Tuple[np.ndarray, np.ndarray, np.ndarray]
+  }
+  class HFPublisher {
+    - repo_id: str
+    - token: str
+    + push(records: Dict, splits: Tuple) -> DatasetDict
+    - _build_split(data, split_name) -> Dataset
+    - _cast_audio_columns(ds) -> Dataset
+  }
+  class MSSDataset {
+    - hf_split: Dataset
+    - n_fft: int
+    - hop_length: int
+    + __init__(split, n_fft, hop_length)
+    + __len__() -> int
+    + __getitem__(idx) -> Tuple[Tensor, Tensor, Tensor]
+    - _to_stereo(arr) -> Tensor
+    - _compute_stft(tensor) -> Tensor
+  }
+}
+
+package "🧠 Модуль модели (Model Architecture)" {
+  class LoRALinear {
+    - rank: int
+    - lora_A: nn.Parameter
+    - lora_B: nn.Parameter
+    - weight: nn.Parameter {frozen}
+    - bias: nn.Parameter {frozen}
+    + __init__(in_f, out_f, rank, bias=True)
+    + forward(x: Tensor) -> Tensor
+  }
+  class GuitarPianoUnmix {
+    - base_model: nn.Module
+    - freq_bins: int
+    + __init__(hub_model, rank: int)
+    + _expand_output_layer()
+    + _inject_lora()
+    + _freeze_base()
+    + forward(mix: Tensor) -> Tensor
+  }
+}
+
+package "🔄 Модуль обучения (Training Engine)" {
+  class Trainer {
+    - model: GuitarPianoUnmix
+    - optimizer: Optimizer
+    - scheduler: Scheduler
+    - criterion: Loss
+    - device: Device
+    + fit(train_dl, val_dl, epochs: int)
+    - _train_epoch(dl) -> float
+    - _validate_epoch(dl) -> float
+    - _save_best(path: str)
+  }
+}
+
+package "📊 Модуль оценки (Evaluation & Metrics)" {
+  class ISTFTDecoder {
+    - n_fft: int
+    - hop_length: int
+    + decode(spec: Tensor) -> np.ndarray
+  }
+  class Evaluator {
+    - decoder: ISTFTDecoder
+    + run_test(model, test_dl) -> Dict
+    - _compute_bss(ref, est) -> Dict[str, float]
+    + compare_with_baseline(baseline_name, test_dl) -> pd.DataFrame
+  }
+}
+
+FreesoundDataCollector -l-> AudioMixer : передает пути к файлам
+AudioMixer --> HFPublisher : передает records (метрики миксов)
+HFPublisher -l-> MSSDataset : публикует HF Dataset
+MSSDataset -u-> GuitarPianoUnmix : подает тензоры [2, F, T]
+GuitarPianoUnmix o-- LoRALinear : содержит адаптеры в слоях fc2/fc3
+GuitarPianoUnmix -l-> Trainer : объект модели
+Trainer --> Evaluator : передает обученную модель
+Evaluator -l-> ISTFTDecoder : использует для восстановления аудио
+
+
+@enduml
