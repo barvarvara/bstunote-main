@@ -1,0 +1,33 @@
+@startuml dataset-crop
+
+participant "Google Colab" as gc
+participant "FreeSound API" as fs_api
+participant "HuggingFace API" as hf_api
+
+autonumber
+
+group Загрузка исходных аудиофайлов из FreeSound
+    activate gc
+    gc -> fs_api++ : Поиск аудиофайлов гитары и пианины \n GET /apiv2/search/text/ (client.text_search())
+    fs_api -> fs_api : 1.Валидация токена доступа \n2.Поиск в базе FreeSound аудиофайлов \nпо фильтрам
+
+    fs_api --> gc : Метаданные по найденным аудиофайлам в формате JSON
+    
+    loop Для каждого найденного аудиофайла
+        gc -> fs_api : Загрузка аудиофайла \nGET /apiv2/sounds/{id}/download/ (sound.retrieve())
+        fs_api -> fs_api : 1.Валидация токена доступа \n2.Поиск аудиофайла
+        fs_api --> gc : Бинарный поток аудиофайла (.wav/.mp3/.ogg)
+        fs_api--
+        gc -> gc : Сохранение файла в локальное хранилищие.
+    end
+end
+
+group Формирование набора данных и публикация в HuggingFace
+    gc -> gc : Постобработка данных: 1. Синтез аудиофайлов гитары и пианино \n2. Сериализация в формат Dataset.
+
+    gc -> hf_api++ : Запрос на публикацию набора данных \n POST /api/datasets/{username}/{repo}/commit (dataset.push_to_hub())
+    hf_api -> hf_api : 1. Валидация токена доступа \n2. Создание репозитория, формирование \n представлений в формате .parquet, коммит.
+    hf_api ---> gc : Информация об опубликованном наборе данных.
+end
+
+@enduml

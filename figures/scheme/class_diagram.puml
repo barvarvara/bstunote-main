@@ -1,0 +1,154 @@
+@startuml
+!theme plain
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+skinparam classFontSize 11
+skinparam noteFontSize 10
+hide circle
+
+package "📦 1. Сбор и подготовка данных" {
+  class FreesoundDataCollector {
+    + token: str // Токен аутентификации API Freesound
+    + output_dir: Path // Директория для сохранения аудио
+    + session: requests.Session // HTTP-сессия с заголовками авторизации
+    + collect(queries, num, tag, subfolder): List[Path] // Загрузка файлов по запросам
+    - _search(query, tag, num): List[Dict] // Внутренний поиск через API
+    - _download_file(url, out_path): bool // Скачивание файла с проверкой целостности
+  }
+
+  class AudioMixer {
+    + sr: int // Частота дискретизации (44100 Гц)
+    + seg_dur: float // Длительность сегмента (4.0 с)
+    + seg_len: int // Длина сегмента в сэмплах
+    + scenarios: Dict[str, Tuple[float, float]] // Сценарии соотношения громкости
+    - _prep(path): np.ndarray // Загрузка, ресемплинг, паддинг/кроп
+    + generate(g_paths, p_paths, out_dir): Dict // Синтез миксов, сохранение .wav, возврат Dict
+  }
+
+  class HF_MSSDataset {
+    + hf_split: Dataset // Ссылка на сплит из HuggingFace
+    + sr: int // Частота дискретизации
+    + n_fft: int // Размер окна БПФ (4096)
+    + hop_length: int // Шаг окна БПФ (1024)
+    + win: Tensor // Окно Ханна для БПФ
+    - _prep(audio_np): Tensor // Тензоризация, паддинг, кроп аудио
+    - _stft(audio_tensor): Tensor[2, F, T] // Кратковременное преобразование Фурье
+    + __getitem__(idx): Tuple[Tensor, Tensor, Tensor] // Возврат (микс, гитара, пианино)
+  }
+
+  class DemucsWaveformDataset {
+    + hf_split: Dataset // Ссылка на сплит из HuggingFace
+    + __len__(): int // Количество сэмплов в сплите
+    + __getitem__(idx): Tuple[Tensor[2,T], Tensor[2,T]] // Возврат (микс, целевой_источник) [2, 176400]
+    - to_stereo_4sec(x): Tensor[2, 176400] // Приведение к стерео и кроп до 4 сек
+  }
+
+  class SpecAugmentDataset {
+    + base_dataset: Dataset // Базовый датасет для обёртки
+    + p_apply: float // Вероятность аугментации (0.5)
+    + freq_mask: FrequencyMasking // Трансформация маскирования по частоте
+    + time_mask: TimeMasking // Трансформация маскирования по времени
+    + __getitem__(idx): Tuple[Tensor, Tensor, Tensor] // Возврат аугментированного микса
+  }
+}
+
+package "🧠 2. Модели и адаптация" {
+  abstract class BaseSeparator {
+    {abstract} + train(*args, **kwargs): None // Абстрактный метод обучения
+    {abstract} + predict(mix_tensor): Tensor // Абстрактный метод инференса
+  }
+
+  class OpenUnmixAdapter {
+    + target_source: str // Имя целевого источника ('guitar'/'piano')
+    + use_augment: bool // Флаг использования SpecAugment
+    + device: torch.device // Устройство выполнения (CPU/CUDA)
+    + model: nn.Module // Экземпляр предобученной Open-Unmix
+    + train(train_dl, val_dl, epochs, ckpt_path): None // Полный файн-тюн (AdamW, CosineLR)
+  }
+
+  class DemucsAdapter {
+    + model_name: str // Имя модели Demucs ('htdemucs')
+    + device: torch.device // Устройство выполнения
+    + net: nn.Module // Ядро нейросети (из BagOfModels)
+    + lora_modules: List[str] // Имена nn.Linear для инъекции LoRA
+    + train_lora(train_ds, val_ds, epochs, frac_train, frac_val, ckpt_path): PeftModel // LoRA + FP16 + подвыборка
+  }
+
+  class BaselineRunner {
+    + model_name: str // Имя baseline-модели ('htdemucs_6s')
+    + model: nn.Module // Предобученная модель в eval()
+    + predict(mix_tensor): Tensor // Zero-shot инференс
+  }
+}
+
+package "📊 3. Оценка и публикация" {
+  class ISTFTDecoder {
+    + n_fft: int // Размер окна iSTFT
+    + hop_length: int // Шаг окна iSTFT
+    + window: Tensor // Окно Ханна для iSTFT
+    + decode(mag, phase): np.ndarray // Восстановление аудио по формуле Эйлера
+  }
+
+  class UnifiedEvaluator {
+    + device: torch.device // Устройство для инференса
+    + domain: str // Домен: 'spectrogram' или 'waveform'
+    + decoder: ISTFTDecoder // Декодер (только для spectral)
+    + run_test(model, test_dl, target_idx): Tuple[Dict, Dict] // Инференс + BSS Eval + тайминги
+    - _to_2d(arr): np.ndarray // Приведение к формату [1, T] или [2, T]
+  }
+
+  class HuggingFaceManager {
+    + repo_id: str // Идентификатор репозитория
+    + publish(ckpt, metrics, desc, rtype): str // Загрузка ckpt, метрик, README в Hub
+    + publish_dataset(records, repo_id): str // Конвертация Dict -> DatasetDict -> push_to_hub
+  }
+}
+
+' === UML 2.5 RELATIONSHIPS ===
+' Наследование (Generalization)
+BaseSeparator <|-- OpenUnmixAdapter
+BaseSeparator <|-- DemucsAdapter
+BaseSeparator <|-- BaselineRunner
+
+' Композиция (Composition: строгое владение временем жизни)
+UnifiedEvaluator *-- ISTFTDecoder
+SpecAugmentDataset *-- HF_MSSDataset
+
+' Зависимость/Поток данных (Dependency: слабая связь, передача структур)
+FreesoundDataCollector ..> AudioMixer : передает пути к .wav файлам
+AudioMixer ..> HuggingFaceManager : передает словарь метаданных\n(Dict[str, List])
+OpenUnmixAdapter ..> HF_MSSDataset : использует для обучения
+OpenUnmixAdapter ..> SpecAugmentDataset : опционально использует аугментированную версию
+DemucsAdapter ..> DemucsWaveformDataset : использует для обучения
+UnifiedEvaluator ..> BaseSeparator : оценивает через интерфейс predict()
+HuggingFaceManager ..> [HF Hub] : публикует DatasetDict / Model
+
+' Пояснительные заметки
+note right of AudioMixer
+  Возвращает стандартный Python-словарь
+  с путями к файлам и разметкой сплитов.
+  Не передает объекты классов (слабосвязан).
+end note
+
+note right of SpecAugmentDataset
+  Паттерн Decorator (Обёртка):
+  • Содержит HF_MSSDataset (композиция)
+  • При __getitem__ вызывает base_dataset[idx]
+  • С вероятностью 50% применяет маски
+  • Возвращает измененный микс + чистые цели
+end note
+
+note right of DemucsWaveformDataset
+  Формат данных для Demucs:
+  • [2 канала, 176400 сэмплов]
+  • Каналы: Левый/Правый (не mag/phase!)
+  • Demucs вычисляет STFT внутри модели
+end note
+
+note bottom of HuggingFaceManager
+  Унифицированный оркестратор:
+  • Публикует модели (ckpt + metrics + README)
+  • Публикует датасеты (Dict -> DatasetDict -> Hub)
+  • Принимает только структуры данных (Dict/str)
+end note
+@enduml

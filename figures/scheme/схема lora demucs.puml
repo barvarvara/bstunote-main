@@ -1,0 +1,151 @@
+@startuml
+!theme plain
+' skinparam linetype ortho
+skinparam backgroundColor #F8F9FA
+skinparam classFontSize 10
+skinparam activityFontSize 10
+skinparam noteFontSize 9
+hide circle
+
+title Demucs v4 + LoRA: Архитектура, Оптимизация и Валидационный Контур
+
+' === ПАКЕТЫ ===
+package "🧊 ЗАМОРОЖЕННАЯ БАЗА (115M параметров, 🔒)" {
+  component "Encoder (6× Conv1D)" as Enc
+  component "Hybrid Bottleneck\n(Conv + Self-Attention)" as Bottleneck
+  component "Decoder (6× ConvTranspose1D)" as Dec
+  component "Output Head\n[8 ch → 4 src × 2 ch]" as Head
+}
+
+package "🟢 LoRA-АДАПТЕРЫ (491 520 параметров, 🟢 обучаются)" {
+  component "LinearAdapter (r=8, α=16)" as LoRA
+}
+
+package "📊 ДАННЫЕ: РАЗДЕЛЕНИЕ И ПОТОКИ" {
+  component "Train Split (70%)\n30% подвыборка для обучения" as TrainDS
+  component "Val Split (15%)\n20% подвыборка для валидации" as ValDS
+  component "Test Split (15%)\nФинальная оценка (не участвует в обучении)" as TestDS
+}
+
+package "⚙️ ЦИКЛ ОБУЧЕНИЯ" {
+  component "Optimizer: AdamW\n(lr=5e-5, wd=1e-3)" as OPT
+  component "Scheduler: CosineAnnealingLR" as SCH
+  component "FP16 GradScaler" as Scaler
+  component "Criterion: L1Loss()" as LossFn
+}
+
+package "✅ ВАЛИДАЦИОННЫЙ КОНТУР" {
+  component "Validator: model.eval() + no_grad()" as ValMode
+  component "Val Loss: L1(pred_val, target_val)" as ValLoss
+  component "Checkpoint Saver\nif val_loss < best_val" as Saver
+}
+
+' === СВЯЗИ АРХИТЕКТУРЫ ===
+Enc --> Bottleneck
+Bottleneck --> Dec
+Dec --> Head
+
+LoRA ..> Enc : <<inject>> nn.Linear
+LoRA ..> Bottleneck : <<inject>> Attention/FFN Linear
+LoRA ..> Dec : <<inject>> nn.Linear
+LoRA ..> Head : <<inject>> Output Linear
+
+' === ПОТОК ОБУЧЕНИЯ (ГРАДИЕНТЫ) ===
+TrainDS --> Enc : Batch [B,2,T] → forward()
+Head --> LossFn : pred[:,0,:,:] (Гитара)
+LossFn --> Scaler : scale(loss)
+Scaler --> LoRA : backward() → ∇A, ∇B
+LoRA --> OPT : step() → обновляет A, B
+OPT --> SCH : step() → lr decay
+
+' === ПОТОК ВАЛИДАЦИИ (БЕЗ ГРАДИЕНТОВ) ===
+ValDS ..> ValMode : <<каждую эпоху>>
+ValMode ..> Enc : forward() в eval() режиме
+ValMode ..> Bottleneck : no_grad()
+ValMode ..> Dec : no_grad()
+ValMode ..> Head : no_grad()
+Head ..> ValLoss : pred_val[:,0,:,:]
+ValDS ..> ValLoss : target_val
+ValLoss ..> Saver : val_loss (скаляр)
+
+' === УСЛОВИЕ СОХРАНЕНИЯ ЧЕКПОИНТА ===
+Saver --> LoRA : if val_loss < best_val:\nsave_pretrained(adapter)
+
+' === ЗАМЕТКИ С ПОЯСНЕНИЯМИ ===
+note right of TrainDS
+  🔹 Обучающая выборка:
+  • 30% от train split
+  • Перемешивается (shuffle=True)
+  • Подаёт градиенты → обновляет LoRA
+end note
+
+note right of ValDS
+  🔹 Валидационная выборка:
+  • 20% от val split
+  • НЕ перемешивается
+  • НЕ подаёт градиенты (no_grad())
+  • Используется ТОЛЬКО для:
+    - Мониторинга переобучения
+    - Выбора лучшего чекпоинта
+    - Ранней остановки (опционально)
+end note
+
+note bottom of ValMode
+  🔑 Критические отличия от train-режима:
+  1. model.eval() → отключает Dropout, BatchNorm
+  2. torch.no_grad() → не строит граф вычислений
+  3. Нет scaler.scale()/backward() → экономит память
+  4. Нет optimizer.step() → веса НЕ обновляются
+  5. Вычисляется ТОЛЬКО val_loss для сравнения
+end note
+
+note bottom of ValLoss
+  L1(pred_val, target_val)
+  • Та же функция потерь, что и при обучении
+  • Применяется к тем же данным: канал 0 = гитара
+  • Результат: скаляр val_loss ∈ ℝ
+  • НЕ влияет на градиенты (изолированный контур)
+end note
+
+note right of Saver
+  💾 Логика сохранения:
+  best_val = +∞
+  for epoch in 1..10:
+      train_epoch()
+      val_loss = validate()
+      if val_loss < best_val:
+          best_val = val_loss
+          save_pretrained('/content/ckpt')
+          # Сохраняются ТОЛЬКО:
+          # • adapter_config.json
+          # • adapter_model.safetensors
+          # Базовые веса (115M) НЕ сохраняются
+end note
+
+note bottom of LoRA
+  🟢 Что обновляется:
+  • Матрицы A ∈ ℝ^(d×8), B ∈ ℝ^(8×d)
+  • bias (если bias="lora_only")
+  
+  🔒 Что НЕ обновляется:
+  • Все базовые Conv1D, ConvTranspose1D
+  • Веса Self-Attention (Q,K,V,O)
+  • Выходной Head (кроме адаптеров)
+  
+  Итого: 491 520 обучаемых параметров
+  (0.42% от 115 000 000)
+end note
+
+' === ЛЕГЕНДА ===
+legend right
+  ═══════════════════
+  🔒 Замороженный вес
+  🟢 Обучаемый адаптер
+  ──▶ Поток данных (градиенты)
+  ..▶ Поток данных (без градиентов)
+  ═══ Валидационный контур
+  ═══ Основной цикл обучения
+  ═══════════════════
+endlegend
+
+@enduml

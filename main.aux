@@ -20,6 +20,7 @@
 \def\@LN@column{1}
 \def\@LN@column{1}
 \def\@LN@column{1}
+\citation{rus_speech_recogn}
 \def\@LN@column{1}
 \@writefile{toc}{\contentsline {section}{ВВЕДЕНИЕ}{7}{section.9}\protected@file@percent }
 \citation{source_sep_conf}
@@ -74,8 +75,8 @@
 \citation{finetune}
 \citation{finetune2}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Анализ методов дообучения предобученных моделей разделения источников}{20}{subsection.56}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{20}{subsubsection.57}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Анализ методов дообучения предобученных моделей разделения источников}{20}{subsection.57}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{20}{subsubsection.58}\protected@file@percent }
 \citation{goodfellow}
 \citation{goodfellow}
 \citation{goodfellow}
@@ -84,126 +85,182 @@
 \citation{goodfellow}
 \citation{SpeechSep}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{21}{subsubsection.60}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{21}{subsubsection.61}\protected@file@percent }
 \citation{SpeechSep}
 \citation{LoRA}
 \citation{LoRA23}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{22}{subsubsection.66}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{22}{subsubsection.67}\protected@file@percent }
 \citation{LoRA}
 \def\@LN@column{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Структура подхода LoRa. Собственный материал}}{23}{figure.caption.67}\protected@file@percent }
-\newlabel{fig:lora}{{1.3}{23}{Структура подхода LoRa. Собственный материал}{figure.caption.67}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Структура подхода LoRa. Собственный материал}}{23}{figure.caption.68}\protected@file@percent }
+\newlabel{fig:lora}{{1.3}{23}{Структура подхода LoRa. Собственный материал}{figure.caption.68}{}}
 \citation{LoRA}
 \citation{metrics}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Метрики оценки качества (SDR, SIR, SAR)}{24}{subsection.76}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Метрики оценки качества (SDR, SIR, SAR)}{24}{subsection.77}\protected@file@percent }
 \citation{metrics}
 \citation{openunmix}
 \citation{demucs}
 \citation{Spleeter}
 \citation{metrics}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.5.1}Декомпозиция сигнала по методу BSS Eval}{25}{subsubsection.77}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.5.1}Декомпозиция сигнала по методу BSS Eval}{25}{subsubsection.78}\protected@file@percent }
 \citation{demucs}
 \citation{openunmix}
 \citation{Spleeter}
 \def\@LN@column{1}
-\newlabel{eq:SIR}{{1.9}{26}{Декомпозиция сигнала по методу BSS Eval}{equation.80}{}}
 \citation{openunmix}
 \citation{Spleeter}
 \citation{Spleeter}
 \def\@LN@column{1}
+\newlabel{eq:SIR}{{1.9}{27}{Декомпозиция сигнала по методу BSS Eval}{equation.81}{}}
 \citation{demucs}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.5.2}Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное отношение сигнал/искажение}{28}{subsubsection.83}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.5.2}Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное отношение сигнал/искажение}{28}{subsubsection.84}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.6}Выводы}{28}{subsection.87}\protected@file@percent }
 \citation{piano_guitar_sep}
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Реализация и проектирование архитектуры программного обеспечения}{29}{section.88}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Общая схема взаимодействия компонент разрабатываемой системы}{29}{subsection.89}\protected@file@percent }
+\citation{MUSDB18}
+\def\@LN@column{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Диаграмма взаимодействия между компонентнами контейнера дообучения модели Open-Unmix}}{30}{figure.caption.95}\protected@file@percent }
+\newlabel{fig:pipeline}{{2.1}{30}{Диаграмма взаимодействия между компонентнами контейнера дообучения модели Open-Unmix}{figure.caption.95}{}}
+\def\@LN@column{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Диаграмма классов}}{31}{figure.caption.96}\protected@file@percent }
+\newlabel{fig:diagclass}{{2.2}{31}{Диаграмма классов}{figure.caption.96}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Модуль сбора и подготовки данных. Формирование набора данных}{31}{subsection.97}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Диаграмма последовательности процесса формирования датасета}}{32}{figure.caption.102}\protected@file@percent }
+\newlabel{fig:dataset}{{2.3}{32}{Диаграмма последовательности процесса формирования датасета}{figure.caption.102}{}}
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Загрузка исходных аудиозаписей. Клиент взаимодействия с сервисом Freesound}{33}{subsubsection.103}\protected@file@percent }
+\newlabel{lst:download_samples}{{2.1}{33}{Класс поиска и загрузки аудиофрагметов с платформы Freesound}{lstlisting.104}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.1}{\ignorespaces Класс поиска и загрузки аудиофрагметов с платформы Freesound}}{33}{lstlisting.104}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Генератор миксов из загруженных айдиофайлов}{34}{subsubsection.143}\protected@file@percent }
+\newlabel{lst:download_samples}{{2.2}{34}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.144}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.2}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{34}{lstlisting.144}\protected@file@percent }
 \citation{ML_yearn}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{29}{section.86}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Функциональные требования к программному обеспечению}{29}{subsection.87}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}Требования по составу данных в датасете}{29}{subsubsection.88}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}Состав и количество выборок}{35}{subsubsection.182}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Состав выборок}}{35}{figure.caption.183}\protected@file@percent }
+\newlabel{fig:trainset}{{2.4}{35}{Состав выборок}{figure.caption.183}{}}
 \def\@LN@column{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Диаграмма последовательности процесса формирования датасета}}{30}{figure.caption.89}\protected@file@percent }
-\newlabel{fig:dataset}{{2.1}{30}{Диаграмма последовательности процесса формирования датасета}{figure.caption.89}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Требования к используемому стеку технологий}{30}{subsection.90}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{30}{subsubsection.91}\protected@file@percent }
+\def\@LN@column{1}
+\newlabel{lst:split_sets}{{2.3}{37}{Скрипт разделения всех смешенных аудиоисточников на три основные выборки}{lstlisting.184}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.3}{\ignorespaces Скрипт разделения всех смешенных аудиоисточников на три основные выборки}}{37}{lstlisting.184}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.4}Взимодействие с HuggingFace}{37}{subsubsection.196}\protected@file@percent }
+\def\@LN@column{1}
+\newlabel{lst:download_samples}{{2.4}{38}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.197}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.4}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{38}{lstlisting.197}\protected@file@percent }
+\def\@LN@column{1}
+\newlabel{lst:download_samples}{{2.5}{39}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.211}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.5}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{39}{lstlisting.211}\protected@file@percent }
+\citation{openunmix}
+\citation{demucs}
+\citation{SpeechSep}
+\citation{openunmix}
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Выбор моделей для проведения дообучения и дальнейших экспериментов}{40}{subsection.242}\protected@file@percent }
+\citation{demucs}
+\citation{openunmix}
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Адаптация Open-Unmix для полного дообучения}{41}{subsection.243}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Спектральное преобразование для подготовки данных для передачи в Open-Unmix}{41}{subsection.244}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Схема системы дообучения}}{42}{figure.caption.245}\protected@file@percent }
+\newlabel{fig:train}{{2.5}{42}{Схема системы дообучения}{figure.caption.245}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Полное дообучение Open-Unmix}{42}{subsection.246}\protected@file@percent }
+\newlabel{lst:download_samples}{{2.6}{42}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.247}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.6}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{42}{lstlisting.247}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}Полное дообучение Open-Unmix с аугментацией спектрограмм}{43}{subsubsection.275}\protected@file@percent }
+\newlabel{lst:openunmix-aug}{{2.6.1}{43}{}{lstlisting.276}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Интеграция LoRA в архитектуру Demucs v4}{43}{subsection.290}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Контуры дообучения модели Demucs}}{44}{figure.caption.291}\protected@file@percent }
+\newlabel{fig:trainset}{{2.6}{44}{Контуры дообучения модели Demucs}{figure.caption.291}{}}
+\def\@LN@column{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs}}{45}{figure.caption.292}\protected@file@percent }
+\newlabel{fig:trainset}{{2.7}{45}{Архитектурные изменения в Demucs}{figure.caption.292}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.7.1}Контур дообучения}{45}{subsubsection.293}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.7.2}Валидационный контур}{46}{subsubsection.294}\protected@file@percent }
+\def\@LN@column{1}
+\newlabel{lst:download_samples}{{2.7}{47}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.295}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.7}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{47}{lstlisting.295}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.8}Реализация конвейера обучения, запуска и оценки}{48}{subsection.332}\protected@file@percent }
+\newlabel{lst:download_samples}{{2.8}{48}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.333}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.8}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{48}{lstlisting.333}\protected@file@percent }
+\newlabel{lst:download_samples}{{2.9}{48}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.340}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.9}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{48}{lstlisting.340}\protected@file@percent }
+\def\@LN@column{1}
+\newlabel{lst:download_samples}{{2.10}{49}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.370}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.10}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{49}{lstlisting.370}\protected@file@percent }
+\newlabel{lst:download_samples}{{2.11}{49}{Класс смешивания аудиофайлов и формирования выборок}{lstlisting.378}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.11}{\ignorespaces Класс смешивания аудиофайлов и формирования выборок}}{49}{lstlisting.378}\protected@file@percent }
+\def\@LN@column{1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.9}Выводы}{50}{subsection.406}\protected@file@percent }
 \citation{hddemucs}
 \citation{source_sep_conf}
 \citation{metrics}
 \citation{polyphonic_audio}
 \def\@LN@column{1}
-\def\@LN@column{1}
-\citation{openunmix}
-\citation{demucs}
-\citation{SpeechSep}
-\citation{openunmix}
-\citation{demucs}
-\citation{openunmix}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Проведение вычислительных экспериментов}{51}{section.407}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Протокол проведения экспериментов}{51}{subsection.408}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{51}{subsection.409}\protected@file@percent }
 \def\@LN@column{1}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Требования к способу дообучения. Обоснование выбора}{34}{subsubsection.92}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Анализ количественных результатов}{53}{subsection.410}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Инфраструктура и среда выполнения}{53}{subsection.411}\protected@file@percent }
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{35}{section.93}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Общая схема взаимодействия компонент разрабатываемой системы}{35}{subsection.94}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма взаимодействия между компонентнами контейнера дообучения модели Open-Unmix}}{35}{figure.caption.100}\protected@file@percent }
-\newlabel{fig:pipeline}{{3.1}{35}{Диаграмма взаимодействия между компонентнами контейнера дообучения модели Open-Unmix}{figure.caption.100}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Модуль сбора и подготовки данных. Формирование датасета}{35}{subsection.101}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников}}{54}{figure.caption.412}\protected@file@percent }
+\newlabel{fig:deployment}{{3.1}{54}{Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников}{figure.caption.412}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Выводы}{54}{subsection.413}\protected@file@percent }
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Клиент взаимодействия с сервисом Freesound. Загрузка изолированных источников из сервиса FreeSound}{36}{subsubsection.105}\protected@file@percent }
-\newlabel{lst:download_samples}{{3.1}{36}{Функция загрузки аудиофрагметов с платформы Freesound}{lstlisting.106}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.1}{\ignorespaces Функция загрузки аудиофрагметов с платформы Freesound}}{36}{lstlisting.106}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Генератор миксов из загруженных айдиофайлов. Смешение изолированных аудиоисточников в миксы}{36}{subsubsection.122}\protected@file@percent }
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Формирование обучающей и тестовой выборок}{37}{subsubsection.123}\protected@file@percent }
-\newlabel{lst:split_sets}{{3.2}{37}{Скрипт разделения всех смешенных аудиоисточников на три основные выборки}{lstlisting.124}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {3.2}{\ignorespaces Скрипт разделения всех смешенных аудиоисточников на три основные выборки}}{37}{lstlisting.124}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Модуль хранения данных}{37}{subsection.136}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Модуль дообучения базовой модели}{37}{subsection.137}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Инфраструктура и среда выполнения}{37}{subsection.141}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{ЗАКЛЮЧЕНИЕ}{56}{section.414}\protected@file@percent }
+\bibcite{rus_speech_recogn}{1}
+\bibcite{source_sep_conf}{2}
+\bibcite{waveform_domain}{3}
+\bibcite{openunmix}{4}
+\bibcite{MUSDB18}{5}
+\bibcite{MUSDB18_dop}{6}
+\bibcite{demucs}{7}
+\bibcite{unet}{8}
+\bibcite{STFTsourcesep}{9}
+\bibcite{STFT}{10}
 \def\@LN@column{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников}}{38}{figure.caption.142}\protected@file@percent }
-\newlabel{fig:deployment}{{3.2}{38}{Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников}{figure.caption.142}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Выводы}{38}{subsection.143}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{57}{section*.416}\protected@file@percent }
+\bibcite{hddemucs}{11}
+\bibcite{gitopenunmix}{12}
+\bibcite{BLSTMoriginal}{13}
+\bibcite{BLSTM}{14}
+\bibcite{Spleeter}{15}
+\bibcite{SpleeterArch}{16}
+\bibcite{SpeechSep}{17}
+\bibcite{finetune}{18}
+\bibcite{finetune2}{19}
+\bibcite{goodfellow}{20}
 \def\@LN@column{1}
-\@writefile{toc}{\contentsline {section}{ЗАКЛЮЧЕНИЕ}{39}{section.144}\protected@file@percent }
-\bibcite{source_sep_conf}{1}
-\bibcite{waveform_domain}{2}
-\bibcite{openunmix}{3}
-\bibcite{MUSDB18}{4}
-\bibcite{MUSDB18_dop}{5}
-\bibcite{demucs}{6}
-\bibcite{unet}{7}
-\bibcite{STFTsourcesep}{8}
-\bibcite{STFT}{9}
-\bibcite{hddemucs}{10}
-\def\@LN@column{1}
-\@writefile{toc}{\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{40}{section*.146}\protected@file@percent }
-\bibcite{gitopenunmix}{11}
-\bibcite{BLSTMoriginal}{12}
-\bibcite{BLSTM}{13}
-\bibcite{Spleeter}{14}
-\bibcite{SpleeterArch}{15}
-\bibcite{SpeechSep}{16}
-\bibcite{finetune}{17}
-\bibcite{finetune2}{18}
-\bibcite{goodfellow}{19}
-\bibcite{LoRA}{20}
-\bibcite{LoRA23}{21}
-\def\@LN@column{1}
-\bibcite{metrics}{22}
-\bibcite{SDR}{23}
-\bibcite{polyphonic_audio}{24}
-\bibcite{ML_yearn}{25}
-\bibcite{piano_guitar_sep}{26}
+\bibcite{LoRA}{21}
+\bibcite{LoRA23}{22}
+\bibcite{metrics}{23}
+\bibcite{SDR}{24}
+\bibcite{polyphonic_audio}{25}
+\bibcite{ML_yearn}{26}
+\bibcite{piano_guitar_sep}{27}
 \def\@LN@column{1}
 \citation{source_sep_conf}
-\HyPL@Entry{43<</S/D>>}
+\HyPL@Entry{60<</S/D>>}
 \def\@LN@column{1}
 \def\@LN@column{1}
-\HyPL@Entry{45<</S/D /St 43>>}
+\HyPL@Entry{62<</S/D /St 60>>}
 \def\@LN@column{1}
-\newlabel{LastPage}{{4}{43}{ЗАКЛЮЧЕНИЕ}{page.46}{}}
-\gdef\lastpage@lastpage{43}
-\gdef\lastpage@lastpageHy{46}
-\gdef \@abspage@last{46}
+\newlabel{LastPage}{{4}{60}{ЗАКЛЮЧЕНИЕ}{page.63}{}}
+\gdef\lastpage@lastpage{60}
+\gdef\lastpage@lastpageHy{63}
+\gdef \@abspage@last{63}

@@ -6,28 +6,36 @@
 \contentsline {subsection}{\numberline {1.3}Обзор архитектур разделения источников}{9}{subsection.15}%
 \contentsline {subsubsection}{\numberline {1.3.1}Классические методы source separation}{9}{subsubsection.16}%
 \contentsline {subsubsection}{\numberline {1.3.2}Современные нейронные архитектуры}{9}{subsubsection.17}%
-\contentsline {subsection}{\numberline {1.4}Анализ методов дообучения предобученных моделей разделения источников}{20}{subsection.56}%
-\contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{20}{subsubsection.57}%
-\contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{21}{subsubsection.60}%
-\contentsline {subsubsection}{\numberline {1.4.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{22}{subsubsection.66}%
-\contentsline {subsection}{\numberline {1.5}Метрики оценки качества (SDR, SIR, SAR)}{24}{subsection.76}%
-\contentsline {subsubsection}{\numberline {1.5.1}Декомпозиция сигнала по методу BSS Eval}{25}{subsubsection.77}%
-\contentsline {subsubsection}{\numberline {1.5.2}Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное отношение сигнал/искажение}{28}{subsubsection.83}%
-\contentsline {section}{\numberline {2}Разработка архитектуры программного обеспечения}{29}{section.86}%
-\contentsline {subsection}{\numberline {2.1}Функциональные требования к программному обеспечению}{29}{subsection.87}%
-\contentsline {subsubsection}{\numberline {2.1.1}Требования по составу данных в датасете}{29}{subsubsection.88}%
-\contentsline {subsection}{\numberline {2.2}Требования к используемому стеку технологий}{30}{subsection.90}%
-\contentsline {subsubsection}{\numberline {2.2.1}Выбор базовой модели среди существующих для извлечения конкретных инструментов}{30}{subsubsection.91}%
-\contentsline {subsubsection}{\numberline {2.2.2}Требования к способу дообучения. Обоснование выбора}{34}{subsubsection.92}%
-\contentsline {section}{\numberline {3}Разработка алгоритмов и программного обеспечения}{35}{section.93}%
-\contentsline {subsection}{\numberline {3.1}Общая схема взаимодействия компонент разрабатываемой системы}{35}{subsection.94}%
-\contentsline {subsection}{\numberline {3.2}Модуль сбора и подготовки данных. Формирование датасета}{35}{subsection.101}%
-\contentsline {subsubsection}{\numberline {3.2.1}Клиент взаимодействия с сервисом Freesound. Загрузка изолированных источников из сервиса FreeSound}{36}{subsubsection.105}%
-\contentsline {subsubsection}{\numberline {3.2.2}Генератор миксов из загруженных айдиофайлов. Смешение изолированных аудиоисточников в миксы}{36}{subsubsection.122}%
-\contentsline {subsubsection}{\numberline {3.2.3}Формирование обучающей и тестовой выборок}{37}{subsubsection.123}%
-\contentsline {subsection}{\numberline {3.3}Модуль хранения данных}{37}{subsection.136}%
-\contentsline {subsection}{\numberline {3.4}Модуль дообучения базовой модели}{37}{subsection.137}%
-\contentsline {subsection}{\numberline {3.5}Инфраструктура и среда выполнения}{37}{subsection.141}%
-\contentsline {subsection}{\numberline {3.6}Выводы}{38}{subsection.143}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{39}{section.144}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{40}{section*.146}%
+\contentsline {subsection}{\numberline {1.4}Анализ методов дообучения предобученных моделей разделения источников}{20}{subsection.57}%
+\contentsline {subsubsection}{\numberline {1.4.1}Полное дообучение}{20}{subsubsection.58}%
+\contentsline {subsubsection}{\numberline {1.4.2}Методы «параметрического» дообучения (адаптация части параметров)}{21}{subsubsection.61}%
+\contentsline {subsubsection}{\numberline {1.4.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{22}{subsubsection.67}%
+\contentsline {subsection}{\numberline {1.5}Метрики оценки качества (SDR, SIR, SAR)}{24}{subsection.77}%
+\contentsline {subsubsection}{\numberline {1.5.1}Декомпозиция сигнала по методу BSS Eval}{25}{subsubsection.78}%
+\contentsline {subsubsection}{\numberline {1.5.2}Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное отношение сигнал/искажение}{28}{subsubsection.84}%
+\contentsline {subsection}{\numberline {1.6}Выводы}{28}{subsection.87}%
+\contentsline {section}{\numberline {2}Реализация и проектирование архитектуры программного обеспечения}{29}{section.88}%
+\contentsline {subsection}{\numberline {2.1}Общая схема взаимодействия компонент разрабатываемой системы}{29}{subsection.89}%
+\contentsline {subsection}{\numberline {2.2}Модуль сбора и подготовки данных. Формирование набора данных}{31}{subsection.97}%
+\contentsline {subsubsection}{\numberline {2.2.1}Загрузка исходных аудиозаписей. Клиент взаимодействия с сервисом Freesound}{33}{subsubsection.103}%
+\contentsline {subsubsection}{\numberline {2.2.2}Генератор миксов из загруженных айдиофайлов}{34}{subsubsection.143}%
+\contentsline {subsubsection}{\numberline {2.2.3}Состав и количество выборок}{35}{subsubsection.182}%
+\contentsline {subsubsection}{\numberline {2.2.4}Взимодействие с HuggingFace}{37}{subsubsection.196}%
+\contentsline {subsection}{\numberline {2.3}Выбор моделей для проведения дообучения и дальнейших экспериментов}{40}{subsection.242}%
+\contentsline {subsection}{\numberline {2.4}Адаптация Open-Unmix для полного дообучения}{41}{subsection.243}%
+\contentsline {subsection}{\numberline {2.5}Спектральное преобразование для подготовки данных для передачи в Open-Unmix}{41}{subsection.244}%
+\contentsline {subsection}{\numberline {2.6}Полное дообучение Open-Unmix}{42}{subsection.246}%
+\contentsline {subsubsection}{\numberline {2.6.1}Полное дообучение Open-Unmix с аугментацией спектрограмм}{43}{subsubsection.275}%
+\contentsline {subsection}{\numberline {2.7}Интеграция LoRA в архитектуру Demucs v4}{43}{subsection.290}%
+\contentsline {subsubsection}{\numberline {2.7.1}Контур дообучения}{45}{subsubsection.293}%
+\contentsline {subsubsection}{\numberline {2.7.2}Валидационный контур}{46}{subsubsection.294}%
+\contentsline {subsection}{\numberline {2.8}Реализация конвейера обучения, запуска и оценки}{48}{subsection.332}%
+\contentsline {subsection}{\numberline {2.9}Выводы}{50}{subsection.406}%
+\contentsline {section}{\numberline {3}Проведение вычислительных экспериментов}{51}{section.407}%
+\contentsline {subsection}{\numberline {3.1}Протокол проведения экспериментов}{51}{subsection.408}%
+\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{51}{subsection.409}%
+\contentsline {subsection}{\numberline {3.3}Анализ количественных результатов}{53}{subsection.410}%
+\contentsline {subsection}{\numberline {3.4}Инфраструктура и среда выполнения}{53}{subsection.411}%
+\contentsline {subsection}{\numberline {3.5}Выводы}{54}{subsection.413}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{56}{section.414}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{57}{section*.416}%

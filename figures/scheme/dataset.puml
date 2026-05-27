@@ -32,12 +32,12 @@ group Формирование датасета и публикация в Huggi
     hf_api ---> gc : Информация о датасете.
 end
 
-group Проверка, какие данные были загружены в HuggingFace
-    gc -> hf_api : Запрос данных о созданном наборе данных \n  GET /api/datasets/{repo}/tree/main (load_dataset(repo_id, token))
-    gc <- hf_api : Манифест структуры датасета (train/validation/test)
-    hf_api--
-    gc -> gc : 1.Обработка полученных данных.\n2.Отображение аудиофайлов, загруженных в наборе данных.
-end
+' group Проверка, какие данные были загружены в HuggingFace
+'     gc -> hf_api : Запрос данных о созданном наборе данных \n  GET /api/datasets/{repo}/tree/main (load_dataset(repo_id, token))
+'     gc <- hf_api : Манифест структуры датасета (train/validation/test)
+'     hf_api--
+'     gc -> gc : 1.Обработка полученных данных.\n2.Отображение аудиофайлов, загруженных в наборе данных.
+' end
 
 ' mpi -> ips++ : Передача сведений \n ВС-1 **POST healthObservation** /\n ВС-2 **POST pndObservation**
 ' ips -> ips++ : Проверка доступа
