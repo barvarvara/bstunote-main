@@ -11,7 +11,7 @@
 \usepackage{plantuml}
 
 % \usepackage[a4paper, left=23mm, right=9mm, top=9mm, bottom=24mm]{geometry}
-\usepackage[a4paper, left=30mm, right=10mm, top=10mm, bottom=10mm]{geometry}
+\usepackage[a4paper, left=30mm, right=10mm, top=10mm, bottom=24mm]{geometry}
 
 \ifx\XeTeXversion\undefined % Проверяем: не используем ли мы XeLaTeX
 \usepackage[T2A]{fontenc}	% Используем кириллицу в PDFLaTeX
@@ -401,22 +401,70 @@ FakeSlant=0.3 	% Используем искусственный наклон
 % \subsubsection{Метод Ньютона}  Третий уровень
 % \par\textbf{Математический вывод метода Ньютона} % Четвёртый уровень
 \section*[ВВЕДЕНИЕ]{ВВЕДЕНИЕ}
-Задача автоматического разделения музыкальных источников является одной из ключевых в области цифровой обработки сигналов и машинного обучения.
-Технологии выделения отдельных инструментов из полифонических записей находят применение в музыкальном продюсировании, реставрации архивных аудиоматериалов,
-в системах автоматического анализа музыкальных композиций и интеллектуальной обработки аудиосигналов \cite{rus_speech_recogn}, образовательных платформах и приложениях для караоке.
+Задача автоматического разделения музыкальных источников является одной из ключевых в области цифровой обработки 
+сигналов и машинного обучения. Технологии выделения отдельных инструментов из полифонических записей находят 
+применение в музыкальном продюсировании и реставрации архивных аудиоматериалов \cite{demucs},
+в системах автоматического анализа музыкальных композиций и интеллектуальной 
+обработки аудиосигналов \cite{rus_speech_recogn} \cite{Spleeter}.
+
+Современные подходы к разделению источников опираются на глубокие нейронные сети, работающие 
+в частотной или временной области. Значительный прогресс достигнут в создании универсальных 
+моделей, обученных на крупных размеченных датасетах и демонстрирующих высокое качество на 
+стандартных наборах классов \cite{demucs}. 
+
+Несмотря на значительный прогресс в разработке нейросетевых архитектур, способных выделять стандартные 
+классы источников (вокал, ударные, бас), качественное разделение гармонических инструментов со 
+значительным частотным перекрытием, таких как фортепиано и гитара, остаётся сложной и недостаточно
+изученной проблемой. Практическая потребность в точном извлечении таких инструментов обусловлена 
+как задачами профессионального сведения, так и развитием автоматизированных систем анализа 
+музыкального контента, что определяет высокую актуальность данного исследования. Однако существующие 
+решения обладают рядом ограничений. Во-первых, модели, рассчитанные на широкий спектр инструментов,
+часто формируют неточные маски при выделении источников со схожими спектральными огибающими, 
+что приводит к появлению артефактов фильтрации и взаимному <<протеканию>> сигналов\cite{metrics}.
+Во-вторых, адаптация таких архитектур под новые, специфичные классы источников требует либо полного
+переобучения, что недоступно при ограниченных вычислительных ресурсах, либо применения методов 
+дообучения, разработанных преимущественно для языковых моделей и компьютерного зрения. 
+
+В настоящее время в научной литературе существуют ограниченное количество работ, в которых реализуется применение
+эффективного дообучения именно для нейросетевых моделей разделения аудиоисточников: к примеру,
+в рамках статьи \cite{audio_prompt} исследуется возможность и эффективность применения  промтов к 
+извлечению источников из аудиопотока. А работе \cite{mag_lora} впервые параметрически эффективный метод низкоранговой 
+адаптации (LoRA \cite{LoRA}) был применён к модели извлечения источников AudioSep для изучения
+эффективного дообучения при небольшом количестве эпох и показал, что качество выделения значительно улучшилось после
+проведённого дообучения.
+
+Успешное применение метода LoRA к задачам обработки речевых сигналов было произведено в рамках статьи \cite{LoRA_emotion}.
+Это позволяет также предположить эффективность метода и для задач разделения музыкальных источников, где также требуется 
+адаптация общих признаков к специфичным классам.
+
+Данная проблема отсутствия научной базы в части применения параметрически-эффективного дообучения к 
+рекуррентным и трансформерным моделям извлечения источников обусловливает необходимость изучения применимости 
+методов полного дообучения и адаптации низкого ранга к моделям этого типа, а также оценки их эффективности.
+
+Таким образом, была поставлена цель работы: повышение качества и эффективности извлечения звука исходных источников из 
+звукового потока путём реализации и оценки алгоритма, заключающегося в применении методов дообучения
+архитектур моделей искусственного интеллекта извлечения источников.
+
+В соответствии с целью были определены следующие задачи:
+\begin{itemize}[label=\textbullet]
+	\item -- ,
+	\item -- ,
+	\item ,
+	\item ,
+	\item ,
+	\item .
+\end{itemize}
 
 
-  - Актуальность задачи извлечения инструментов
+\textbf{Объект исследования:} нейросетевые архитектуры разделения музыкальных источников, работающие в частотной и временной области.
+\textbf{Предмет исследования:} методы целевого дообучения и параметрически эффективной адаптации моделей для выделения гармонических 
+инструментов со спектральным перекрытием.
 
-  - Цель работы: 
-
-  - Задачи исследования
-
-  Актуальность (музыкальное ADR, мастеринг, ремиксы, авторские права и т.п.).
-
-Объект, предмет, цель, задачи, научная новизна.
-
-Задача: Адаптация лёгких архитектур для извлечения гитары и пианино из полифонических композиций с учётом спектрального перекрытия (Частотно-временное перекрытие) и последующего восстановления тембрового качества.
+Настоящая работа состоит из введения, трёх глав, заключения, списка использованных источников и приложений. 
+В первой главе представлен теоретический обзор архитектур разделения источников, методов адаптации нейронных 
+сетей и метрик оценки качества. Во второй главе описаны проектирование экспериментального конвейера, формирование 
+набора данных и программная реализация алгоритмов дообучения. Третья глава содержит результаты проведённых 
+экспериментов, сравнительный анализ моделей и обсуждение полученных данных.
 
 % https://radiotochki.net/blog/ai-tech/iskusstvennyy-intellekt-v-restavracii-zvuka-novaya-era-dlya-vinila-i-kasset.html
 
@@ -483,6 +531,11 @@ FakeSlant=0.3 	% Используем искусственный наклон
 \subsection{Способы представления звука для задачи разделения источников}
 
 
+\subsubsection{Спектральное представление}
+% спектрограмма -- дать определение
+
+\subsubsection{Временно-волновое представление}
+% волновое представление
 
 % -----------------  2. Обзор существующих аналогов, методов и технологий разработки аналогичных программ,
 % -----------------  3. Объект и предмет исследования,
@@ -494,14 +547,6 @@ FakeSlant=0.3 	% Используем искусственный наклон
 \subsection{Обзор архитектур разделения источников}
 
 
-\subsubsection{Классические методы source separation}
-\par\textbf{ICA}
-\par\textbf{NMF}
-\par\textbf{спектральные методы}
-
-
-\subsubsection{Современные нейронные архитектуры}
-
 \par Современные архитектуры MSS (music source separation) можно условно разделить на два основных 
 класса в зависимости от того, в какой области они обрабатывают аудиосигнал: во временной области (Demucs [3]) 
 или в частотной (Open-Unmix [2] и Spleeter). Далее рассмотрим эти основные виды архитектур и сравним их способы
@@ -511,7 +556,7 @@ FakeSlant=0.3 	% Используем искусственный наклон
 \par Архитектуры, которые представляют собой SOTA (state of art)/////////////////////
 
 
-\par\textbf{Demucs}
+\subsubsection{Demucs}
 
 \par В статье~\cite{demucs} разработчики соц сети Facebook описывают новый подход к методу source separation. 
 Demucs (Hybrid Transformer Demucs) на данный момент является одним из стандартов индустрии (SOTA) 
@@ -603,7 +648,7 @@ output audio is generated by running an inverse STFT on the masked spectrograms 
 % \par\textbf{Conv‑TasNet‑подобные} 
 
 
-\par\textbf{Open‑Unmix} 
+\subsubsection{Open‑Unmix} 
 Существуют модели, работающие в частотной области, такие как Open-Unmix~\cite{openunmix} и Spleeter. Такие модели 
 сначала преобразуют аудиосигнал в спектрограмму с помощью быстрого преобразования Фурье (БПФ), 
 где каждый пиксель представляет собой магнитуду (амплитуду) определенной частоты в определенный 
@@ -622,7 +667,6 @@ output audio is generated by running an inverse STFT on the masked spectrograms 
 	\label{fig:openunmix}
 \end{figure}
 
-% спектрограмма -- дать определение
 Общая идея модели Open-Unmix заключается в преобразовании исходного файла аудиомикса музыкальных 
 инструментов в формате спектрограммы (на схеме этот блок назван "mix spectrograms") в 
 набор спектрограмм отделенных музыкальных инструментов из этого микса (на схеме это -- "target spectrograms").
@@ -796,7 +840,7 @@ output audio is generated by running an inverse STFT on the masked spectrograms 
 использования (например, в режиме живого исполнения или в составе цифровых аудиоплагинов).
 
 
-\par\textbf{Spleeter}
+\subsubsection{Spleeter}
 Spleeter — это система разделения музыкальных источников, разработанная компанией Deezer~\cite{Spleeter}. 
 Модель основана на архитектуре U-Net~\cite{unet}, работающей в частотной области, и обучена на синтетически 
 сгенерированном датасете из 25 тысяч композиций.
@@ -1770,6 +1814,11 @@ class SpecAugmentDataset(Dataset):
 
 \subsection{Интеграция LoRA в архитектуру Demucs v4}
 
+% Техническая возможность применения параметрически эффективных методов, включая LoRA, для моделей 
+% разделения музыки подтверждается наличием открытых реализаций в сообществах разработчиков \cite{}, 
+% однако систематическое исследование их эффективности для архитектур типа Demucs в научной 
+% литературе пока не представлено.
+
 Дообучение модели htdemucs v4 выполнено методом параметрически эффективной адаптации LoRA (Low-Rank Adaptation). В отличие от классического полного дообучения (full fine-tuning),
  базовые веса всех свёрточных, трансформерных и линейных слоёв остаются замороженными (requires\_grad=False). 
  В каждый полносвязный слой (nn.Linear) внедряются низкомерные адаптерные матрицы $A ∈ ℝ^(d×r)$ и $B ∈ ℝ^(r×d)$ с рангом $r=8$, что добавляет лишь 
@@ -2187,10 +2236,34 @@ PyTorch CUDA с поддержкой mixed precision.
 \phantomsection
 \addcontentsline{toc}{section}{\rubibliographyname}% Добавим список литературы в оглавление
 \begin{thebibliography}{99}
+	\bibitem{demucs}
+	\textit{A. Défossez, N. Usunier, L. Bottou, и F. Bach} Hybrid Transformers for Music Source Separation // 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2023. P. 1–5.
+	
+	\bibitem{Spleeter}
+	\textit{R. Hennequin, A. Khlif, и F. Voituret} Spleeter: A Fast and Efficient Music Source Separation Tool with Pre-trained Models // Journal of Open Source Software. 2020. Vol. 5, No. 50. P. 2154.
+	
 	\bibitem{rus_speech_recogn}
 	Лестенко Н. А., Вальштейн К. В., Верхова А. А. Современные методы построения систем искусственного интеллекта для обработки аудиосигналов // Noise Theory and Practice. 2025. №1.
 
-    \bibitem{source_sep_conf}
+    \bibitem{metrics}
+	Vincent E., Gribonval R., Févotte C. Performance measurement in blind audio source separation // IEEE Transactions on Audio, Speech, and Language Processing. 2006. Vol. 14, No. 4. P. 1462–1469. DOI: 10.1109/TSA.2005.858005.
+
+	\bibitem{audio_prompt}
+	Liu, Y., Liu, X., Audio prompt tuning for universal sound separation. -- 2023
+
+	\bibitem{mag_lora}
+	Бараненков С.С. Дообучение модели универсального разделения источников звука с помощью техники адаптации низкого ранга : выпускная квалификационная работа магистра / Бараненков С.С. — Нижний Новгород : НИУ ВШЭ, 2024
+
+	\bibitem{LoRA}
+	Hu E. J. et al. LoRA: Low-Rank Adaptation of Large Language Models // arXiv preprint arXiv:2106.09685. 2021.
+
+	\bibitem{LoRA_emotion}
+	Cai et al. (2024) LoRA-MER: Low-Rank Adaptation of Pre-Trained Speech Models for Emotion Recognition
+
+	\bibitem{citekey}
+	Wang, L., Chen, S., Jiang, L. et al. Parameter-efficient fine-tuning in large language models: a survey of methodologies. Artif Intell Rev 58, 227 (2025). https://doi.org/10.1007/s10462-025-11236-4
+
+	\bibitem{source_sep_conf}
 	Manilow E., Seetharaman P., Salamon J. Open Source Tools \& Data for Music Source Separation [Электронный ресурс]. 2020. URL: https://source-separation.github.io/tutorial (дата обращения: 01.05.2024).
 	
 	\bibitem{waveform_domain}
@@ -2207,9 +2280,6 @@ PyTorch CUDA с поддержкой mixed precision.
 	\bibitem{MUSDB18_dop}
 	C. Lordelo, E. Benetos, S. Dixon, S. Ahlback, и P. Ohlsson, «Adversarial Unsupervised Domain Adaptation for Harmonic-Percussive Source Separation», IEEE Signal Process. Lett., сс. 1–5, 2021, doi: 10.1109/LSP.2020.3045915.
 
-	\bibitem{demucs}
-	\textit{A. Défossez, N. Usunier, L. Bottou, и F. Bach} Hybrid Transformers for Music Source Separation // 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2023. P. 1–5.
-	
 	\bibitem{unet}
 	\textit{H. Huang и др.}, «UNet 3+: A Full-Scale Connected UNet for Medical Image Segmentation», ICASSP, IEEE Int. Conf. Acoust. Speech Signal Process. - Proc., т. 2020-May, вып. ii, сс. 1055–1059, 2020, doi: 10.1109/ICASSP40776.2020.9053405.
 
@@ -2233,9 +2303,6 @@ PyTorch CUDA с поддержкой mixed precision.
 	\bibitem{BLSTM}
 	\textit{L. Huang, G. Cheng, P. Zhang, Y. Yang, S. Xu, и J. Sun} «Utterance-level Permutation Invariant Training with Latency-controlled BLSTM for Single-channel Multi-talker Speech Separation».
 
-	\bibitem{Spleeter}
-	\textit{R. Hennequin, A. Khlif, и F. Voituret} Spleeter: A Fast and Efficient Music Source Separation Tool with Pre-trained Models // Journal of Open Source Software. 2020. Vol. 5, No. 50. P. 2154.
-
 	\bibitem{SpleeterArch}
 	«Core Architecture | deezer/spleeter | DeepWiki». [Онлайн]. Доступно на: https://deepwiki.com/deezer/spleeter/2-core-architecture
 
@@ -2257,9 +2324,6 @@ PyTorch CUDA с поддержкой mixed precision.
 	\bibitem{LoRA23}
 	Zeng R., Lee V. The Expressive Power of Low-Rank Adaptation // The Twelfth International Conference on Learning Representations (ICLR). 2024.
 
-	\bibitem{metrics}
-	Vincent E., Gribonval R., Févotte C. Performance measurement in blind audio source separation // IEEE Transactions on Audio, Speech, and Language Processing. 2006. Vol. 14, No. 4. P. 1462–1469. DOI: 10.1109/TSA.2005.858005.
-
 	\bibitem{SDR}
 	Le Roux J. et al. SDR—Half-Baked or Well Done? // 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2019. P. 626–630. DOI: 10.1109/ICASSP.2019.8683366.
 
@@ -2271,6 +2335,9 @@ PyTorch CUDA с поддержкой mixed precision.
 
 	\bibitem{piano_guitar_sep}
 	K. N. Watcharasupat и A. Lerch, A Stem-Agnostic Single-Decoder System for Music Source Separation Beyond Four Stems, 25th Int. Soc. Music Inf. Retr. Conf., San Fr. United States, вып. July, сс. 1051–1059, 2024.
+
+	\bibitem{git_lora_demucs}
+
 \end{thebibliography}
 \newpage
 
