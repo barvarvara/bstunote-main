@@ -1,12 +1,14 @@
 \babel@toc {russian}{}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Упрощенный процесс разделения источников из аудиозаписи ~\cite {source_sep_conf}}}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Архитектура модели Open-Unmix. Авторский материал}}{15}{figure.caption.30}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Структура подхода LoRa. Собственный материал}}{25}{figure.caption.71}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Диаграмма взаимодействия между компонентнами контейнера дообучения модели Open-Unmix}}{34}{figure.caption.98}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Диаграмма классов}}{35}{figure.caption.99}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Диаграмма последовательности процесса формирования датасета}}{37}{figure.caption.105}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Состав выборок}}{40}{figure.caption.186}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Схема системы дообучения}}{47}{figure.caption.248}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Контуры дообучения модели Demucs}}{49}{figure.caption.294}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs}}{50}{figure.caption.295}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников}}{59}{figure.caption.415}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Упрощенный процесс разделения источников из аудиозаписи. Авторский материал}}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces График спектрограммы музыкальной композиции. Авторский материал}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Архитектура модели Open-Unmix. Авторский материал}}{15}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников. Авторский материал}}{24}{figure.caption.57}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Схема обучения модели подходом LoRA. Авторский материал}}{30}{figure.caption.79}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Диаграмма взаимодействия между компонентнами контейнера дообучения модели Open-Unmix. Авторский материал}}{38}{figure.caption.105}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Диаграмма классов. Авторский материал}}{39}{figure.caption.106}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Диаграмма последовательности процесса формирования датасета. Авторский материал}}{41}{figure.caption.112}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Состав выборок. Авторский материал}}{44}{figure.caption.193}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Схема системы дообучения. Авторский материал}}{49}{figure.caption.255}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Контуры дообучения модели Demucs. Авторский материал}}{52}{figure.caption.301}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs. Авторский материал}}{52}{figure.caption.302}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников. Авторский материал}}{62}{figure.caption.422}%
