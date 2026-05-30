@@ -1415,4 +1415,335 @@ Overfull \hbox (3.48207pt too wide) in paragraph at lines 1933--1939
 Missing character: There is no ∈ (U+2208) in font Times New Roman Bold/OT:script=latn;language=dflt;mapping=tex-text;!
 
 Overfull \hbox (4.49756pt too wide) in paragraph at lines 1941--1945
-[]\TU/TimesNewRoman(0)/b/n/14.4 Анализ совместимых слоёв: выявлени�
+[]\TU/TimesNewRoman(0)/b/n/14.4 Анализ совместимых слоёв: выявление линейных и одномерных свёр-
+ []
+
+File: figures/конвейер обучения demucs.png Graphic file (type bmp)
+<figures/конвейер обучения demucs.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/demucs доработка архитектуры.png Graphic file (type bmp)
+<figures/demucs доработка архитектуры.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (99.84766pt too wide) in paragraph at lines 1961--1967
+\TU/TimesNewRoman(0)/b/n/14.4 ром. Поток данных начинается с модуля загрузки и предобработки (AudioWrapperDataset),
+ []
+
+[52] [53]
+Overfull \hbox (6.59578pt too wide) in paragraph at lines 1975--1983
+\TU/TimesNewRoman(0)/b/n/14.4 потерь, обратное распространение ошибки и обновление параметров. Функ-
+ []
+
+
+Overfull \hbox (47.70969pt too wide) in paragraph at lines 1984--1989
+\TU/TimesNewRoman(0)/b/n/14.4 мя эпохи) осуществляется через модуль мониторинга, совместимый с TensorBoard.
+ []
+
+
+Overfull \hbox (3.54878pt too wide) in paragraph at lines 1984--1989
+\TU/TimesNewRoman(0)/b/n/14.4 на другие целевые инструменты и датасеты, минимизируя затраты на адап-
+ []
+
+[54]
+Overfull \hbox (10.79692pt too wide) in paragraph at lines 1991--2001
+\TU/TimesNewRoman(0)/b/n/14.4 щей способности модели. Перед прогоном модель переводится в режим eval(),
+ []
+
+[55] [56]
+LaTeX Font Info:    Font shape `TU/PTMono(0)/b/it' will be
+(Font)              scaled to size 8.99994pt on input line 2100.
+
+Missing character: There is no 🔹 (U+1F539) in font PT Mono Bold/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 🔹 (U+1F539) in font PT Mono Bold/OT:script=latn;language=dflt;mapping=tex-text;!
+[57]
+Overfull \hbox (15.72112pt too wide) in paragraph at lines 2141--2146
+\TU/TimesNewRoman(0)/b/n/14.4 сэмплам тестовой выборки. Модуль также поддерживает субъективную оцен-
+ []
+
+Вёрстка раздела "Проведение вычислительных экспериментов"
+[58]
+Overfull \hbox (3.36719pt too wide) in paragraph at lines 2163--2165
+\TU/TimesNewRoman(0)/b/n/14.4 анализ четырёх стратегий адаптации моделей разделения источников. Пол-
+ []
+
+
+Overfull \hbox (4.21977pt too wide) in paragraph at lines 2168--2175
+[]\TU/TimesNewRoman(0)/b/n/14.4 В рамках исследования была проведена серия экспериментов, направ-
+ []
+
+[59
+
+]
+Overfull \hbox (4.64932pt too wide) in paragraph at lines 2187--2194
+\TU/TimesNewRoman(0)/b/n/14.4 лению с использованием предобученной модели \TU/PTMono(0)/b/n/14.4 htdemucs_6s \TU/TimesNewRoman(0)/b/n/14.4 в среде Google
+ []
+
+[60]
+Overfull \hbox (61.13673pt too wide) in paragraph at lines 2209--2213
+[]\TU/TimesNewRoman(0)/b/n/14.4 В ходе предварительного эксперимента с предобученной моделью \TU/PTMono(0)/b/n/14.4 htdemucs_6s
+ []
+
+
+Overfull \hbox (6.65427pt too wide) in paragraph at lines 2225--2231
+\TU/TimesNewRoman(0)/b/n/14.4 гий целевой адаптации (task-specific fine-tuning): вместо использования уни-
+ []
+
+
+Overfull \hbox (9.6413pt too wide) in paragraph at lines 2225--2231
+\TU/TimesNewRoman(0)/b/n/14.4 учить специфические спектральные паттерны фортепиано и гитары и сфор-
+ []
+
+
+Overfull \hbox (3.51425pt too wide) in paragraph at lines 2236--2239
+[]\TU/TimesNewRoman(0)/b/n/14.4 Экспериментальный пайплайн развёрнут в виртуальной среде Google
+ []
+
+
+Overfull \hbox (0.45735pt too wide) in paragraph at lines 2236--2239
+\TU/TimesNewRoman(0)/b/n/14.4 Colab, предоставляющей изолированный Linux-контейнер с доступом к ап-
+ []
+
+
+Overfull \hbox (33.83704pt too wide) in paragraph at lines 2240--2245
+\TU/TimesNewRoman(0)/b/n/14.4 предоставляет метаданные и бинарные потоки исходных записей, а HuggingFace
+ []
+
+[61]
+Overfull \hbox (11.83455pt too wide) in paragraph at lines 2251--2253
+[]\TU/TimesNewRoman(0)/b/n/14.4 Диаграмма развёртывания инфраструктуры экспериментального пай-
+ []
+
+File: figures/deployment/deployment.png Graphic file (type bmp)
+<figures/deployment/deployment.png>
+
+Overfull \hbox (5.9405pt too wide) in paragraph at lines 2264--2267
+\TU/TimesNewRoman(0)/b/n/14.4 (htdemucs_6s) дообученные модели демонстрируют прирост по метрике SDR
+ []
+
+
+Overfull \hbox (41.40375pt too wide) in paragraph at lines 2264--2267
+\TU/TimesNewRoman(0)/b/n/14.4 плайне дообучения Open-Unmix обеспечивает дополнительный прирост +0.4…0.5
+ []
+
+[62]
+Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
+[63]
+Overfull \hbox (25.61862pt too wide) in paragraph at lines 2278--2279
+\TU/TimesNewRoman(0)/b/n/14.4 класса целевых инструментов на негармонические и тембрально-контрастные
+ []
+
+
+Overfull \hbox (0.85124pt too wide) in paragraph at lines 2278--2279
+\TU/TimesNewRoman(0)/b/n/14.4 источники (например, духовые и струнно-смычковые). Это потребует адап-
+ []
+
+[64
+
+]
+Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
+
+Underfull \hbox (badness 4217) in paragraph at lines 2360--2361
+[]\TU/TimesNewRoman(0)/b/n/14.4 Vincent E., Gribonval R., Févotte C. Performance measurement in
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 2360--2361
+\TU/TimesNewRoman(0)/b/n/14.4 and Language Processing. 2006. Vol. 14, No. 4. P. 1462–1469. DOI:
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 2378--2379
+[]\TU/TimesNewRoman(0)/b/n/14.4 Manilow E., Seetharaman P., Salamon J. Open Source Tools & Data
+ []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 2378--2379
+\TU/TimesNewRoman(0)/b/n/14.4 for Music Source Separation [Электронный ресурс]. 2020. URL:
+ []
+
+[65
+
+]
+Underfull \hbox (badness 6808) in paragraph at lines 2394--2395
+[]\TU/TimesNewRoman(0)/b/n/14.4 Z. Rafii, A. Liutkus, F.-R. Stöter, S. I. Mimilakis, и R. Bittner,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2395
+\TU/TimesNewRoman(0)/b/n/14.4 «The MUSDB18 corpus for music separation». [Онлайн]. URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2397--2398
+[]\TU/TimesNewRoman(0)/b/n/14.4 C. Lordelo, E. Benetos, S. Dixon, S. Ahlback, и P. Ohlsson,
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 2397--2398
+\TU/TimesNewRoman(0)/b/n/14.4 Source Separation», IEEE Signal Process. Lett., сс. 1–5, 2021, doi:
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 2403--2404
+[]\TU/TimesNewRoman(0)/b/n/14.4 Alexandre D´efossez, “Hybrid spectrogram and wave- form source
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 2409--2410
+[]\TU/TimesNewRoman(0)/b/n/14.4 Luo Y., Mesgarani N. Conv-TasNet: Surpassing ideal time–frequency
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 2415--2416
+\TU/TimesNewRoman(0)/b/n/14.4 Process. - Proc., т. 2020-May, вып. ii, сс. 1055–1059, 2020, doi:
+ []
+
+[66]
+Underfull \hbox (badness 7704) in paragraph at lines 2418--2419
+[]\TU/TimesNewRoman(0)/b/it/14.4 A. Belouchrani, M. G. Amin, N. Thirion-Moreau, и Y. D. Zhang
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 2424--2425
+[]\TU/TimesNewRoman(0)/b/it/14.4 Uhlich S. et al. \TU/TimesNewRoman(0)/b/n/14.4 Open-Unmix: A Deep Neural Network Reference
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 2432--2433
+[]\TU/TimesNewRoman(0)/b/it/14.4 L. Huang, G. Cheng, P. Zhang, Y. Yang, S. Xu, и J. Sun \TU/TimesNewRoman(0)/b/n/14.4 «Utterance-
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 2441--2442
+[]\TU/TimesNewRoman(0)/b/n/14.4 Y. Zhang, D. Zhang, T. Wang, D. Rakhimova, K. Wang and H.
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 2441--2442
+\TU/TimesNewRoman(0)/b/n/14.4 Huang, ”Domain Partitioning Meets Parameter-Efficient Fine-Tuning:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2441--2442
+\TU/TimesNewRoman(0)/b/n/14.4 A Novel Method for Improved Language-Queried Audio Source
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 2441--2442
+\TU/TimesNewRoman(0)/b/n/14.4 Separation,”ICASSP 2026 - 2026 IEEE International Conference on
+ []
+
+[67]
+Underfull \hbox (badness 4403) in paragraph at lines 2450--2451
+[]\TU/TimesNewRoman(0)/b/n/14.4 Chiu C.-Y., Hsiao W.-Y., et al. Mixing-Specific Data Augmentation
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 2450--2451
+\TU/TimesNewRoman(0)/b/n/14.4 IEEE 22nd International Workshop on Multimedia Signal Processing
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 2456--2457
+\TU/TimesNewRoman(0)/b/n/14.4 NLP // Proceedings of the 36th International Conference on Machine
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 2469--2470
+[]\TU/TimesNewRoman(0)/b/n/14.4 Le Roux J. et al. SDR—Half-Baked or Well Done? // 2019 IEEE
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 2469--2470
+\TU/TimesNewRoman(0)/b/n/14.4 International Conference on Acoustics, Speech and Signal Processing
+ []
+
+[68] [69]
+\c@lastPageNumber=\count371
+
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lof
+Overfull \hbox (12.63757pt too wide) in paragraph at lines 5--5
+ [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 Диаграмма развёртывания инфраструктуры эксперименталь- 
+ []
+
+
+Overfull \hbox (8.28304pt too wide) in paragraph at lines 7--7
+ [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 Диаграмма взаимодействия модулей системы дообучения. Ав- 
+ []
+
+
+Overfull \hbox (12.63757pt too wide) in paragraph at lines 15--15
+ [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 Диаграмма развёртывания инфраструктуры эксперименталь- 
+ []
+
+)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [1
+
+
+
+]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [2
+
+
+]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lol
+Overfull \hbox (0.21338pt too wide) in paragraph at lines 2--2
+ [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 Скрипт разделения всех смешенных аудиоисточников на три 
+ []
+
+)
+\tf@lol=\write8
+\openout8 = `main.lol'.
+
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 368.
+See the caption package documentation for explanation.
+
+[70
+
+
+] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 70A8D29741D2C697A901D57D9CAB9BBC;15730.
+ ) 
+Here is how much of TeX's memory you used:
+ 31911 strings out of 467991
+ 665220 string characters out of 5433157
+ 1874343 words of memory out of 5000000
+ 60242 multiletter control sequences out of 15000+600000
+ 636378 words of font info for 124 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 98i,10n,131p,713b,1366s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (73 pages).
