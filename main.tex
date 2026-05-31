@@ -1777,35 +1777,35 @@ w[n] для минимизации спектральных искажений �
 
 \subsection{Полное дообучение Open-Unmix}
 
-\begin{lstlisting}[caption={Класс смешивания аудиофайлов и формирования выборок}, label={lst:download_samples}, language=Python]
-class BaseSeparator:
-    def train(self, *a, **kw): raise NotImplementedError
-    def predict(self, x): raise NotImplementedError
+% \begin{lstlisting}[caption={Класс смешивания аудиофайлов и формирования выборок}, label={lst:download_samples}, language=Python]
+% class BaseSeparator:
+%     def train(self, *a, **kw): raise NotImplementedError
+%     def predict(self, x): raise NotImplementedError
 
-class OpenUnmixAdapter(BaseSeparator):
-    def __init__(self, target='guitar', aug=False):
-        self.target, self.aug = target, aug
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self.model = torch.hub.load('sigsep/open-unmix-pytorch','umxhq').target_models['vocals'].to(self.device)
-        self.model.train()
-        for p in self.model.parameters(): p.requires_grad=True
-    def train(self, tr_dl, vl_dl, ep=20, ckpt='/content/unmix_ckpt.pt'):
-        opt = optim.AdamW(self.model.parameters(), lr=1e-4, wd=1e-3)
-        sched = optim.lr_scheduler.CosineAnnealingLR(opt, ep, 1e-5)
-        loss_fn = nn.L1Loss()
-        for e in range(1, ep+1):
-            self.model.train()
-            for m,t,_ in tqdm(tr_dl, leave=False):
-                m,t = m.to(self.device), t.to(self.device)
-                opt.zero_grad(); loss = loss_fn(self.model(m), t)
-                loss.backward(); torch.nn.utils.clip_grad_norm_(self.model.parameters(),1.0); opt.step()
-            self.model.eval()
-            v = sum(loss_fn(self.model(m.to(self.device)), t.to(self.device)).item() for m,t,_ in vl_dl)/len(vl_dl)
-            print(f"Ep {e} | Val: {v:.4f}")
-            torch.save({'epoch':e, 'state':self.model.state_dict(), 'val':v}, ckpt)
-            sched.step()
-    def predict(self, x): return self.model(x)
-\end{lstlisting}
+% class OpenUnmixAdapter(BaseSeparator):
+%     def __init__(self, target='guitar', aug=False):
+%         self.target, self.aug = target, aug
+%         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+%         self.model = torch.hub.load('sigsep/open-unmix-pytorch','umxhq').target_models['vocals'].to(self.device)
+%         self.model.train()
+%         for p in self.model.parameters(): p.requires_grad=True
+%     def train(self, tr_dl, vl_dl, ep=20, ckpt='/content/unmix_ckpt.pt'):
+%         opt = optim.AdamW(self.model.parameters(), lr=1e-4, wd=1e-3)
+%         sched = optim.lr_scheduler.CosineAnnealingLR(opt, ep, 1e-5)
+%         loss_fn = nn.L1Loss()
+%         for e in range(1, ep+1):
+%             self.model.train()
+%             for m,t,_ in tqdm(tr_dl, leave=False):
+%                 m,t = m.to(self.device), t.to(self.device)
+%                 opt.zero_grad(); loss = loss_fn(self.model(m), t)
+%                 loss.backward(); torch.nn.utils.clip_grad_norm_(self.model.parameters(),1.0); opt.step()
+%             self.model.eval()
+%             v = sum(loss_fn(self.model(m.to(self.device)), t.to(self.device)).item() for m,t,_ in vl_dl)/len(vl_dl)
+%             print(f"Ep {e} | Val: {v:.4f}")
+%             torch.save({'epoch':e, 'state':self.model.state_dict(), 'val':v}, ckpt)
+%             sched.step()
+%     def predict(self, x): return self.model(x)
+% \end{lstlisting}
 
 
 
