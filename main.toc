@@ -22,24 +22,25 @@
 \contentsline {subsection}{\numberline {2.1}Общая схема взаимодействия компонент разрабатываемой системы}{37}{subsection.101}%
 \contentsline {subsection}{\numberline {2.2}Модуль сбора и подготовки данных}{40}{subsection.105}%
 \contentsline {subsubsection}{\numberline {2.2.1}Загрузка исходных аудиозаписей. Клиент взаимодействия с сервисом Freesound}{41}{subsubsection.106}%
-\contentsline {subsubsection}{\numberline {2.2.2}Генератор миксов из загруженных айдиофайлов и постобработка}{43}{subsubsection.108}%
-\contentsline {subsubsection}{\numberline {2.2.3}Состав и количество выборок}{44}{subsubsection.147}%
-\contentsline {subsubsection}{\numberline {2.2.4}Взимодействие с HuggingFace}{46}{subsubsection.161}%
-\contentsline {subsection}{\numberline {2.3}Выбор моделей для проведения дообучения и дальнейших экспериментов}{49}{subsection.207}%
-\contentsline {subsection}{\numberline {2.4}Адаптация Open-Unmix для полного дообучения}{49}{subsection.208}%
-\contentsline {subsection}{\numberline {2.5}Спектральное преобразование для подготовки данных для передачи в Open-Unmix}{49}{subsection.209}%
-\contentsline {subsection}{\numberline {2.6}Полное дообучение Open-Unmix}{50}{subsection.211}%
-\contentsline {subsubsection}{\numberline {2.6.1}Полное дообучение Open-Unmix с аугментацией спектрограмм}{51}{subsubsection.240}%
-\contentsline {subsection}{\numberline {2.7}Интеграция LoRA в архитектуру Demucs v4}{52}{subsection.255}%
-\contentsline {subsubsection}{\numberline {2.7.1}Контур дообучения}{52}{subsubsection.258}%
-\contentsline {subsubsection}{\numberline {2.7.2}Валидационный контур}{55}{subsubsection.259}%
-\contentsline {subsection}{\numberline {2.8}Реализация конвейера обучения, запуска и оценки}{56}{subsection.297}%
-\contentsline {subsection}{\numberline {2.9}Выводы}{58}{subsection.371}%
-\contentsline {section}{\numberline {3}Проведение вычислительных экспериментов}{59}{section.372}%
-\contentsline {subsection}{\numberline {3.1}Протокол проведения экспериментов}{59}{subsection.373}%
-\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{59}{subsection.374}%
-\contentsline {subsection}{\numberline {3.3}Анализ количественных результатов}{61}{subsection.375}%
-\contentsline {subsection}{\numberline {3.4}Инфраструктура и среда выполнения}{61}{subsection.376}%
-\contentsline {subsection}{\numberline {3.5}Выводы}{62}{subsection.378}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{64}{section.379}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{65}{section*.381}%
+\contentsline {subsubsection}{\numberline {2.2.2}Синтез аудиомиксов из загруженных айдиофайлов и постобработка}{44}{subsubsection.108}%
+\contentsline {subsubsection}{\numberline {2.2.3}Состав и количество выборок}{45}{subsubsection.119}%
+\contentsline {subsubsection}{\numberline {2.2.4}Интеграция с платформой Hugging Face}{47}{subsubsection.127}%
+\contentsline {subsection}{\numberline {2.3}Выбор моделей для проведения дообучения и дальнейших экспериментов}{49}{subsection.159}%
+\contentsline {subsection}{\numberline {2.4}Адаптация Open-Unmix для полного дообучения}{50}{subsection.160}%
+\contentsline {subsection}{\numberline {2.5}Спектральное преобразование для подготовки данных для передачи в Open-Unmix}{50}{subsection.161}%
+\contentsline {subsection}{\numberline {2.6}Полное дообучение Open-Unmix}{50}{subsection.163}%
+\contentsline {subsubsection}{\numberline {2.6.1}Полное дообучение Open-Unmix с аугментацией спектрограмм}{51}{subsubsection.192}%
+\contentsline {subsection}{\numberline {2.7}Интеграция LoRA в архитектуру Demucs v4}{52}{subsection.207}%
+\contentsline {subsubsection}{\numberline {2.7.1}Контур дообучения}{53}{subsubsection.210}%
+\contentsline {subsubsection}{\numberline {2.7.2}Валидационный контур}{55}{subsubsection.211}%
+\contentsline {subsection}{\numberline {2.8}Реализация конвейера обучения, запуска и оценки}{57}{subsection.249}%
+\contentsline {subsection}{\numberline {2.9}Выводы}{59}{subsection.323}%
+\contentsline {section}{\numberline {3}Проведение вычислительных экспериментов}{60}{section.324}%
+\contentsline {subsection}{\numberline {3.1}Протокол проведения экспериментов}{60}{subsection.325}%
+\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{60}{subsection.326}%
+\contentsline {subsection}{\numberline {3.3}Анализ количественных результатов}{62}{subsection.327}%
+\contentsline {subsection}{\numberline {3.4}Инфраструктура и среда выполнения}{62}{subsection.328}%
+\contentsline {subsection}{\numberline {3.5}Выводы}{63}{subsection.330}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{65}{section.331}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{66}{section*.333}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А}{71}{appendix.335}%
