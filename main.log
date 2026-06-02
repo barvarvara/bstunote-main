@@ -1062,4 +1062,805 @@ Overfull \hbox (0.82256pt too wide) in paragraph at lines 458--461
 [8]
 Вёрстка раздела "АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ"
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 
+Underfull \hbox (badness 10000) in paragraph at lines 473--473
+[]\TU/TimesNewRoman(0)/b/n/15 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ
+ []
+
+File: figures/задача извлечения источников.png Graphic file (type bmp)
+<figures/задача извлечения источников.png>
+
+Overfull \hbox (13.32175pt too wide) in paragraph at lines 503--506
+[]\TU/TimesNewRoman(0)/m/n/14.4 Притом, такая задача подразумевает получение из одного аудиотрека (аудио-
+ []
+
+[10
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+[]\TU/TimesNewRoman(0)/b/n/14.5 Вклад кампании SiSEC MUS 2018 в задачу разделения
+ []
+
+
+Overfull \hbox (18.40106pt too wide) in paragraph at lines 536--540
+\TU/TimesNewRoman(0)/m/n/14.4 кампанию по оценке разделения сигналов 2018 года (SiSEC 2018 – Signal Separation
+ []
+
+
+Overfull \hbox (16.00589pt too wide) in paragraph at lines 536--540
+\TU/TimesNewRoman(0)/m/n/14.4 лярных музыкальных аудиопотоков, аудиомиксов). Такие источники-инструменты
+ []
+
+[11]
+Overfull \hbox (39.05957pt too wide) in paragraph at lines 548--556
+[]\TU/TimesNewRoman(0)/m/n/14.4 В рамках кампании SiSEC Mus 2018 был выпущен набор данных MUSDB18 [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--557
+[]\TU/TimesNewRoman(0)/b/n/14.5 Способы представления звукового сигнала для задачи
+ []
+
+LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 576.
+[12]
+Overfull \hbox (0.30687pt too wide) in paragraph at lines 609--611
+[]\TU/TimesNewRoman(0)/m/n/14.4 С точки зрения физики, КВПФ отображает сигнал в трёхмерное простран-
+ []
+
+[13]
+File: figures/spectrogram.png Graphic file (type bmp)
+<figures/spectrogram.png>
+ [14]
+File: figures/open unmix.png Graphic file (type bmp)
+<figures/open unmix.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15]
+Overfull \hbox (13.02815pt too wide) in paragraph at lines 712--716
+\TU/TimesNewRoman(0)/m/n/14.4 чаемых аффинных параметров. Он выполняет нормализацию входных спек-
+ []
+
+
+Overfull \hbox (23.78581pt too wide) in paragraph at lines 717--723
+\TU/TimesNewRoman(0)/m/n/14.4 знаков – то есть выполняет проекцию высокоразмерного частотно-канального
+ []
+
+[16]
+Overfull \hbox (8.02171pt too wide) in paragraph at lines 726--729
+[]\TU/TimesNewRoman(0)/b/n/14.4 Первый слой пакетной нормализации (bn1, Batch Normalization
+ []
+
+
+Overfull \hbox (1.24944pt too wide) in paragraph at lines 729--732
+[]\TU/TimesNewRoman(0)/b/n/14.4 Функция гиперболического тангенса (tanh) \TU/TimesNewRoman(0)/m/n/14.4 – нелинейная функ-
+ []
+
+
+Overfull \hbox (11.48346pt too wide) in paragraph at lines 738--743
+\TU/TimesNewRoman(0)/b/n/14.4 правленной долговременной краткосрочной памяти (Bidirectional Long
+ []
+
+
+Overfull \hbox (2.8339pt too wide) in paragraph at lines 744--748
+\TU/TimesNewRoman(0)/m/n/14.4 мерности (мелодические фрагменты, гармонические последовательности,
+ []
+
+[17]
+Overfull \hbox (12.64464pt too wide) in paragraph at lines 762--763
+[]$\OMS/cmsy/m/n/14.4 k$ \TU/TimesNewRoman(0)/m/n/14.4 – операция конкатенации, увеличивающая размерность до $\OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 H$ \TU/TimesNewRoman(0)/m/n/14.4 (1024). 
+ []
+
+[18]
+Overfull \hbox (35.19048pt too wide) in paragraph at lines 799--806
+[]\TU/TimesNewRoman(0)/b/n/14.4 Мультипликативное остаточное соединение (маскирование) (Multiplicative
+ []
+
+[19] [20]
+Overfull \hbox (1.37022pt too wide) in paragraph at lines 862--866
+\TU/TimesNewRoman(0)/m/n/14.4 ограничения модели связаны с вычислительной сложностью рекуррентных бло-
+ []
+
+[21] [22] [23]
+File: figures/demucs схема.png Graphic file (type bmp)
+<figures/demucs схема.png>
+ [24]
+Overfull \hbox (5.23157pt too wide) in paragraph at lines 988--991
+\TU/TimesNewRoman(0)/m/n/14.4 лучших результатов на эталонных наборах данных (например, MUSDB18),
+ []
+
+
+Overfull \hbox (9.87099pt too wide) in paragraph at lines 991--994
+\TU/TimesNewRoman(0)/m/n/14.4 мания позволяет учитывать структуру музыкального произведения на боль-
+ []
+
+[25] [26]
+Overfull \hbox (3.41115pt too wide) in paragraph at lines 1055--1058
+[]\TU/TimesNewRoman(0)/m/n/14.4 Основное преимущество данного подхода — максимальная гибкость адап-
+ []
+
+
+Overfull \hbox (0.21959pt too wide) in paragraph at lines 1055--1058
+\TU/TimesNewRoman(0)/m/n/14.4 пазона и перекрытию гармоник между инструментами. Также к преимуществам
+ []
+
+
+LaTeX Warning: Citation `lora' on page 27 undefined on input line 1066.
+
+[27]
+Underfull \hbox (badness 4792) in paragraph at lines 1074--1074
+[]\TU/TimesNewRoman(0)/b/n/14.4 Методы «параметрического» дообучения (адаптация части
+ []
+
+
+Overfull \hbox (1.14172pt too wide) in paragraph at lines 1098--1101
+\TU/TimesNewRoman(0)/m/n/14.4 начально обучалась базовая часть модели, качество разделения может ока-
+ []
+
+[28]
+Overfull \hbox (2.7703pt too wide) in paragraph at lines 1109--1113
+[]\TU/TimesNewRoman(0)/m/n/14.4 Метод LoRA (англ. Low Rank Adaptaion – дословно переводится как «адап-
+ []
+
+
+Overfull \hbox (13.39207pt too wide) in paragraph at lines 1119--1126
+\TU/TimesNewRoman(0)/m/n/14.4 ренняя размерность (ранг) матрицы весов $\OT1/cmr/m/n/14.4 ^^A\OML/cmm/m/it/14.4 W \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 W[] \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/m/it/14.4 W[]$ \TU/TimesNewRoman(0)/m/n/14.4 (где $\OML/cmm/m/it/14.4 W[]$
+ []
+
+File: figures/lora.png Graphic file (type bmp)
+<figures/lora.png>
+[29] [30]
+Overfull \hbox (5.18886pt too wide) in paragraph at lines 1169--1170
+[]\TU/TimesNewRoman(0)/m/n/14.4 Среди преимуществ метода разработчики LoRA приводят следующие [[]]: 
+ []
+
+[31]
+Overfull \hbox (14.5761pt too wide) in paragraph at lines 1211--1217
+\TU/TimesNewRoman(0)/m/n/14.4 соответствующих методов применяются метрики, основанные на сравнении пред-
+ []
+
+[32] [33]
+Overfull \hbox (6.89977pt too wide) in paragraph at lines 1277--1278
+[]\TU/TimesNewRoman(0)/b/n/14.4 Signal-to-Interference Ratio (SIR) — Отношение сигнал/интерференция 
+ []
+
+
+Overfull \hbox (0.73862pt too wide) in paragraph at lines 1303--1308
+\TU/TimesNewRoman(0)/m/n/14.4 важно естественное звучание (например, реставрация или улучшение качества),
+ []
+
+
+Overfull \hbox (9.25356pt too wide) in paragraph at lines 1303--1308
+\TU/TimesNewRoman(0)/m/n/14.4 SAR является критически важным показателем. В методах, преобразующих вход-
+ []
+
+[34]
+Underfull \hbox (badness 6477) in paragraph at lines 1331--1331
+[]\TU/TimesNewRoman(0)/b/n/14.4 Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное
+ []
+
+[35]
+Overfull \hbox (5.4999pt too wide) in paragraph at lines 1369--1373
+\TU/TimesNewRoman(0)/m/n/14.4 смотренных архитектур наиболее перспективными представляются Open-Unmix
+ []
+
+Вёрстка раздела "Реализация и проектирование архитектуры программного обеспечения"
+[36]
+Underfull \hbox (badness 8056) in paragraph at lines 1382--1382
+[]\TU/TimesNewRoman(0)/b/n/15 Реализация и проектирование архитектуры программного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1402
+[]\TU/TimesNewRoman(0)/b/n/14.5 Общая схема взаимодействия компонент разрабатываемой
+ []
+
+[37
+
+]
+File: figures/диаграмма классов сокр.png Graphic file (type bmp)
+<figures/диаграмма классов сокр.png>
+
+Overfull \hbox (50.87373pt too wide) in paragraph at lines 1424--1434
+\TU/TimesNewRoman(0)/m/n/14.4 экспериментальной части системы (классы \TU/PTMono(0)/m/n/14.4 HF_MSSDataset\TU/TimesNewRoman(0)/m/n/14.4 , \TU/PTMono(0)/m/n/14.4 DemucsWaveformDataset
+ []
+
+
+Overfull \hbox (0.47011pt too wide) in paragraph at lines 1424--1434
+\TU/TimesNewRoman(0)/m/n/14.4 зоров магнитуды/фазы, тогда как \TU/PTMono(0)/m/n/14.4 DemucsWaveformDataset \TU/TimesNewRoman(0)/m/n/14.4 подготавливает сы-
+ []
+
+[38]
+Overfull \hbox (36.25336pt too wide) in paragraph at lines 1435--1443
+\TU/PTMono(0)/m/n/14.4 OpenUnmixAdapter\TU/TimesNewRoman(0)/m/n/14.4 , \TU/PTMono(0)/m/n/14.4 DemucsAdapter\TU/TimesNewRoman(0)/m/n/14.4 , \TU/PTMono(0)/m/n/14.4 BaselineRunner\TU/TimesNewRoman(0)/m/n/14.4 ). Класс \TU/PTMono(0)/m/n/14.4 OpenUnmixAdapter
+ []
+
+
+Overfull \hbox (31.10152pt too wide) in paragraph at lines 1435--1443
+\TU/TimesNewRoman(0)/m/n/14.4 ности (FP16) и подвыборки данных для ускорения обучения. Класс \TU/PTMono(0)/m/n/14.4 BaselineRunner
+ []
+
+File: figures/диаграмма классов (датасет+модели).png Graphic file (type bmp)
+<figures/диаграмма классов (датасет+модели).png>
+File: figures/диаграмма классов (модели + оценка).png Graphic file (type bmp)
+<figures/диаграмма классов (модели + оценка).png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (42.13463pt too wide) in paragraph at lines 1459--1467
+\TU/TimesNewRoman(0)/m/n/14.4 восстановления аудиосигнала из спектрального представления (класс \TU/PTMono(0)/m/n/14.4 ISTFTDecoder\TU/TimesNewRoman(0)/m/n/14.4 ),
+ []
+
+
+Overfull \hbox (33.88936pt too wide) in paragraph at lines 1459--1467
+\TU/TimesNewRoman(0)/m/n/14.4 восстановления временного сигнала из магнитуды и фазы. Класс \TU/PTMono(0)/m/n/14.4 UnifiedEvaluator
+ []
+
+[39]
+Overfull \hbox (11.77019pt too wide) in paragraph at lines 1475--1481
+[]\TU/TimesNewRoman(0)/m/n/14.4 Готовые эталонные наборы данных, такие как MUSDB18 [[]] или Slakh2100
+ []
+
+[40]
+Overfull \hbox (3.46669pt too wide) in paragraph at lines 1485--1490
+\TU/TimesNewRoman(0)/m/n/14.4 граммы (STFT) для спектральной модели Open-Unmix и поддержание временно-
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 1493--1493
+[]\TU/TimesNewRoman(0)/b/n/14.4 Загрузка исходных аудиозаписей. Клиент взаимодействия с
+ []
+
+[41]
+File: figures/dataset/dataset.png Graphic file (type bmp)
+<figures/dataset/dataset.png>
+
+Overfull \hbox (9.31972pt too wide) in paragraph at lines 1518--1520
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для авторизации запросов использовался механизм токен-аутентификации:
+ []
+
+[42]
+Underfull \hbox (badness 2635) in paragraph at lines 1545--1546
+\TU/TimesNewRoman(0)/m/n/14.4 навливает границы длитель-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 1547--1548
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Минимизация объёма ответа
+ []
+
+
+Overfull \hbox (0.88644pt too wide) in paragraph at lines 1557--1560
+\TU/TimesNewRoman(0)/m/n/14.4 файла: сохранялись только файлы с расширениями .wav, .mp3 или .ogg, а осталь-
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 1564--1564
+[]\TU/TimesNewRoman(0)/b/n/14.4 Синтез аудиомиксов из загруженных айдиофайлов и
+ []
+
+
+Overfull \hbox (10.3796pt too wide) in paragraph at lines 1574--1575
+[]\TU/TimesNewRoman(0)/m/n/14.4 balanced — равнозначное усиление гитары и пианино (коэффициенты гром-
+ []
+
+
+Overfull \hbox (4.4171pt too wide) in paragraph at lines 1578--1581
+\TU/TimesNewRoman(0)/m/n/14.4 Такой подход позволил модели обучаться на разнообразных соотношениях гром-
+ []
+
+[44]
+Overfull \hbox (122.6759pt too wide) in paragraph at lines 1614--1617
+[]\TU/TimesNewRoman(0)/m/n/14.4 Выходные файлы получают структурированные имена вида \TU/PTMono(0)/m/n/14.4 mix_XXXX_scenario_role.wav\TU/TimesNewRoman(0)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (8.44252pt too wide) in paragraph at lines 1621--1623
+\TU/TimesNewRoman(0)/m/n/14.4 вочную (train), валидационную (validation) и тестовую (test) в пропорции 70/15/15
+ []
+
+File: figures/состав выборок.png Graphic file (type bmp)
+<figures/состав выборок.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1648.
+LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 1648.
+LaTeX Font Info:    Font shape `TU/PTMono(0)/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 1649.
+ [46]
+Overfull \hbox (24.81473pt too wide) in paragraph at lines 1679--1685
+\TU/TimesNewRoman(0)/m/n/14.4 мирования набора данных в специальные формат реализован класс HF_MSSDataset. 
+ []
+
+
+Overfull \hbox (46.70842pt too wide) in paragraph at lines 1689--1696
+\TU/TimesNewRoman(0)/m/n/14.4 разметку по выборкам. Этот словарь передаётся в объект класса \TU/PTMono(0)/m/n/14.4 HuggingFaceManager\TU/TimesNewRoman(0)/m/n/14.4 ,
+ []
+
+[47]
+Overfull \hbox (9.61035pt too wide) in paragraph at lines 1697--1700
+[]\TU/TimesNewRoman(0)/m/n/14.4 Публикация сформированного датасета в облачный репозиторий осуществ-
+ []
+
+
+Overfull \hbox (0.62967pt too wide) in paragraph at lines 1705--1707
+\TU/TimesNewRoman(0)/m/n/14.4 занный репозиторий, сохраняя метаданные (пути к файлам, сценарии сме-
+ []
+
+
+Overfull \hbox (40.85939pt too wide) in paragraph at lines 1717--1719
+\TU/TimesNewRoman(0)/m/n/14.4 зован класс \TU/PTMono(0)/m/n/14.4 HF_MSSDataset\TU/TimesNewRoman(0)/m/n/14.4 , наследующий интерфейс \TU/PTMono(0)/m/n/14.4 torch.utils.data.Dataset\TU/TimesNewRoman(0)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (20.10738pt too wide) in paragraph at lines 1720--1724
+\TU/TimesNewRoman(0)/m/n/14.4 формы [1, T]). При этом автоматически аудиофайлы декодируются из Parquet-
+ []
+
+[48]
+Overfull \hbox (12.47214pt too wide) in paragraph at lines 1724--1729
+\TU/TimesNewRoman(0)/m/n/14.4 ную и фазовую компоненты, которые объединяются в тензор формы $\OT1/cmr/m/n/14.4 [2\OML/cmm/m/it/14.4 ; F; T\OT1/cmr/m/n/14.4 ]$
+ []
+
+
+Overfull \hbox (22.86708pt too wide) in paragraph at lines 1733--1736
+\TU/TimesNewRoman(0)/m/n/14.4 грузки результатов исследования в репозиторий сервиса HuggingFace типа «model». 
+ []
+
+
+Overfull \hbox (39.30847pt too wide) in paragraph at lines 1741--1742
+[]\TU/TimesNewRoman(0)/m/n/14.4 При наличии файла с результатами оценки в локальном хранилище (metrics.json)
+ []
+
+
+Overfull \hbox (3.97878pt too wide) in paragraph at lines 1742--1743
+[]\TU/TimesNewRoman(0)/m/n/14.4 Модуль автоматически формирует файл README.md в стандарте Hugging
+ []
+
+[49]
+File: figures/конвейер обучения open unmix.png Graphic file (type bmp)
+<figures/конвейер обучения open unmix.png>
+
+Overfull \hbox (19.49838pt too wide) in paragraph at lines 1774--1779
+\TU/PTMono(0)/m/n/14.4 umxhq \TU/TimesNewRoman(0)/m/n/14.4 из репозитория \TU/PTMono(0)/m/n/14.4 sigsep/open-unmix-pytorch \TU/TimesNewRoman(0)/m/n/14.4 через механизм \TU/PTMono(0)/m/n/14.4 torch.hub\TU/TimesNewRoman(0)/m/n/14.4 .
+ []
+
+[50]
+Overfull \hbox (75.13295pt too wide) in paragraph at lines 1801--1804
+[]\TU/TimesNewRoman(0)/m/n/14.4 При завершении каждой эпохи модель переводится в режим оценки \TU/PTMono(0)/m/n/14.4 (model.eval())\TU/TimesNewRoman(0)/m/n/14.4 ,
+ []
+
+[51]
+Overfull \hbox (2.22592pt too wide) in paragraph at lines 1815--1816
+[]\TU/TimesNewRoman(0)/m/it/14.4 Расчёт потерь: \TU/TimesNewRoman(0)/m/n/14.4 вычисляется $\OML/cmm/m/it/14.4 L[]$\TU/TimesNewRoman(0)/m/n/14.4 -ошибка между предсказанием и эта-
+ []
+
+
+Overfull \hbox (16.06082pt too wide) in paragraph at lines 1820--1821
+[]\TU/TimesNewRoman(0)/m/n/14.4 вычисляется среднее арифметическое всех пакетных потерь: $[] \OT1/cmr/m/n/14.4 =
+ []
+
+[52]
+Overfull \hbox (7.94684pt too wide) in paragraph at lines 1844--1845
+[]\TU/TimesNewRoman(0)/m/n/14.4 Модифицированная магнитуда возвращается в исходную форму $\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 F; T\OT1/cmr/m/n/14.4 ]$
+ []
+
+
+LaTeX Font Warning: Font shape `TU/PTMono(0)/m/it' undefined
+(Font)              using `TU/PTMono(0)/m/n' instead on input line 1851.
+
+LaTeX Font Info:    Font shape `TU/PTMono(0)/m/it' will be
+(Font)              scaled to size 8.99994pt on input line 1851.
+
+Overfull \hbox (72.23235pt too wide) in paragraph at lines 1880--1881
+[]\TU/TimesNewRoman(0)/m/n/14.4 Конфигурация с регуляризацией: дообучение с активированным SpecAugmentDataset. 
+ []
+
+
+Overfull \hbox (10.72386pt too wide) in paragraph at lines 1916--1919
+[]\TU/TimesNewRoman(0)/m/n/14.4 Дообучение модели \TU/PTMono(0)/m/n/14.4 htdemucs v4 \TU/TimesNewRoman(0)/m/n/14.4 выполнено с применением метода низко-
+ []
+
+[53]
+Overfull \hbox (16.6453pt too wide) in paragraph at lines 1922--1926
+[]\TU/TimesNewRoman(0)/m/n/14.4 Вся логика адаптации модели Demucs реализована в классе \TU/PTMono(0)/m/n/14.4 DemucsAdapter\TU/TimesNewRoman(0)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (6.97261pt too wide) in paragraph at lines 1927--1932
+[]\TU/TimesNewRoman(0)/m/n/14.4 На этапе инициализации \TU/PTMono(0)/m/n/14.4 DemucsAdapter \TU/TimesNewRoman(0)/m/n/14.4 сканирует вычислительный граф
+ []
+
+
+Overfull \hbox (23.78818pt too wide) in paragraph at lines 1927--1932
+\TU/TimesNewRoman(0)/m/n/14.4 Именно эти слои признаны наиболее подходящими для применения низко-ранговой
+ []
+
+
+Overfull \hbox (3.66354pt too wide) in paragraph at lines 1939--1940
+[]\TU/PTMono(0)/m/n/14.4 lora_dropout=0.05 \TU/TimesNewRoman(0)/m/n/14.4 — вероятность отсева для предотвращения совмест-
+ []
+
+[54]
+Overfull \hbox (16.5643pt too wide) in paragraph at lines 1948--1949
+[]\TU/TimesNewRoman(0)/m/n/14.4 На рисунке [][]2.7[][] приведена схема архитектурных изменений в модели Demucs,
+ []
+
+File: figures/demucs доработка архитектуры.png Graphic file (type bmp)
+<figures/demucs доработка архитектуры.png>
+File: figures/конвейер обучения demucs.png Graphic file (type bmp)
+<figures/конвейер обучения demucs.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (31.40959pt too wide) in paragraph at lines 1974--1978
+[]\TU/TimesNewRoman(0)/m/n/14.4 Контур дообучения модели Demucs v4 координируется классом DemucsAdapter
+ []
+
+[55]
+Overfull \hbox (2.52571pt too wide) in paragraph at lines 1985--1991
+\TU/TimesNewRoman(0)/m/n/14.4 ное отклонение) и обновление параметров оптимизатором AdamW. Прямой про-
+ []
+
+[56]
+Overfull \hbox (1.89758pt too wide) in paragraph at lines 2006--2011
+\TU/TimesNewRoman(0)/m/n/14.4 гружается через отдельный загрузчик данных и подается на вход модели Demucs
+ []
+
+
+Overfull \hbox (29.62427pt too wide) in paragraph at lines 2012--2019
+\TU/TimesNewRoman(0)/m/n/14.4 сию”модели. При этом сохраняется только компактный набор весов LoRA-адаптеров
+ []
+
+
+Overfull \hbox (4.21523pt too wide) in paragraph at lines 2012--2019
+\TU/TimesNewRoman(0)/m/n/14.4 в формате библиотеки PEFT – Safetensors (файл \TU/PTMono(0)/m/n/14.4 adapter_model.safetensors\TU/TimesNewRoman(0)/m/n/14.4 )
+ []
+
+[57]
+Overfull \hbox (3.63673pt too wide) in paragraph at lines 2036--2039
+[]\TU/TimesNewRoman(0)/b/n/14.4 Open-Unmix (полное дообучение). \TU/TimesNewRoman(0)/m/n/14.4 Загружается предобученная контроль-
+ []
+
+
+Overfull \hbox (52.40277pt too wide) in paragraph at lines 2042--2045
+\TU/TimesNewRoman(0)/m/n/14.4 из библиотеки Demucs, после чего через механизм \TU/PTMono(0)/m/n/14.4 PeftModel.from_pretrained
+ []
+
+
+Overfull \hbox (1.95515pt too wide) in paragraph at lines 2045--2048
+[]\TU/TimesNewRoman(0)/b/n/14.4 htdemucs_6s (базовое решение без дообучения, эталон). \TU/TimesNewRoman(0)/m/n/14.4 Версия Demucs,
+ []
+
+
+Overfull \hbox (3.6812pt too wide) in paragraph at lines 2054--2056
+\TU/TimesNewRoman(0)/m/n/14.4 вом), модуль оценки использует два специализированных адаптера данных, каж-
+ []
+
+[58]
+Overfull \hbox (0.76915pt too wide) in paragraph at lines 2058--2062
+[]\TU/TimesNewRoman(0)/m/n/14.4 Спектральный адаптер (\TU/PTMono(0)/m/n/14.4 HF_MSSDataset\TU/TimesNewRoman(0)/m/n/14.4 ) применяется для моделей Open-
+ []
+
+
+Overfull \hbox (2.73433pt too wide) in paragraph at lines 2062--2064
+[]\TU/TimesNewRoman(0)/m/n/14.4 Волновой адаптер (\TU/PTMono(0)/m/n/14.4 AudioWrapperDataset\TU/TimesNewRoman(0)/m/n/14.4 ) используется для Demucs. Он
+ []
+
+[59]
+Overfull \hbox (5.35298pt too wide) in paragraph at lines 2089--2093
+[]\TU/TimesNewRoman(0)/m/n/14.4 Значения SIR, стремящиеся к бесконечности (идеальное разделение), огра-
+ []
+
+Вёрстка раздела "Проведение вычислительных экспериментов"
+[60] [61
+
+]
+Overfull \hbox (4.7014pt too wide) in paragraph at lines 2199--2205
+[]\TU/TimesNewRoman(0)/m/n/14.4 Расчёт показал, что при ожидаемом стандартном отклонении метрики SDR
+ []
+
+[62]
+Overfull \hbox (39.76173pt too wide) in paragraph at lines 2220--2224
+[]\TU/TimesNewRoman(0)/m/n/14.4 В ходе предварительного эксперимента с предобученной моделью \TU/PTMono(0)/m/n/14.4 htdemucs_6s
+ []
+
+
+Overfull \hbox (1.00583pt too wide) in paragraph at lines 2236--2242
+\TU/TimesNewRoman(0)/m/n/14.4 целевой адаптации (task-specific fine-tuning): вместо использования универсаль-
+ []
+
+
+Overfull \hbox (2.72034pt too wide) in paragraph at lines 2236--2242
+\TU/TimesNewRoman(0)/m/n/14.4 струментов. Такой подход позволяет модели выучить специфические спектраль-
+ []
+
+
+Overfull \hbox (12.82597pt too wide) in paragraph at lines 2247--2250
+[]\TU/TimesNewRoman(0)/m/n/14.4 Экспериментальный пайплайн развёрнут в виртуальной среде Google Colab,
+ []
+
+[63]
+Overfull \hbox (3.68533pt too wide) in paragraph at lines 2262--2264
+[]\TU/TimesNewRoman(0)/m/n/14.4 Диаграмма развёртывания инфраструктуры экспериментального пайплай-
+ []
+
+File: figures/deployment/deployment.png Graphic file (type bmp)
+<figures/deployment/deployment.png>
+
+Overfull \hbox (15.71043pt too wide) in paragraph at lines 2275--2278
+\TU/TimesNewRoman(0)/m/n/14.4 обученные модели демонстрируют прирост по метрике SDR в диапазоне +2.5…4.0
+ []
+
+
+Overfull \hbox (9.9202pt too wide) in paragraph at lines 2275--2278
+\TU/TimesNewRoman(0)/m/n/14.4 тральной аугментации (SpecAugment) в пайплайне дообучения Open-Unmix обес-
+ []
+
+[64]
+Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
+[65] [66
+
+]
+Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
+
+Underfull \hbox (badness 10000) in paragraph at lines 2371--2372
+[]\TU/TimesNewRoman(0)/m/n/14.4 Vincent E., Gribonval R., Févotte C. Performance measurement in
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 2371--2372
+\TU/TimesNewRoman(0)/m/n/14.4 blind audio source separation // IEEE Transactions on Audio, Speech,
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 2371--2372
+\TU/TimesNewRoman(0)/m/n/14.4 and Language Processing. 2006. Vol. 14, No. 4. P. 1462–1469. DOI:
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 2389--2390
+[]\TU/TimesNewRoman(0)/m/n/14.4 Manilow E., Seetharaman P., Salamon J. Open Source Tools & Data for
+ []
+
+[67
+
+]
+Underfull \hbox (badness 1430) in paragraph at lines 2395--2397
+\TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation // 2019 IEEE Workshop on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2405--2406
+[]\TU/TimesNewRoman(0)/m/n/14.4 Z. Rafii, A. Liutkus, F.-R. Stöter, S. I. Mimilakis, и R. Bittner,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2405--2406
+\TU/TimesNewRoman(0)/m/n/14.4 «The MUSDB18 corpus for music separation». [Онлайн]. URL:
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 2426--2427
+[]\TU/TimesNewRoman(0)/m/it/14.4 H. Huang и др.\TU/TimesNewRoman(0)/m/n/14.4 , «UNet 3+: A Full-Scale Connected UNet for Medical
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 2426--2427
+\TU/TimesNewRoman(0)/m/n/14.4 Image Segmentation», ICASSP, IEEE Int. Conf. Acoust. Speech Signal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2426--2427
+\TU/TimesNewRoman(0)/m/n/14.4 Process. - Proc., т. 2020-May, вып. ii, сс. 1055–1059, 2020, doi:
+ []
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 2429--2430
+\TU/TimesNewRoman(0)/m/n/14.4 IEEE Signal Process. Mag., т. 30, вып. 6, сс. 97–107, 2013, doi:
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 2432--2433
+[]\TU/TimesNewRoman(0)/m/it/14.4 N. I. Bernardo \TU/TimesNewRoman(0)/m/n/14.4 «Short-time Fourier Transform-based Signal Recovery for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2435--2436
+[]\TU/TimesNewRoman(0)/m/it/14.4 Uhlich S. et al. \TU/TimesNewRoman(0)/m/n/14.4 Open-Unmix: A Deep Neural Network Reference
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 2435--2436
+\TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation – GitHub. 2019. – URL:
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 2440--2441
+[]\TU/TimesNewRoman(0)/m/it/14.4 Schuster M., Paliwal K. \TU/TimesNewRoman(0)/m/n/14.4 Bidirectional recurrent neural networks // IEEE
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 2452--2453
+[]\TU/TimesNewRoman(0)/m/n/14.4 Y. Zhang, D. Zhang, T. Wang, D. Rakhimova, K. Wang and H. Huang,
+ []
+
+[69]
+Underfull \hbox (badness 2970) in paragraph at lines 2461--2462
+\TU/TimesNewRoman(0)/m/n/14.4 for Improved Blind Violin/Piano Source Separation // 2020 IEEE 22nd
+ []
+
+[70] [71]
+Вёрстка раздела "ПРИЛОЖЕНИЕ\ А"
+
+Underfull \hbox (badness 10000) in paragraph at lines 2525--2525
+[]|\TU/TimesNewRoman(0)/b/n/12 Наименование репозито-
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 2526--2526
+[]|\TU/TimesNewRoman(0)/m/n/12 Программный код си-
+ []
+
+LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 2526.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+[]|\TU/PTMono(0)/m/n/12 Дообучение Open-Unmix
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+[]|[][]$[][][][][] [] [] [] [][][][][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+[][][][][][] [] [][][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (3.92845pt too wide) in paragraph at lines 2527--2527
+[]|\TU/PTMono(0)/m/n/12 guitar-piano-mixes-lora| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+[][][][][][][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2528--2528
+[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2529--2529
+[]|\TU/TimesNewRoman(0)/m/n/12 Модель Open-Unmix
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2529--2529
+[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2529--2529
+[][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+[]|\TU/TimesNewRoman(0)/m/n/12 Модель Open-Unmix
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+\TU/TimesNewRoman(0)/m/n/12 спектральным маски-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+[][] [] [][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (13.41364pt too wide) in paragraph at lines 2523--2532
+ [][] 
+ []
+
+\c@lastPageNumber=\count372
+[72
+
+
+
+]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lof
+Overfull \hbox (5.67682pt too wide) in paragraph at lines 2--2
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Упрощенный процесс разделения источников из аудиозаписи. Ав- 
+ []
+
+
+Overfull \hbox (5.35805pt too wide) in paragraph at lines 3--3
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 График спектрограммы музыкальной композиции. Авторский ма- 
+ []
+
+)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [1
+
+
+]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [2
+
+
+]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lol)
+\tf@lol=\write8
+\openout8 = `main.lol'.
+
+ [72
+
+
+] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 60502AEEF61458188309F7965254D6BE;16532.
+ ) 
+Here is how much of TeX's memory you used:
+ 31888 strings out of 467991
+ 665472 string characters out of 5433157
+ 1306914 words of memory out of 5000000
+ 60211 multiletter control sequences out of 15000+600000
+ 636394 words of font info for 126 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 98i,12n,131p,713b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (76 pages).
