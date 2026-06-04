@@ -12,4 +12,4 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Схема взаимодействия модулей в контурах дообучения и валидации для модели Open-Unmix. Авторский материал}}{50}{figure.caption.138}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs. Авторский материал}}{55}{figure.caption.166}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Контуры дообучения модели Demucs. Авторский материал}}{56}{figure.caption.167}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального пайплайна дообучения модели разделения источников. Авторский материал}}{64}{figure.caption.183}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального конвейера дообучения модели разделения источников. Авторский материал}}{62}{figure.caption.180}%

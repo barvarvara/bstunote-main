@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  3 JUN 2026 01:23
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  5 JUN 2026 00:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1556,244 +1556,247 @@ Overfull \hbox (2.73433pt too wide) in paragraph at lines 2062--2064
  []
 
 [59]
-Overfull \hbox (5.35298pt too wide) in paragraph at lines 2089--2093
-[]\TU/TimesNewRoman(0)/m/n/14.4 Значения SIR, стремящиеся к бесконечности (идеальное разделение), огра-
- []
-
 Вёрстка раздела "Проведение вычислительных экспериментов"
-[60] [61
-
-]
-Overfull \hbox (4.7014pt too wide) in paragraph at lines 2199--2205
-[]\TU/TimesNewRoman(0)/m/n/14.4 Расчёт показал, что при ожидаемом стандартном отклонении метрики SDR
- []
-
-[62]
-Overfull \hbox (39.76173pt too wide) in paragraph at lines 2220--2224
-[]\TU/TimesNewRoman(0)/m/n/14.4 В ходе предварительного эксперимента с предобученной моделью \TU/PTMono(0)/m/n/14.4 htdemucs_6s
- []
-
-
-Overfull \hbox (1.00583pt too wide) in paragraph at lines 2236--2242
-\TU/TimesNewRoman(0)/m/n/14.4 целевой адаптации (task-specific fine-tuning): вместо использования универсаль-
- []
-
-
-Overfull \hbox (2.72034pt too wide) in paragraph at lines 2236--2242
-\TU/TimesNewRoman(0)/m/n/14.4 струментов. Такой подход позволяет модели выучить специфические спектраль-
- []
-
-
-Overfull \hbox (12.82597pt too wide) in paragraph at lines 2247--2250
-[]\TU/TimesNewRoman(0)/m/n/14.4 Экспериментальный пайплайн развёрнут в виртуальной среде Google Colab,
- []
-
-[63]
-Overfull \hbox (3.68533pt too wide) in paragraph at lines 2262--2264
-[]\TU/TimesNewRoman(0)/m/n/14.4 Диаграмма развёртывания инфраструктуры экспериментального пайплай-
- []
-
+[60]
 File: figures/deployment/deployment.png Graphic file (type bmp)
 <figures/deployment/deployment.png>
 
-Overfull \hbox (15.71043pt too wide) in paragraph at lines 2275--2278
-\TU/TimesNewRoman(0)/m/n/14.4 обученные модели демонстрируют прирост по метрике SDR в диапазоне +2.5…4.0
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[61
+
+] [62] [63]
+Overfull \hbox (10.18933pt too wide) in paragraph at lines 2231--2238
+[]\TU/TimesNewRoman(0)/m/n/14.4 Субъективная оценка, проведённая путём прослушивания результатов, пол-
  []
 
 
-Overfull \hbox (9.9202pt too wide) in paragraph at lines 2275--2278
-\TU/TimesNewRoman(0)/m/n/14.4 тральной аугментации (SpecAugment) в пайплайне дообучения Open-Unmix обес-
+Overfull \hbox (4.7014pt too wide) in paragraph at lines 2241--2246
+[]\TU/TimesNewRoman(0)/m/n/14.4 Расчёт показал, что при ожидаемом стандартном отклонении метрики SDR
  []
 
 [64]
+Overfull \hbox (1.39023pt too wide) in paragraph at lines 2291--2296
+\TU/TimesNewRoman(0)/m/n/14.4 считаны четыре стандартные метрики: отношение сигнала к искажениям (SDR),
+ []
+
+
+LaTeX Warning: Reference `fig:sdr_comparison' on page 65 undefined on input line 2297.
+
+
+LaTeX Warning: Reference `fig:sdr_per_sample' on page 65 undefined on input line 2310.
+
+
+Overfull \hbox (8.66116pt too wide) in paragraph at lines 2310--2314
+[]\TU/TimesNewRoman(0)/m/n/14.4 На рисунке [] показана динамика качества разделения по отдельным аудио-
+ []
+
+[65]
+
+LaTeX Warning: Reference `fig:aug_effect' on page 66 undefined on input line 2336.
+
+
+LaTeX Warning: Reference `fig:computational_cost' on page 66 undefined on input line 2357.
+
+[66]
+
+LaTeX Warning: Reference `fig:subjective_eval' on page 67 undefined on input line 2387.
+
+
+Overfull \hbox (16.4737pt too wide) in paragraph at lines 2407--2411
+\TU/TimesNewRoman(0)/m/n/14.4 нию качества выделения источников. Относительно базовой модели \TU/PTMono(0)/m/n/14.4 htdemucs_6s
+ []
+
+[67]
 Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[65] [66
+[68] [69
 
 ]
 Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
 
-Underfull \hbox (badness 10000) in paragraph at lines 2371--2372
+Underfull \hbox (badness 10000) in paragraph at lines 2514--2515
 []\TU/TimesNewRoman(0)/m/n/14.4 Vincent E., Gribonval R., Févotte C. Performance measurement in
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 2371--2372
+Underfull \hbox (badness 4193) in paragraph at lines 2514--2515
 \TU/TimesNewRoman(0)/m/n/14.4 blind audio source separation // IEEE Transactions on Audio, Speech,
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 2371--2372
+Underfull \hbox (badness 4739) in paragraph at lines 2514--2515
 \TU/TimesNewRoman(0)/m/n/14.4 and Language Processing. 2006. Vol. 14, No. 4. P. 1462–1469. DOI:
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 2389--2390
+Underfull \hbox (badness 1184) in paragraph at lines 2532--2533
 []\TU/TimesNewRoman(0)/m/n/14.4 Manilow E., Seetharaman P., Salamon J. Open Source Tools & Data for
  []
 
-[67
+[70
 
 ]
-Underfull \hbox (badness 1430) in paragraph at lines 2395--2397
+Underfull \hbox (badness 1430) in paragraph at lines 2538--2540
 \TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation // 2019 IEEE Workshop on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2405--2406
+Underfull \hbox (badness 10000) in paragraph at lines 2548--2549
 []\TU/TimesNewRoman(0)/m/n/14.4 Z. Rafii, A. Liutkus, F.-R. Stöter, S. I. Mimilakis, и R. Bittner,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2405--2406
+Underfull \hbox (badness 10000) in paragraph at lines 2548--2549
 \TU/TimesNewRoman(0)/m/n/14.4 «The MUSDB18 corpus for music separation». [Онлайн]. URL:
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 2426--2427
+Underfull \hbox (badness 1888) in paragraph at lines 2569--2570
 []\TU/TimesNewRoman(0)/m/it/14.4 H. Huang и др.\TU/TimesNewRoman(0)/m/n/14.4 , «UNet 3+: A Full-Scale Connected UNet for Medical
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 2426--2427
+Underfull \hbox (badness 3460) in paragraph at lines 2569--2570
 \TU/TimesNewRoman(0)/m/n/14.4 Image Segmentation», ICASSP, IEEE Int. Conf. Acoust. Speech Signal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2426--2427
+Underfull \hbox (badness 10000) in paragraph at lines 2569--2570
 \TU/TimesNewRoman(0)/m/n/14.4 Process. - Proc., т. 2020-May, вып. ii, сс. 1055–1059, 2020, doi:
  []
 
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 2429--2430
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 2572--2573
 \TU/TimesNewRoman(0)/m/n/14.4 IEEE Signal Process. Mag., т. 30, вып. 6, сс. 97–107, 2013, doi:
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 2432--2433
+Underfull \hbox (badness 1509) in paragraph at lines 2575--2576
 []\TU/TimesNewRoman(0)/m/it/14.4 N. I. Bernardo \TU/TimesNewRoman(0)/m/n/14.4 «Short-time Fourier Transform-based Signal Recovery for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2435--2436
+Underfull \hbox (badness 10000) in paragraph at lines 2578--2579
 []\TU/TimesNewRoman(0)/m/it/14.4 Uhlich S. et al. \TU/TimesNewRoman(0)/m/n/14.4 Open-Unmix: A Deep Neural Network Reference
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 2435--2436
+Underfull \hbox (badness 3735) in paragraph at lines 2578--2579
 \TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation – GitHub. 2019. – URL:
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 2440--2441
+Underfull \hbox (badness 2027) in paragraph at lines 2583--2584
 []\TU/TimesNewRoman(0)/m/it/14.4 Schuster M., Paliwal K. \TU/TimesNewRoman(0)/m/n/14.4 Bidirectional recurrent neural networks // IEEE
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 2452--2453
+Underfull \hbox (badness 1406) in paragraph at lines 2595--2596
 []\TU/TimesNewRoman(0)/m/n/14.4 Y. Zhang, D. Zhang, T. Wang, D. Rakhimova, K. Wang and H. Huang,
  []
 
-[69]
-Underfull \hbox (badness 2970) in paragraph at lines 2461--2462
+[72]
+Underfull \hbox (badness 2970) in paragraph at lines 2604--2605
 \TU/TimesNewRoman(0)/m/n/14.4 for Improved Blind Violin/Piano Source Separation // 2020 IEEE 22nd
  []
 
-[70] [71]
+[73] [74]
 Вёрстка раздела "ПРИЛОЖЕНИЕ\ А"
 
-Underfull \hbox (badness 10000) in paragraph at lines 2525--2525
+Underfull \hbox (badness 10000) in paragraph at lines 2668--2668
 []|\TU/TimesNewRoman(0)/b/n/12 Наименование репозито-
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 2526--2526
+Underfull \hbox (badness 2865) in paragraph at lines 2669--2669
 []|\TU/TimesNewRoman(0)/m/n/12 Программный код си-
  []
 
 LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 2526.
+(Font)              scaled to size 10.79993pt on input line 2669.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2669
 []|\TU/PTMono(0)/m/n/12 Дообучение Open-Unmix
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2669
 []|[][]$[][][][][] [] [] [] [][][][][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2669
 [][][][][][] [] [][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2526--2526
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2669
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (3.92845pt too wide) in paragraph at lines 2527--2527
+Overfull \hbox (3.92845pt too wide) in paragraph at lines 2670--2670
 []|\TU/PTMono(0)/m/n/12 guitar-piano-mixes-lora| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+Underfull \hbox (badness 10000) in paragraph at lines 2670--2670
 []|[][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2527--2527
+Underfull \hbox (badness 10000) in paragraph at lines 2670--2670
 [][][][][][][][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2528--2528
+Underfull \hbox (badness 10000) in paragraph at lines 2671--2671
 []|[][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2529--2529
+Underfull \hbox (badness 10000) in paragraph at lines 2672--2672
 []|\TU/TimesNewRoman(0)/m/n/12 Модель Open-Unmix
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2529--2529
+Underfull \hbox (badness 10000) in paragraph at lines 2672--2672
 []|[][]$[][][][][] [] [] [] [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2529--2529
+Underfull \hbox (badness 10000) in paragraph at lines 2672--2672
 [][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2673
 []|\TU/TimesNewRoman(0)/m/n/12 Модель Open-Unmix
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2673
 \TU/TimesNewRoman(0)/m/n/12 спектральным маски-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2673
 []|[][]$[][][][][] [] [] [] [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2530--2530
+Underfull \hbox (badness 10000) in paragraph at lines 2673--2673
 [][] [] [][][][][][][][][][] []
  []
 
 
-Overfull \hbox (13.41364pt too wide) in paragraph at lines 2523--2532
+Overfull \hbox (13.41364pt too wide) in paragraph at lines 2666--2675
  [][] 
  []
 
 \c@lastPageNumber=\count372
-[72
+[75
 
 
 
@@ -1831,7 +1834,7 @@ Overfull \hbox (5.35805pt too wide) in paragraph at lines 3--3
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
- [72
+ [75
 
 
 ] 
@@ -1852,15 +1855,15 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 60502AEEF61458188309F7965254D6BE;16532.
+(rerunfilecheck)             Checksum: 0FE028861BADC6B614F53482BEF55A82;18606.
  ) 
 Here is how much of TeX's memory you used:
- 31888 strings out of 467991
- 665472 string characters out of 5433157
- 1306914 words of memory out of 5000000
- 60211 multiletter control sequences out of 15000+600000
+ 31895 strings out of 467991
+ 665604 string characters out of 5433157
+ 1306916 words of memory out of 5000000
+ 60218 multiletter control sequences out of 15000+600000
  636394 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,12n,131p,713b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,131p,933b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (76 pages).
+Output written on main.pdf (79 pages).
