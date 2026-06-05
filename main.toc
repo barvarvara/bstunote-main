@@ -44,14 +44,13 @@
 \contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{61}{subsection.181}%
 \contentsline {subsubsection}{\numberline {3.2.1}Физическое обоснование проблемы}{62}{subsubsection.182}%
 \contentsline {subsubsection}{\numberline {3.2.2}Описание эксперимента}{63}{subsubsection.183}%
-\contentsline {subsubsection}{\numberline {3.2.3}Количественные результаты}{63}{subsubsection.184}%
-\contentsline {subsubsection}{\numberline {3.2.4}Субъективная оценка}{64}{subsubsection.185}%
-\contentsline {subsubsection}{\numberline {3.2.5}Статистическая значимость и выводы}{64}{subsubsection.186}%
-\contentsline {subsection}{\numberline {3.3}Количественная оценка качества разделения}{65}{subsection.187}%
-\contentsline {subsection}{\numberline {3.4}Анализ влияния спектральной аугментации}{66}{subsection.188}%
-\contentsline {subsection}{\numberline {3.5}Сравнение вычислительных затрат}{66}{subsection.189}%
-\contentsline {subsection}{\numberline {3.6}Субъективная оценка качества}{67}{subsection.190}%
-\contentsline {subsection}{\numberline {3.7}Выводы}{67}{subsection.191}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{69}{section.192}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{70}{section*.194}%
-\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Репозитории и материалы исследования}{75}{appendix.196}%
+\contentsline {subsubsection}{\numberline {3.2.3}Количественные результаты и субъективная оценка}{63}{subsubsection.184}%
+\contentsline {subsubsection}{\numberline {3.2.4}Статистическая значимость и выводы}{64}{subsubsection.185}%
+\contentsline {subsection}{\numberline {3.3}Количественная оценка качества разделения}{65}{subsection.186}%
+\contentsline {subsection}{\numberline {3.4}Анализ влияния спектральной аугментации}{66}{subsection.187}%
+\contentsline {subsection}{\numberline {3.5}Сравнение вычислительных затрат}{66}{subsection.188}%
+\contentsline {subsection}{\numberline {3.6}Субъективная оценка качества}{67}{subsection.189}%
+\contentsline {subsection}{\numberline {3.7}Выводы}{68}{subsection.190}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{69}{section.191}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{70}{section*.193}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Репозитории и материалы исследования}{75}{appendix.195}%
