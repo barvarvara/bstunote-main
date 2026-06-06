@@ -13,3 +13,7 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs. Авторский материал}}{55}{figure.caption.166}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Контуры дообучения модели Demucs. Авторский материал}}{56}{figure.caption.167}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального конвейера дообучения модели разделения источников. Авторский материал}}{62}{figure.caption.180}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Динамика метрики SDR по аудиофайлам тестовой выборки для четырёх моделей}}{66}{figure.caption.187}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Динамика метрики SIR по аудиофайлам тестовой выборки для четырёх моделей}}{66}{figure.caption.188}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Динамика метрики SAR по аудиофайлам тестовой выборки для четырёх моделей}}{67}{figure.caption.189}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Динамика метрики SI-SDR по аудиофайлам тестовой выборки для четырёх моделей}}{68}{figure.caption.190}%

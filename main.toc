@@ -47,10 +47,10 @@
 \contentsline {subsubsection}{\numberline {3.2.3}Количественные результаты и субъективная оценка}{63}{subsubsection.184}%
 \contentsline {subsubsection}{\numberline {3.2.4}Статистическая значимость и выводы}{64}{subsubsection.185}%
 \contentsline {subsection}{\numberline {3.3}Количественная оценка качества разделения}{65}{subsection.186}%
-\contentsline {subsection}{\numberline {3.4}Анализ влияния спектральной аугментации}{66}{subsection.187}%
-\contentsline {subsection}{\numberline {3.5}Сравнение вычислительных затрат}{66}{subsection.188}%
-\contentsline {subsection}{\numberline {3.6}Субъективная оценка качества}{67}{subsection.189}%
-\contentsline {subsection}{\numberline {3.7}Выводы}{68}{subsection.190}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{69}{section.191}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{70}{section*.193}%
-\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Репозитории и материалы исследования}{75}{appendix.195}%
+\contentsline {subsection}{\numberline {3.4}Анализ влияния спектральной аугментации}{67}{subsection.191}%
+\contentsline {subsection}{\numberline {3.5}Сравнение вычислительных затрат}{68}{subsection.192}%
+\contentsline {subsection}{\numberline {3.6}Субъективная оценка качества}{69}{subsection.193}%
+\contentsline {subsection}{\numberline {3.7}Выводы}{70}{subsection.194}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{72}{section.195}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{74}{section*.197}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ Репозитории и материалы исследования}{79}{appendix.199}%
