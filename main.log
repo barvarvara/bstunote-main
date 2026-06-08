@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  6 JUN 2026 21:59
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  9 JUN 2026 00:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -61,6 +61,21 @@ File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen152
 \Gin@req@width=\dimen153
+) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 \Stamp@Line@Thick=\skip54
 \Stamp@Line@Thin=\skip55
@@ -114,79 +129,15 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip56
-
-For additional information on amsmath, use the `?' option.
-(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
- (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen166
-)) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen167
-) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count290
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count291
-\leftroot@=\count292
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count293
-\DOTSCASE@=\count294
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box55
-\strutbox@=\box56
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen168
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count295
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count296
-\dotsspace@=\muskip17
-\c@parentequation=\count297
-\dspbrk@lvl=\count298
-\tag@help=\toks22
-\row@=\count299
-\column@=\count300
-\maxfields@=\count301
-\andhelp@=\toks23
-\eqnshift@=\dimen169
-\alignsep@=\dimen170
-\tagshift@=\dimen171
-\tagwidth@=\dimen172
-\totwidth@=\dimen173
-\lineht@=\dimen174
-\@envbody=\toks24
-\multlinegap=\skip57
-\multlinetaggap=\skip58
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
-) (c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+(c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks26
-\labelindent=\skip59
-\enit@outerparindent=\dimen175
-\enit@toks=\toks27
-\enit@inbox=\box57
-\enit@count@id=\count302
-\enitdp@description=\count303
+\enitkv@toks@=\toks21
+\labelindent=\skip56
+\enit@outerparindent=\dimen166
+\enit@toks=\toks22
+\enit@inbox=\box55
+\enit@count@id=\count290
+\enitdp@description=\count291
 ) (c:/texlive/2026/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 ) (c:/texlive/2026/texmf-dist/tex/latex/lastpage/lastpage.sty
@@ -195,18 +146,83 @@ Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
 Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
  (c:/texlive/2026/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count304
+\c@lastpagecount=\count292
 ) 
 ))) (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks23
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen167
+)) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen168
+) (c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count293
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count294
+\leftroot@=\count295
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count296
+\DOTSCASE@=\count297
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen169
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count298
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count299
+\dotsspace@=\muskip17
+\c@parentequation=\count300
+\dspbrk@lvl=\count301
+\tag@help=\toks25
+\row@=\count302
+\column@=\count303
+\maxfields@=\count304
+\andhelp@=\toks26
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
+\@envbody=\toks27
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
  (c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -224,7 +240,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutheight=\dimen181
 \Gm@layouthoffset=\dimen182
 \Gm@layoutvoffset=\dimen183
-\Gm@dimlist=\toks28
+\Gm@dimlist=\toks29
 ) (c:/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count308
@@ -291,108 +307,93 @@ Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
 Package fontspec Info: 
-(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
-(fontspec)             New Roman' with options
-(fontspec)             [Mapping=tex-text,Ligatures=TeX].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
-(fontspec)             New
-(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-
-
-
-Package FontCheck Warning: Шрифт PT Astra Serif не установлен. Используем шрифт по умолчанию - Times New Roman. on input line 65.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'Arial(0)' created for font 'Arial' with
-(fontspec)             options [Mapping=tex-text,Ligatures=TeX].
+(fontspec)             Font family 'GOST-type-A(0)' created for font
+(fontspec)             'GOST-type-A' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Path =
+(fontspec)             ./fonts/,Extension = .ttf,FakeSlant=0.3].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Arial/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"Arial/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
-
-
-Package FontCheck Warning: Шрифт PT Astra Sans не установлен. Используем шрифт по умолчанию - Arial. on input line 70.
+(fontspec)             <->"[./fonts/GOST-type-A.ttf]/OT:script=latn;language=dflt;slant=0.3;"
 
 
 Package fontspec Info: 
-(fontspec)             PT Mono scale = 0.9.
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "PT Mono/I" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: 
-(fontspec)             PT Mono scale = 0.9.
-
-
-Package fontspec Info: 
-(fontspec)             PT Mono/B scale = 0.9.
-
-
-Package fontspec Info: 
-(fontspec)             PT Mono/BI scale = 0.9.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'PTMono(0)' created for font 'PT Mono' with
-(fontspec)             options
-(fontspec)             [Mapping=tex-text,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,Scale=0.9].
+(fontspec)             Font family 'PT-Astra-Serif(0)' created for font
+(fontspec)             'PT-Astra-Serif' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Path =
+(fontspec)             ./fonts/PT-Astra-Serif/,Extension = .ttf,UprightFont =
+(fontspec)             *-Regular,BoldFont = *-Bold,ItalicFont =
+(fontspec)             *-Italic,BoldItalicFont = *-BoldItalic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[0.9]"PT
-(fontspec)             Mono/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[0.9]"PT
-(fontspec)             Mono/B/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[0.9]"PT
-(fontspec)             Mono/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Serif/PT-Astra-Serif-Regular.ttf]/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Serif/PT-Astra-Serif-Bold.ttf]/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Serif/PT-Astra-Serif-Italic.ttf]/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Serif/PT-Astra-Serif-BoldItalic.ttf]/OT:language=dflt;mapping=tex-text;"
 
-(c:/texlive/2026/texmf-dist/tex/latex/float/float.sty
+
+Package fontspec Info: 
+(fontspec)             Font family 'PT-Astra-Sans(0)' created for font
+(fontspec)             'PT-Astra-Sans' with options
+(fontspec)             [Ligatures=TeX,Ligatures=TeX,Path =
+(fontspec)             ./fonts/PT-Astra-Sans/,Extension = .ttf,UprightFont =
+(fontspec)             *-Regular,BoldFont = *-Bold,ItalicFont =
+(fontspec)             *-Italic,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Sans/PT-Astra-Sans-Regular.ttf]/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Sans/PT-Astra-Sans-Bold.ttf]/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Sans/PT-Astra-Sans-Italic.ttf]/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/PT-Astra-Sans/PT-Astra-Sans-BoldItalic.ttf]/OT:language=dflt;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             PT-Mono-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             PT-Mono-Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             PT-Mono-Bold scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'PT-Mono(0)' created for font 'PT-Mono'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,Path
+(fontspec)             = ./fonts/PT-Mono/,Extension = .ttf,BoldFont =
+(fontspec)             *-Bold,UprightFont = *-Regular,Scale=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[./fonts/PT-Mono/PT-Mono-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9]"[./fonts/PT-Mono/PT-Mono-Bold.ttf]/OT:script=latn;language=dflt;mapping=tex-text;"
+
+ (c:/texlive/2026/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count324
-\float@exts=\toks29
+\float@exts=\toks30
 \float@box=\box58
-\@float@everytoks=\toks30
+\@float@everytoks=\toks31
 \@floatcapt=\box59
 ) (c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
@@ -511,11 +512,9 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LT@rows=\count341
 \c@LT@tables=\count342
 \c@LT@chunks=\count343
-\LT@p@ftn=\toks31
-) (c:/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
- (c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks32
+\LT@p@ftn=\toks32
+) (c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks33
 \pgfutil@tempdima=\dimen193
 \pgfutil@tempdimb=\dimen194
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -527,10 +526,10 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks36
 ))
 \pgf@x=\dimen195
 \pgf@y=\dimen196
@@ -548,9 +547,9 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \c@pgf@countb=\count345
 \c@pgf@countc=\count346
 \c@pgf@countd=\count347
-\t@pgf@toka=\toks36
-\t@pgf@tokb=\toks37
-\t@pgf@tokc=\toks38
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
 \pgf@sys@id@count=\count348
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
@@ -570,30 +569,15 @@ File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@bigbuffer@items=\count351
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: xetex.def on input line 274.
- (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen261
 \pgfmath@count=\count352
 \pgfmath@box=\box67
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count353
 )) (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -676,8 +660,8 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen288
 \pgffor@skip=\dimen289
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
 )) (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -710,44 +694,21 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@expandcount=\count365
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (c:/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks44
-\verbatim@line=\toks45
-\verbatim@in@stream=\read4
-) (c:/texlive/2026/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
- (c:/texlive/2026/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box77
-\tcb@upperbox=\box78
-\tcb@lowerbox=\box79
-\tcb@phantombox=\box80
-\c@tcbbreakpart=\count366
-\c@tcblayer=\count367
-\c@tcolorbox@number=\count368
-\l__tcobox_tmpa_box=\box81
-\l__tcobox_tmpa_dim=\dimen299
-\tcb@temp=\box82
-\tcb@temp=\box83
-\tcb@temp=\box84
-\tcb@temp=\box85
-) (c:/texlive/2026/texmf-dist/tex/latex/makecell/makecell.sty
+))) (c:/texlive/2026/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
  (c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen300
-\ar@mcellbox=\box86
-\extrarowheight=\dimen301
-\NC@list=\toks46
+\col@sep=\dimen299
+\ar@mcellbox=\box77
+\extrarowheight=\dimen300
+\NC@list=\toks45
 \extratabsurround=\skip65
 \backup@length=\skip66
-\ar@cellbox=\box87
+\ar@cellbox=\box78
 )
-\rotheadsize=\dimen302
-\c@nlinenum=\count369
-\TeXr@lab=\toks47
+\rotheadsize=\dimen301
+\c@nlinenum=\count366
+\TeXr@lab=\toks46
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
@@ -765,20 +726,20 @@ File: tikzlibrarychains.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen303
-\pgfdecoratedremainingdistance=\dimen304
-\pgfdecoratedinputsegmentcompleteddistance=\dimen305
-\pgfdecoratedinputsegmentremainingdistance=\dimen306
-\pgf@decorate@distancetomove=\dimen307
-\pgf@decorate@repeatstate=\count370
-\pgfdecorationsegmentamplitude=\dimen308
-\pgfdecorationsegmentlength=\dimen309
+\pgfdecoratedcompleteddistance=\dimen302
+\pgfdecoratedremainingdistance=\dimen303
+\pgfdecoratedinputsegmentcompleteddistance=\dimen304
+\pgfdecoratedinputsegmentremainingdistance=\dimen305
+\pgf@decorate@distancetomove=\dimen306
+\pgf@decorate@repeatstate=\count367
+\pgfdecorationsegmentamplitude=\dimen307
+\pgfdecorationsegmentlength=\dimen308
 )
-\tikz@lib@dec@box=\box88
+\tikz@lib@dec@box=\box79
 ) (c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
-\pgf@lib@dec@text@box=\box89
+\pgf@lib@dec@text@box=\box80
 )
-\tikz@lib@dec@te@box=\box90
+\tikz@lib@dec@te@box=\box81
 ) (./main.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
 (babel)             Reported on input line 8.
@@ -792,26 +753,26 @@ LaTeX Warning: Label `LoRA' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -821,7 +782,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count371
+\c@lstlisting=\count368
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -832,18 +793,18 @@ Package caption Info: End \AtBeginDocument code.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 483.69687pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 748.3075pt, 68.2866pt)
+* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=748.3075pt
+* \textheight=759.6886pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-82.81725pt
 * \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=14.0pt
-* \footskip=12.92836pt
+* \footskip=30.0pt
 * \marginparwidth=24.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -857,7 +818,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 124.
+LaTeX Info: Redefining \th on input line 127.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -865,57 +826,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 124.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 124.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 124.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 124.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 124.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 124.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 124.
-LaTeX Font Info:    Redeclaring math accent \check on input line 124.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 124.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 124.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 124.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 124.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 127.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 127.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 127.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 127.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 127.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 127.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 127.
+LaTeX Font Info:    Redeclaring math accent \check on input line 127.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 127.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 127.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 127.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 127.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 124.
+(Font)              `operators' in the math version `normal' on input line 127.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 124.
+(Font)                  OT1/cmr/m/n --> TU/PT-Astra-Serif(0)/m/n on input line 127.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 124.
+(Font)              `operators' in the math version `bold' on input line 127.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 124.
+(Font)                  OT1/cmr/bx/n --> TU/PT-Astra-Serif(0)/m/n on input line 127.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 124.
+(Font)                  TU/PT-Astra-Serif(0)/m/n --> TU/PT-Astra-Serif(0)/m/n on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 124.
+(Font)                  OT1/cmr/m/it --> TU/PT-Astra-Serif(0)/m/it on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 124.
+(Font)                  OT1/cmr/bx/n --> TU/PT-Astra-Serif(0)/b/n on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 124.
+(Font)                  OT1/cmss/m/n --> TU/PT-Astra-Sans(0)/m/n on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/PTMono(0)/m/n on input line 124.
+(Font)                  OT1/cmtt/m/n --> TU/PT-Mono(0)/m/n on input line 127.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 124.
+(Font)                  TU/PT-Astra-Serif(0)/m/n --> TU/PT-Astra-Serif(0)/b/n on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 124.
+(Font)                  OT1/cmr/bx/it --> TU/PT-Astra-Serif(0)/b/it on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/b/n on input line 124.
+(Font)                  OT1/cmss/bx/n --> TU/PT-Astra-Sans(0)/b/n on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/PTMono(0)/b/n on input line 124.
-Package hyperref Info: Link coloring ON on input line 124.
+(Font)                  OT1/cmtt/m/n --> TU/PT-Mono(0)/b/n on input line 127.
+Package hyperref Info: Link coloring ON on input line 127.
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -938,7 +899,7 @@ Package hyperref Info: Link coloring ON on input line 124.
 * \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=14.0pt
-* \footskip=12.92836pt
+* \footskip=30.0pt
 * \marginparwidth=24.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -952,975 +913,62 @@ Package hyperref Info: Link coloring ON on input line 124.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Underfull \hbox (badness 3128) in paragraph at lines 142--143
-[]\TU/TimesNewRoman(0)/b/n/12 Кафедра \TU/TimesNewRoman(0)/m/n/12 программного обеспечения вычислительной техники и автоматизированных
- []
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 144--145
-[]\TU/TimesNewRoman(0)/b/n/12 Направленность (профиль) образовательной программы \TU/TimesNewRoman(0)/m/n/12 Разработка программно-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 155.
-(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 158.
+ (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 155.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 158.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-]
-Underfull \hbox (badness 3128) in paragraph at lines 186--187
-[]\TU/TimesNewRoman(0)/b/n/12 Кафедра \TU/TimesNewRoman(0)/m/n/12 программного обеспечения вычислительной техники и автоматизированных
- []
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 188--189
-[]\TU/TimesNewRoman(0)/b/n/12 Направленность (профиль) образовательной программы \TU/TimesNewRoman(0)/m/n/12 Разработка программно-
- []
-
-[2]
-Overfull \hbox (1.62991pt too wide) in paragraph at lines 223--238
+] [2]
+Overfull \hbox (1.62991pt too wide) in paragraph at lines 226--241
 []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--238
-
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 281--281
-[]|\TU/TimesNewRoman(0)/m/n/12 Обзор существующих архитектур и мето-
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 281--281
-\TU/TimesNewRoman(0)/m/n/12 дов разделения источников (Demucs, Open-
- []
-
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-
-Overfull \hbox (15.14423pt too wide) in paragraph at lines 326--326
+Overfull \hbox (15.14423pt too wide) in paragraph at lines 329--329
  [][] 
  []
 
 [4]
 Вёрстка раздела "OПРЕДЕЛЕНИЯ, СOКРAЩЕНИЯ И OБOЗНAЧЕНИЯ"
-Вёрстка раздела "СОДЕРЖАНИЕ"
 [4
 
 
 
-] (./main.toc
-Overfull \hbox (2.97255pt too wide) in paragraph at lines 3--3
- [][] [][][]\TU/TimesNewRoman(0)/b/n/14.4 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕ- 
- []
-
-
-Overfull \hbox (14.06206pt too wide) in paragraph at lines 8--8
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Частотно-временное представление (Time-Frequency Domain)[][] [][]  
- []
-
-
-Overfull \hbox (10.73622pt too wide) in paragraph at lines 19--19
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное 
- []
-
-
-Overfull \hbox (3.62314pt too wide) in paragraph at lines 24--24
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Загрузка исходных аудиозаписей. Клиент взаимодействия 
- []
-
-[5
-
 ]
-Overfull \hbox (2.52847pt too wide) in paragraph at lines 32--32
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Полное дообучение Open-Unmix с аугментацией спектро- 
- []
+Вёрстка раздела "СОДЕРЖАНИЕ"
+[5] (./main.toc [6
 
-)
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 
 Вёрстка раздела "ВВЕДЕНИЕ"
-[6]
-Overfull \hbox (1.5666pt too wide) in paragraph at lines 399--404
-[]\TU/TimesNewRoman(0)/m/n/14.4 Задача автоматического разделения музыкальных источников является од-
- []
+[7] [8
 
-
-Overfull \hbox (6.51595pt too wide) in paragraph at lines 405--409
-\TU/TimesNewRoman(0)/m/n/14.4 ный прогресс достигнут в создании универсальных моделей, обученных на круп-
- []
-
-[7
-
-]
-Overfull \hbox (39.95488pt too wide) in paragraph at lines 435--438
-[]\TU/TimesNewRoman(0)/m/n/14.4 Данная проблема отсутствия научной базы в части применения параметрически-
- []
-
-
-Overfull \hbox (0.82256pt too wide) in paragraph at lines 452--453
-[]\TU/TimesNewRoman(0)/b/n/14.4 Объект исследования: \TU/TimesNewRoman(0)/m/n/14.4 нейросетевые архитектуры разделения музыкаль-
- []
-
-[8]
+] [9]
 Вёрстка раздела "АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ"
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]\TU/TimesNewRoman(0)/b/n/15 АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ
- []
-
+[10]
 File: figures/задача извлечения источников.png Graphic file (type bmp)
 <figures/задача извлечения источников.png>
+ [11
 
-Overfull \hbox (13.32175pt too wide) in paragraph at lines 496--499
-[]\TU/TimesNewRoman(0)/m/n/14.4 Притом, такая задача подразумевает получение из одного аудиотрека (аудио-
- []
-
-[10
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-[]\TU/TimesNewRoman(0)/b/n/14.5 Вклад кампании SiSEC MUS 2018 в задачу разделения
- []
-
-
-Overfull \hbox (18.40106pt too wide) in paragraph at lines 529--533
-\TU/TimesNewRoman(0)/m/n/14.4 кампанию по оценке разделения сигналов 2018 года (SiSEC 2018 – Signal Separation
- []
-
-
-Overfull \hbox (16.00589pt too wide) in paragraph at lines 529--533
-\TU/TimesNewRoman(0)/m/n/14.4 лярных музыкальных аудиопотоков, аудиомиксов). Такие источники-инструменты
- []
-
-[11]
-Overfull \hbox (39.05957pt too wide) in paragraph at lines 541--549
-[]\TU/TimesNewRoman(0)/m/n/14.4 В рамках кампании SiSEC Mus 2018 был выпущен набор данных MUSDB18 [[]],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
-[]\TU/TimesNewRoman(0)/b/n/14.5 Способы представления звукового сигнала для задачи
- []
-
-LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
+] [12]
+LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 569.
-[12]
-Overfull \hbox (0.30687pt too wide) in paragraph at lines 602--604
-[]\TU/TimesNewRoman(0)/m/n/14.4 С точки зрения физики, КВПФ отображает сигнал в трёхмерное простран-
- []
-
-[13]
+ [13] [14]
 File: figures/spectrogram.png Graphic file (type bmp)
 <figures/spectrogram.png>
- [14]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15] [16]
 File: figures/open unmix.png Graphic file (type bmp)
 <figures/open unmix.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15]
-Overfull \hbox (13.02815pt too wide) in paragraph at lines 705--709
-\TU/TimesNewRoman(0)/m/n/14.4 чаемых аффинных параметров. Он выполняет нормализацию входных спек-
- []
-
-
-Overfull \hbox (23.78581pt too wide) in paragraph at lines 710--716
-\TU/TimesNewRoman(0)/m/n/14.4 знаков – то есть выполняет проекцию высокоразмерного частотно-канального
- []
-
-[16]
-Overfull \hbox (8.02171pt too wide) in paragraph at lines 719--722
-[]\TU/TimesNewRoman(0)/b/n/14.4 Первый слой пакетной нормализации (bn1, Batch Normalization
- []
-
-
-Overfull \hbox (1.24944pt too wide) in paragraph at lines 722--725
-[]\TU/TimesNewRoman(0)/b/n/14.4 Функция гиперболического тангенса (tanh) \TU/TimesNewRoman(0)/m/n/14.4 – нелинейная функ-
- []
-
-
-Overfull \hbox (11.48346pt too wide) in paragraph at lines 731--736
-\TU/TimesNewRoman(0)/b/n/14.4 правленной долговременной краткосрочной памяти (Bidirectional Long
- []
-
-
-Overfull \hbox (2.8339pt too wide) in paragraph at lines 737--741
-\TU/TimesNewRoman(0)/m/n/14.4 мерности (мелодические фрагменты, гармонические последовательности,
- []
-
-[17]
-Overfull \hbox (12.64464pt too wide) in paragraph at lines 755--756
-[]$\OMS/cmsy/m/n/14.4 k$ \TU/TimesNewRoman(0)/m/n/14.4 – операция конкатенации, увеличивающая размерность до $\OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 H$ \TU/TimesNewRoman(0)/m/n/14.4 (1024). 
- []
-
-[18]
-Overfull \hbox (35.19048pt too wide) in paragraph at lines 792--799
-[]\TU/TimesNewRoman(0)/b/n/14.4 Мультипликативное остаточное соединение (маскирование) (Multiplicative
- []
-
-[19] [20]
-Overfull \hbox (1.37022pt too wide) in paragraph at lines 855--859
-\TU/TimesNewRoman(0)/m/n/14.4 ограничения модели связаны с вычислительной сложностью рекуррентных бло-
- []
-
-[21] [22] [23]
-File: figures/demucs схема.png Graphic file (type bmp)
-<figures/demucs схема.png>
- [24]
-Overfull \hbox (5.23157pt too wide) in paragraph at lines 981--984
-\TU/TimesNewRoman(0)/m/n/14.4 лучших результатов на эталонных наборах данных (например, MUSDB18),
- []
-
-
-Overfull \hbox (9.87099pt too wide) in paragraph at lines 984--987
-\TU/TimesNewRoman(0)/m/n/14.4 мания позволяет учитывать структуру музыкального произведения на боль-
- []
-
-[25] [26]
-Overfull \hbox (3.41115pt too wide) in paragraph at lines 1048--1051
-[]\TU/TimesNewRoman(0)/m/n/14.4 Основное преимущество данного подхода — максимальная гибкость адап-
- []
-
-
-Overfull \hbox (0.21959pt too wide) in paragraph at lines 1048--1051
-\TU/TimesNewRoman(0)/m/n/14.4 пазона и перекрытию гармоник между инструментами. Также к преимуществам
- []
-
-
-LaTeX Warning: Citation `lora' on page 27 undefined on input line 1059.
-
-[27]
-Underfull \hbox (badness 4792) in paragraph at lines 1067--1067
-[]\TU/TimesNewRoman(0)/b/n/14.4 Методы «параметрического» дообучения (адаптация части
- []
-
-
-Overfull \hbox (1.14172pt too wide) in paragraph at lines 1091--1094
-\TU/TimesNewRoman(0)/m/n/14.4 начально обучалась базовая часть модели, качество разделения может ока-
- []
-
-[28]
-Overfull \hbox (2.7703pt too wide) in paragraph at lines 1102--1106
-[]\TU/TimesNewRoman(0)/m/n/14.4 Метод LoRA (англ. Low Rank Adaptaion – дословно переводится как «адап-
- []
-
-
-Overfull \hbox (13.39207pt too wide) in paragraph at lines 1112--1119
-\TU/TimesNewRoman(0)/m/n/14.4 ренняя размерность (ранг) матрицы весов $\OT1/cmr/m/n/14.4 ^^A\OML/cmm/m/it/14.4 W \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 W[] \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/m/it/14.4 W[]$ \TU/TimesNewRoman(0)/m/n/14.4 (где $\OML/cmm/m/it/14.4 W[]$
- []
-
-File: figures/lora.png Graphic file (type bmp)
-<figures/lora.png>
-[29] [30]
-Overfull \hbox (5.18886pt too wide) in paragraph at lines 1162--1163
-[]\TU/TimesNewRoman(0)/m/n/14.4 Среди преимуществ метода разработчики LoRA приводят следующие [[]]: 
- []
-
-[31]
-Overfull \hbox (14.5761pt too wide) in paragraph at lines 1204--1210
-\TU/TimesNewRoman(0)/m/n/14.4 соответствующих методов применяются метрики, основанные на сравнении пред-
- []
-
-[32] [33]
-Overfull \hbox (6.89977pt too wide) in paragraph at lines 1270--1271
-[]\TU/TimesNewRoman(0)/b/n/14.4 Signal-to-Interference Ratio (SIR) — Отношение сигнал/интерференция 
- []
-
-
-Overfull \hbox (0.73862pt too wide) in paragraph at lines 1296--1301
-\TU/TimesNewRoman(0)/m/n/14.4 важно естественное звучание (например, реставрация или улучшение качества),
- []
-
-
-Overfull \hbox (9.25356pt too wide) in paragraph at lines 1296--1301
-\TU/TimesNewRoman(0)/m/n/14.4 SAR является критически важным показателем. В методах, преобразующих вход-
- []
-
-[34]
-Underfull \hbox (badness 6477) in paragraph at lines 1324--1324
-[]\TU/TimesNewRoman(0)/b/n/14.4 Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное
- []
-
-[35]
-Overfull \hbox (5.4999pt too wide) in paragraph at lines 1362--1366
-\TU/TimesNewRoman(0)/m/n/14.4 смотренных архитектур наиболее перспективными представляются Open-Unmix
- []
-
-Вёрстка раздела "Реализация и проектирование архитектуры программного обеспечения"
-[36]
-Underfull \hbox (badness 8056) in paragraph at lines 1375--1375
-[]\TU/TimesNewRoman(0)/b/n/15 Реализация и проектирование архитектуры программного
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1395
-[]\TU/TimesNewRoman(0)/b/n/14.5 Общая схема взаимодействия компонент разрабатываемой
- []
-
-[37
-
-]
-File: figures/диаграмма классов сокр.png Graphic file (type bmp)
-<figures/диаграмма классов сокр.png>
-
-Overfull \hbox (50.87373pt too wide) in paragraph at lines 1417--1427
-\TU/TimesNewRoman(0)/m/n/14.4 экспериментальной части системы (классы \TU/PTMono(0)/m/n/14.4 HF_MSSDataset\TU/TimesNewRoman(0)/m/n/14.4 , \TU/PTMono(0)/m/n/14.4 DemucsWaveformDataset
- []
-
-
-Overfull \hbox (0.47011pt too wide) in paragraph at lines 1417--1427
-\TU/TimesNewRoman(0)/m/n/14.4 зоров магнитуды/фазы, тогда как \TU/PTMono(0)/m/n/14.4 DemucsWaveformDataset \TU/TimesNewRoman(0)/m/n/14.4 подготавливает сы-
- []
-
-[38]
-Overfull \hbox (36.25336pt too wide) in paragraph at lines 1428--1436
-\TU/PTMono(0)/m/n/14.4 OpenUnmixAdapter\TU/TimesNewRoman(0)/m/n/14.4 , \TU/PTMono(0)/m/n/14.4 DemucsAdapter\TU/TimesNewRoman(0)/m/n/14.4 , \TU/PTMono(0)/m/n/14.4 BaselineRunner\TU/TimesNewRoman(0)/m/n/14.4 ). Класс \TU/PTMono(0)/m/n/14.4 OpenUnmixAdapter
- []
-
-
-Overfull \hbox (31.10152pt too wide) in paragraph at lines 1428--1436
-\TU/TimesNewRoman(0)/m/n/14.4 ности (FP16) и подвыборки данных для ускорения обучения. Класс \TU/PTMono(0)/m/n/14.4 BaselineRunner
- []
-
-File: figures/диаграмма классов (датасет+модели).png Graphic file (type bmp)
-<figures/диаграмма классов (датасет+модели).png>
-File: figures/диаграмма классов (модели + оценка).png Graphic file (type bmp)
-<figures/диаграмма классов (модели + оценка).png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (42.13463pt too wide) in paragraph at lines 1452--1460
-\TU/TimesNewRoman(0)/m/n/14.4 восстановления аудиосигнала из спектрального представления (класс \TU/PTMono(0)/m/n/14.4 ISTFTDecoder\TU/TimesNewRoman(0)/m/n/14.4 ),
- []
-
-
-Overfull \hbox (33.88936pt too wide) in paragraph at lines 1452--1460
-\TU/TimesNewRoman(0)/m/n/14.4 восстановления временного сигнала из магнитуды и фазы. Класс \TU/PTMono(0)/m/n/14.4 UnifiedEvaluator
- []
-
-[39]
-Overfull \hbox (11.77019pt too wide) in paragraph at lines 1468--1474
-[]\TU/TimesNewRoman(0)/m/n/14.4 Готовые эталонные наборы данных, такие как MUSDB18 [[]] или Slakh2100
- []
-
-[40]
-Overfull \hbox (3.46669pt too wide) in paragraph at lines 1478--1483
-\TU/TimesNewRoman(0)/m/n/14.4 граммы (STFT) для спектральной модели Open-Unmix и поддержание временно-
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 1486--1486
-[]\TU/TimesNewRoman(0)/b/n/14.4 Загрузка исходных аудиозаписей. Клиент взаимодействия с
- []
-
-[41]
-File: figures/dataset/dataset.png Graphic file (type bmp)
-<figures/dataset/dataset.png>
-
-Overfull \hbox (9.31972pt too wide) in paragraph at lines 1511--1513
-[]\TU/TimesNewRoman(0)/m/n/14.4 Для авторизации запросов использовался механизм токен-аутентификации:
- []
-
-[42]
-Underfull \hbox (badness 2635) in paragraph at lines 1538--1539
-\TU/TimesNewRoman(0)/m/n/14.4 навливает границы длитель-
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 1540--1541
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Минимизация объёма ответа
- []
-
-
-Overfull \hbox (0.88644pt too wide) in paragraph at lines 1550--1553
-\TU/TimesNewRoman(0)/m/n/14.4 файла: сохранялись только файлы с расширениями .wav, .mp3 или .ogg, а осталь-
- []
-
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1557
-[]\TU/TimesNewRoman(0)/b/n/14.4 Синтез аудиомиксов из загруженных айдиофайлов и
- []
-
-
-Overfull \hbox (10.3796pt too wide) in paragraph at lines 1567--1568
-[]\TU/TimesNewRoman(0)/m/n/14.4 balanced — равнозначное усиление гитары и пианино (коэффициенты гром-
- []
-
-
-Overfull \hbox (4.4171pt too wide) in paragraph at lines 1571--1574
-\TU/TimesNewRoman(0)/m/n/14.4 Такой подход позволил модели обучаться на разнообразных соотношениях гром-
- []
-
-[44]
-Overfull \hbox (122.6759pt too wide) in paragraph at lines 1607--1610
-[]\TU/TimesNewRoman(0)/m/n/14.4 Выходные файлы получают структурированные имена вида \TU/PTMono(0)/m/n/14.4 mix_XXXX_scenario_role.wav\TU/TimesNewRoman(0)/m/n/14.4 ,
- []
-
-
-Overfull \hbox (8.44252pt too wide) in paragraph at lines 1614--1616
-\TU/TimesNewRoman(0)/m/n/14.4 вочную (train), валидационную (validation) и тестовую (test) в пропорции 70/15/15
- []
-
-File: figures/состав выборок.png Graphic file (type bmp)
-<figures/состав выборок.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1641.
-LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 1641.
-LaTeX Font Info:    Font shape `TU/PTMono(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 1642.
- [46]
-Overfull \hbox (28.29417pt too wide) in paragraph at lines 1672--1678
-\TU/TimesNewRoman(0)/m/n/14.4 мирования набора данных в специальные формат реализован класс \TU/PTMono(0)/m/n/14.4 HF_MSSDataset\TU/TimesNewRoman(0)/m/n/14.4 . 
- []
-
-
-Overfull \hbox (12.03775pt too wide) in paragraph at lines 1682--1689
-\TU/TimesNewRoman(0)/m/n/14.4 словарь (\TU/PTMono(0)/m/n/14.4 Dict[str, List]\TU/TimesNewRoman(0)/m/n/14.4 ), содержащий пути к сгенерированным \TU/PTMono(0)/m/n/14.4 .wav\TU/TimesNewRoman(0)/m/n/14.4 -файлам
- []
-
-
-Overfull \hbox (56.81468pt too wide) in paragraph at lines 1682--1689
-\TU/TimesNewRoman(0)/m/n/14.4 и разметку по выборкам. Этот словарь передаётся в объект класса \TU/PTMono(0)/m/n/14.4 HuggingFaceManager\TU/TimesNewRoman(0)/m/n/14.4 ,
- []
-
-[47]
-Overfull \hbox (9.61035pt too wide) in paragraph at lines 1690--1693
-[]\TU/TimesNewRoman(0)/m/n/14.4 Публикация сформированного датасета в облачный репозиторий осуществ-
- []
-
-
-Overfull \hbox (0.62967pt too wide) in paragraph at lines 1698--1700
-\TU/TimesNewRoman(0)/m/n/14.4 занный репозиторий, сохраняя метаданные (пути к файлам, сценарии сме-
- []
-
-
-Overfull \hbox (40.85939pt too wide) in paragraph at lines 1710--1712
-\TU/TimesNewRoman(0)/m/n/14.4 зован класс \TU/PTMono(0)/m/n/14.4 HF_MSSDataset\TU/TimesNewRoman(0)/m/n/14.4 , наследующий интерфейс \TU/PTMono(0)/m/n/14.4 torch.utils.data.Dataset\TU/TimesNewRoman(0)/m/n/14.4 .
- []
-
-
-Overfull \hbox (20.10738pt too wide) in paragraph at lines 1713--1717
-\TU/TimesNewRoman(0)/m/n/14.4 формы [1, T]). При этом автоматически аудиофайлы декодируются из Parquet-
- []
-
-[48]
-Overfull \hbox (12.47214pt too wide) in paragraph at lines 1717--1722
-\TU/TimesNewRoman(0)/m/n/14.4 ную и фазовую компоненты, которые объединяются в тензор формы $\OT1/cmr/m/n/14.4 [2\OML/cmm/m/it/14.4 ; F; T\OT1/cmr/m/n/14.4 ]$
- []
-
-
-Overfull \hbox (22.86708pt too wide) in paragraph at lines 1726--1729
-\TU/TimesNewRoman(0)/m/n/14.4 грузки результатов исследования в репозиторий сервиса HuggingFace типа «model». 
- []
-
-
-Overfull \hbox (39.30847pt too wide) in paragraph at lines 1734--1735
-[]\TU/TimesNewRoman(0)/m/n/14.4 При наличии файла с результатами оценки в локальном хранилище (metrics.json)
- []
-
-
-Overfull \hbox (3.97878pt too wide) in paragraph at lines 1735--1736
-[]\TU/TimesNewRoman(0)/m/n/14.4 Модуль автоматически формирует файл README.md в стандарте Hugging
- []
-
-[49]
-File: figures/конвейер обучения open unmix.png Graphic file (type bmp)
-<figures/конвейер обучения open unmix.png>
-
-Overfull \hbox (19.49838pt too wide) in paragraph at lines 1767--1772
-\TU/PTMono(0)/m/n/14.4 umxhq \TU/TimesNewRoman(0)/m/n/14.4 из репозитория \TU/PTMono(0)/m/n/14.4 sigsep/open-unmix-pytorch \TU/TimesNewRoman(0)/m/n/14.4 через механизм \TU/PTMono(0)/m/n/14.4 torch.hub\TU/TimesNewRoman(0)/m/n/14.4 .
- []
-
-[50]
-Overfull \hbox (59.58107pt too wide) in paragraph at lines 1794--1797
-[]\TU/TimesNewRoman(0)/m/n/14.4 При завершении каждой эпохи модель переводится в режим оценки \TU/PTMono(0)/m/n/14.4 (model.eval)\TU/TimesNewRoman(0)/m/n/14.4 ,
- []
-
-
-Overfull \hbox (4.52951pt too wide) in paragraph at lines 1803--1804
-\TU/TimesNewRoman(0)/m/n/14.4 ки (\TU/PTMono(0)/m/n/14.4 eval\TU/TimesNewRoman(0)/m/n/14.4 ), что отключает механизмы регуляризации и нормализации, обес-
- []
-
-[51]
-Overfull \hbox (2.22592pt too wide) in paragraph at lines 1808--1809
-[]\TU/TimesNewRoman(0)/m/it/14.4 Расчёт потерь: \TU/TimesNewRoman(0)/m/n/14.4 вычисляется $\OML/cmm/m/it/14.4 L[]$\TU/TimesNewRoman(0)/m/n/14.4 -ошибка между предсказанием и эта-
- []
-
-
-Overfull \hbox (19.8896pt too wide) in paragraph at lines 1813--1814
-[]\TU/TimesNewRoman(0)/m/n/14.4 вычисляется среднее арифметическое всех пакетных потерь: $\OML/cmm/m/it/14.4 val[]loss \OT1/cmr/m/n/14.4 =
- []
-
-[52]
-Overfull \hbox (7.94684pt too wide) in paragraph at lines 1837--1838
-[]\TU/TimesNewRoman(0)/m/n/14.4 Модифицированная магнитуда возвращается в исходную форму $\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 F; T\OT1/cmr/m/n/14.4 ]$
- []
-
-
-LaTeX Font Warning: Font shape `TU/PTMono(0)/m/it' undefined
-(Font)              using `TU/PTMono(0)/m/n' instead on input line 1844.
-
-LaTeX Font Info:    Font shape `TU/PTMono(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 1844.
-
-Overfull \hbox (72.23235pt too wide) in paragraph at lines 1873--1874
-[]\TU/TimesNewRoman(0)/m/n/14.4 Конфигурация с регуляризацией: дообучение с активированным SpecAugmentDataset. 
- []
-
-
-Overfull \hbox (10.72386pt too wide) in paragraph at lines 1909--1912
-[]\TU/TimesNewRoman(0)/m/n/14.4 Дообучение модели \TU/PTMono(0)/m/n/14.4 htdemucs v4 \TU/TimesNewRoman(0)/m/n/14.4 выполнено с применением метода низко-
- []
-
-[53]
-Overfull \hbox (16.6453pt too wide) in paragraph at lines 1915--1919
-[]\TU/TimesNewRoman(0)/m/n/14.4 Вся логика адаптации модели Demucs реализована в классе \TU/PTMono(0)/m/n/14.4 DemucsAdapter\TU/TimesNewRoman(0)/m/n/14.4 ,
- []
-
-
-Overfull \hbox (6.97261pt too wide) in paragraph at lines 1920--1925
-[]\TU/TimesNewRoman(0)/m/n/14.4 На этапе инициализации \TU/PTMono(0)/m/n/14.4 DemucsAdapter \TU/TimesNewRoman(0)/m/n/14.4 сканирует вычислительный граф
- []
-
-
-Overfull \hbox (23.78818pt too wide) in paragraph at lines 1920--1925
-\TU/TimesNewRoman(0)/m/n/14.4 Именно эти слои признаны наиболее подходящими для применения низко-ранговой
- []
-
-
-Overfull \hbox (3.66354pt too wide) in paragraph at lines 1932--1933
-[]\TU/PTMono(0)/m/n/14.4 lora_dropout=0.05 \TU/TimesNewRoman(0)/m/n/14.4 — вероятность отсева для предотвращения совмест-
- []
-
-[54]
-Overfull \hbox (16.5643pt too wide) in paragraph at lines 1941--1942
-[]\TU/TimesNewRoman(0)/m/n/14.4 На рисунке [][]2.7[][] приведена схема архитектурных изменений в модели Demucs,
- []
-
-File: figures/demucs доработка архитектуры.png Graphic file (type bmp)
-<figures/demucs доработка архитектуры.png>
-File: figures/конвейер обучения demucs.png Graphic file (type bmp)
-<figures/конвейер обучения demucs.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (31.40959pt too wide) in paragraph at lines 1967--1971
-[]\TU/TimesNewRoman(0)/m/n/14.4 Контур дообучения модели Demucs v4 координируется классом DemucsAdapter
- []
-
-[55]
-Overfull \hbox (2.52571pt too wide) in paragraph at lines 1978--1984
-\TU/TimesNewRoman(0)/m/n/14.4 ное отклонение) и обновление параметров оптимизатором AdamW. Прямой про-
- []
-
-[56]
-Overfull \hbox (1.89758pt too wide) in paragraph at lines 1999--2004
-\TU/TimesNewRoman(0)/m/n/14.4 гружается через отдельный загрузчик данных и подается на вход модели Demucs
- []
-
-
-Overfull \hbox (29.62427pt too wide) in paragraph at lines 2005--2012
-\TU/TimesNewRoman(0)/m/n/14.4 сию”модели. При этом сохраняется только компактный набор весов LoRA-адаптеров
- []
-
-
-Overfull \hbox (4.21523pt too wide) in paragraph at lines 2005--2012
-\TU/TimesNewRoman(0)/m/n/14.4 в формате библиотеки PEFT – Safetensors (файл \TU/PTMono(0)/m/n/14.4 adapter_model.safetensors\TU/TimesNewRoman(0)/m/n/14.4 )
- []
-
-[57]
-Overfull \hbox (3.63673pt too wide) in paragraph at lines 2029--2032
-[]\TU/TimesNewRoman(0)/b/n/14.4 Open-Unmix (полное дообучение). \TU/TimesNewRoman(0)/m/n/14.4 Загружается предобученная контроль-
- []
-
-
-Overfull \hbox (52.40277pt too wide) in paragraph at lines 2035--2038
-\TU/TimesNewRoman(0)/m/n/14.4 из библиотеки Demucs, после чего через механизм \TU/PTMono(0)/m/n/14.4 PeftModel.from_pretrained
- []
-
-
-Overfull \hbox (1.95515pt too wide) in paragraph at lines 2038--2041
-[]\TU/TimesNewRoman(0)/b/n/14.4 htdemucs_6s (базовое решение без дообучения, эталон). \TU/TimesNewRoman(0)/m/n/14.4 Версия Demucs,
- []
-
-
-Overfull \hbox (3.6812pt too wide) in paragraph at lines 2047--2049
-\TU/TimesNewRoman(0)/m/n/14.4 вом), модуль оценки использует два специализированных адаптера данных, каж-
- []
-
-[58]
-Overfull \hbox (0.76915pt too wide) in paragraph at lines 2051--2055
-[]\TU/TimesNewRoman(0)/m/n/14.4 Спектральный адаптер (\TU/PTMono(0)/m/n/14.4 HF_MSSDataset\TU/TimesNewRoman(0)/m/n/14.4 ) применяется для моделей Open-
- []
-
-
-Overfull \hbox (2.73433pt too wide) in paragraph at lines 2055--2057
-[]\TU/TimesNewRoman(0)/m/n/14.4 Волновой адаптер (\TU/PTMono(0)/m/n/14.4 AudioWrapperDataset\TU/TimesNewRoman(0)/m/n/14.4 ) используется для Demucs. Он
- []
-
-[59]
-Вёрстка раздела "Проведение вычислительных экспериментов"
-[60]
-File: figures/deployment/deployment.png Graphic file (type bmp)
-<figures/deployment/deployment.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[61
-
-] [62]
-Overfull \hbox (10.18933pt too wide) in paragraph at lines 2223--2229
-[]\TU/TimesNewRoman(0)/m/n/14.4 Субъективная оценка, проведённая путём прослушивания результатов, пол-
- []
-
-[63]
-Overfull \hbox (5.94008pt too wide) in paragraph at lines 2230--2236
-[]\TU/TimesNewRoman(0)/m/n/14.4 При анализе выделенной гитары инструмент в целом распознаётся на слух,
- []
-
-
-Overfull \hbox (1.37143pt too wide) in paragraph at lines 2230--2236
-\TU/TimesNewRoman(0)/m/n/14.4 однако на фоне отчётливо слышны посторонние ноты пианино, особенно в сред-
- []
-
-
-Overfull \hbox (4.7014pt too wide) in paragraph at lines 2239--2244
-[]\TU/TimesNewRoman(0)/m/n/14.4 Расчёт показал, что при ожидаемом стандартном отклонении метрики SDR
- []
-
-[64]
-Overfull \hbox (1.39023pt too wide) in paragraph at lines 2259--2264
-\TU/TimesNewRoman(0)/m/n/14.4 считаны четыре стандартные метрики: отношение сигнала к искажениям (SDR),
- []
-
-File: figures/experiments/sdr_per_sample.png Graphic file (type bmp)
-<figures/experiments/sdr_per_sample.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figures/experiments/sir_per_sample.png Graphic file (type bmp)
-<figures/experiments/sir_per_sample.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65]
-File: figures/experiments/sar_per_sample.png Graphic file (type bmp)
-<figures/experiments/sar_per_sample.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[66]
-File: figures/experiments/si_sdr_per_sample.png Graphic file (type bmp)
-<figures/experiments/si_sdr_per_sample.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[67]
-Overfull \hbox (4.99911pt too wide) in paragraph at lines 2340--2346
-[]\TU/TimesNewRoman(0)/m/n/14.4 Субъективное прослушивание подтверждает объективные результаты: при
- []
-
-
-Overfull \hbox (21.43234pt too wide) in paragraph at lines 2362--2362
- []|[]| 
- []
-
-
-Overfull \hbox (13.55463pt too wide) in paragraph at lines 2362--2362
- []|[]| 
- []
-
-[68] [69]
-Overfull \hbox (16.4737pt too wide) in paragraph at lines 2428--2432
-\TU/TimesNewRoman(0)/m/n/14.4 нию качества выделения источников. Относительно базовой модели \TU/PTMono(0)/m/n/14.4 htdemucs_6s
- []
-
-[70]
-Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[71]
-Overfull \hbox (17.77061pt too wide) in paragraph at lines 2479--2486
-\TU/TimesNewRoman(0)/m/n/14.4 нируется расширение спектра целевых инструментов, включая духовые и струнно-
- []
-
-[72
-
-] [73]
-Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
-
-Underfull \hbox (badness 10000) in paragraph at lines 2505--2506
-[]\TU/TimesNewRoman(0)/m/n/14.4 Vincent E., Gribonval R., Févotte C. Performance measurement in
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 2505--2506
-\TU/TimesNewRoman(0)/m/n/14.4 blind audio source separation // IEEE Transactions on Audio, Speech,
- []
-
-
-Underfull \hbox (badness 4739) in paragraph at lines 2505--2506
-\TU/TimesNewRoman(0)/m/n/14.4 and Language Processing. 2006. Vol. 14, No. 4. P. 1462–1469. DOI:
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 2523--2524
-[]\TU/TimesNewRoman(0)/m/n/14.4 Manilow E., Seetharaman P., Salamon J. Open Source Tools & Data for
- []
-
-[74
-
-]
-Underfull \hbox (badness 1430) in paragraph at lines 2529--2531
-\TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation // 2019 IEEE Workshop on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2539--2540
-[]\TU/TimesNewRoman(0)/m/n/14.4 Z. Rafii, A. Liutkus, F.-R. Stöter, S. I. Mimilakis, и R. Bittner,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2539--2540
-\TU/TimesNewRoman(0)/m/n/14.4 «The MUSDB18 corpus for music separation». [Онлайн]. URL:
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 2560--2561
-[]\TU/TimesNewRoman(0)/m/it/14.4 H. Huang и др.\TU/TimesNewRoman(0)/m/n/14.4 , «UNet 3+: A Full-Scale Connected UNet for Medical
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 2560--2561
-\TU/TimesNewRoman(0)/m/n/14.4 Image Segmentation», ICASSP, IEEE Int. Conf. Acoust. Speech Signal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2560--2561
-\TU/TimesNewRoman(0)/m/n/14.4 Process. - Proc., т. 2020-May, вып. ii, сс. 1055–1059, 2020, doi:
- []
-
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 2563--2564
-\TU/TimesNewRoman(0)/m/n/14.4 IEEE Signal Process. Mag., т. 30, вып. 6, сс. 97–107, 2013, doi:
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 2566--2567
-[]\TU/TimesNewRoman(0)/m/it/14.4 N. I. Bernardo \TU/TimesNewRoman(0)/m/n/14.4 «Short-time Fourier Transform-based Signal Recovery for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2569--2570
-[]\TU/TimesNewRoman(0)/m/it/14.4 Uhlich S. et al. \TU/TimesNewRoman(0)/m/n/14.4 Open-Unmix: A Deep Neural Network Reference
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 2569--2570
-\TU/TimesNewRoman(0)/m/n/14.4 Implementation for Music Source Separation – GitHub. 2019. – URL:
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 2574--2575
-[]\TU/TimesNewRoman(0)/m/it/14.4 Schuster M., Paliwal K. \TU/TimesNewRoman(0)/m/n/14.4 Bidirectional recurrent neural networks // IEEE
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 2586--2587
-[]\TU/TimesNewRoman(0)/m/n/14.4 Y. Zhang, D. Zhang, T. Wang, D. Rakhimova, K. Wang and H. Huang,
- []
-
-[76]
-Underfull \hbox (badness 2970) in paragraph at lines 2595--2596
-\TU/TimesNewRoman(0)/m/n/14.4 for Improved Blind Violin/Piano Source Separation // 2020 IEEE 22nd
- []
-
-[77] [78]
-Вёрстка раздела "ПРИЛОЖЕНИЕ\ А"
-
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2659
-[]|\TU/TimesNewRoman(0)/b/n/12 Наименование репозито-
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 2660--2660
-[]|\TU/TimesNewRoman(0)/m/n/12 Программный код си-
- []
-
-LaTeX Font Info:    Font shape `TU/PTMono(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 2660.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2660--2660
-[]|\TU/PTMono(0)/m/n/12 Дообучение Open-Unmix
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2660--2660
-[]|[][]$[][][][][] [] [] [] [][][][][] [] [][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2660--2660
-[][][][][][] [] [][][] [] [][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2660--2660
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] []
- []
-
-
-Overfull \hbox (3.92845pt too wide) in paragraph at lines 2661--2661
-[]|\TU/PTMono(0)/m/n/12 guitar-piano-mixes-lora| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2661--2661
-[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2661--2661
-[][][][][][][][] [] [][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2662--2662
-[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] [] [][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2663--2663
-[]|\TU/TimesNewRoman(0)/m/n/12 Модель Open-Unmix
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2663--2663
-[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2663--2663
-[][] [] [][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2664--2664
-[]|\TU/TimesNewRoman(0)/m/n/12 Модель Open-Unmix
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2664--2664
-\TU/TimesNewRoman(0)/m/n/12 спектральным маски-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2664--2664
-[]|[][]$[][][][][] [] [] [] [][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2664--2664
-[][] [] [][][][][][][][][][] []
- []
-
-
-Overfull \hbox (13.41364pt too wide) in paragraph at lines 2657--2666
- [][] 
- []
-
-\c@lastPageNumber=\count372
-[79
-
-
-
-]
-Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
-(./main.lof
-Overfull \hbox (5.67682pt too wide) in paragraph at lines 2--2
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Упрощенный процесс разделения источников из аудиозаписи. Ав- 
- []
-
-
-Overfull \hbox (5.35805pt too wide) in paragraph at lines 3--3
- [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 График спектрограммы музыкальной композиции. Авторский ма- 
- []
-
-)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
- [1
-
-
-] [2]
-Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
-(./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
- [3
-
-
-]
-Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
-(./main.lol)
-\tf@lol=\write8
-\openout8 = `main.lol'.
-
- [79
-
-
-] 
-enddocument/afterlastpage (AED): lastpage setting LastPage.
-(./main.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
- ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DA1B0A045E5E407883B4B7EDA4AE1030;18564.
- ) 
-Here is how much of TeX's memory you used:
- 31933 strings out of 467991
- 667123 string characters out of 5433157
- 1307521 words of memory out of 5000000
- 60251 multiletter control sequences out of 15000+600000
- 636394 words of font info for 126 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 98i,12n,131p,713b,1376s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on main.pdf (84 pages).
+ [17] [18] [19] [20] [

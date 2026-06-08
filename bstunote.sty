@@ -30,6 +30,7 @@
 %%% ----------- Рисование штампов -------------------------------------------------------
 %%% -------------------------------------------------------------------------------------
 \RequirePackage{graphicx}
+\RequirePackage{xcolor}
 
 \newcommand{\Stamp@GrafI}{1}
 
@@ -78,7 +79,8 @@
 \newcommand{\Stamp@Form@II}{%
 	\setlength{\unitlength}{1mm}%
 	\begin{picture}(0,0)(0,0)
-		\setlength{\fboxsep}{0pt} % Отступ рамки от текста
+		\setlength{\fboxsep}{0pt}% Отступ рамки от текста
+		\color{black}% Цвет рамки
 		\linethickness{\Stamp@Line@Thick}
 		\put(0,0){\framebox(\dimexpr 185mm - \Frame@Right@Shift \relax, \dimexpr 287mm - \Frame@Bottom@Shift - \Frame@Top@Shift \relax){}}
 		\put(0,40){\line(1,0){\dimexpr 185mm - \Frame@Right@Shift \relax}}
@@ -99,9 +101,9 @@
 		% Правый нижний блок
 		\put(\dimexpr 135mm - \Frame@Right@Shift \relax, 0) {%
 			% Литеры
-            		\put(0, 15)  {\put(0, 1){\makebox[5mm][c]{\Stamp@GrafIV@LI}}}
-            		\put(5, 15)  {\put(0, 1){\makebox[5mm][c]{\Stamp@GrafIV@LII}}}
-            		\put(10, 15) {\put(0, 1){\makebox[5mm][c]{\Stamp@GrafIV@LIII}}}
+       		\put(0, 15)  {\put(0, 1){\makebox[5mm][c]{\Stamp@GrafIV@LI}}}
+            \put(5, 15)  {\put(0, 1){\makebox[5mm][c]{\Stamp@GrafIV@LII}}}
+            \put(10, 15) {\put(0, 1){\makebox[5mm][c]{\Stamp@GrafIV@LIII}}}
 			\put(0,0){\line(0,1){25}}
 			\put(5,15){\line(0,1){5}}
 			\put(10,15){\line(0,1){5}}			
@@ -147,7 +149,8 @@
 \newcommand{\Stamp@Form@IIa}{%
 	\setlength{\unitlength}{1mm}%
 	\begin{picture}(0,0)(0,0)%
-		\setlength{\fboxsep}{0pt} % Отступ рамки от текста
+		\setlength{\fboxsep}{0pt}% Отступ рамки от текста
+		\color{black}% Цвет рамки 
 		\linethickness{\Stamp@Line@Thick}
 		\put(0,0){\framebox(\dimexpr 185mm - \Frame@Right@Shift \relax, \dimexpr 287mm - \Frame@Bottom@Shift - \Frame@Top@Shift \relax){}}
 		\put(0,15){\line(1,0){\dimexpr 185mm - \Frame@Right@Shift \relax}}
@@ -245,6 +248,8 @@
 	% Сбрасываем счётчик листингов
 	\setcounter{lstlisting}{0} 
 	
+	% Сбрасываем счётчик формул
+	\setcounter{equation}{0} 
 }
 
 %%% -------------------------------------------------------------------------------------
@@ -368,7 +373,7 @@
 }
 
 % Для правильных ссылок на таблицы в pdf-документах
-\renewcommand{\theHtable}{\thesection.\arabic{table}}
+\def\theHtable{\thetable}
 
 %%% -------------------------------------------------------------------------------------
 %%% ----------- Настройка листингов -----------------------------------------------------
@@ -425,9 +430,7 @@
 %%% ----------- Настройка нумерации формул ----------------------------------------------
 %%% -------------------------------------------------------------------------------------
 
-\RequirePackage{amsmath}
-\numberwithin{equation}{section} % Добавляем в ссылку на формулу номер секции (раздела) 
-
+\renewcommand{\theequation}{\thesection.\arabic{equation}}% Добавляем в ссылку на формулу номер секции (раздела) 
 
 %%% -------------------------------------------------------------------------------------
 %%% ----------- Нумерация буквами согласно ГОСТ -----------------------------------------
@@ -612,10 +615,15 @@
 	\@dottedtocline{1}{0em}{1.5em}{\textbf{#1}}{#2}
 }
 
+% Команда для создания оглавления 
+\renewcommand\tableofcontents{%
+	\section*{\rucontentsname}%
+	\@starttoc{toc}%
+}
+
 %%% -------------------------------------------------------------------------------------
 %%% ----------- Команды для настройки списка литературы ---------------------------------
 %%% -------------------------------------------------------------------------------------
-
 
 \renewcommand{\@biblabel}[1]{#1.} % Точка после номера литературного источника
 
@@ -684,7 +692,7 @@
 % Команды для управления нумерацией страниц
 \pagestyle{empty}% Отключение нумерации страниц
 \pagenumbering{gobble}% Отключить нумерацию страниц
-\advance\footskip -6mm% Приподнять номер страницы в нижнем колонтитуле
+%\advance\footskip -6mm% Приподнять номер страницы в нижнем колонтитуле
 \def\initpagenumbering{
 	\pagenumbering{arabic}% Включить нумерацию страниц арабскими цифрами
 	\ifdraw@stamps% Если рисуем штампы
@@ -729,6 +737,10 @@
 
 \makeatother
 
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 
 % Конец файла
 \endinput
