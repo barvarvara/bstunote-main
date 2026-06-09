@@ -1,0 +1,56 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{ВВЕДЕНИЕ}{8}{section.9}%
+\contentsline {section}{\numberline {1}АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ ЗВУКА}{11}{section.11}%
+\contentsline {subsection}{\numberline {1.1}Постановка задачи}{12}{subsection.13}%
+\contentsline {subsection}{\numberline {1.2}Вклад кампании SiSEC MUS 2018 в задачу разделения источников}{12}{subsection.15}%
+\contentsline {subsection}{\numberline {1.3}Способы представления звукового сигнала для задачи разделения источников}{13}{subsection.16}%
+\contentsline {subsubsection}{\numberline {1.3.1}Временное представление}{13}{subsubsection.17}%
+\contentsline {subsubsection}{\numberline {1.3.2}Частотно-временное представление}{14}{subsubsection.18}%
+\contentsline {subsection}{\numberline {1.4}Обзор современных архитектур моделей разделения источников}{16}{subsection.26}%
+\contentsline {subsubsection}{\numberline {1.4.1}Архитектура модели Open‑Unmix}{16}{subsubsection.27}%
+\contentsline {subsubsection}{\numberline {1.4.2}Архитектура модели Spleeter}{23}{subsubsection.46}%
+\contentsline {subsubsection}{\numberline {1.4.3}Архитектура модели Demucs}{24}{subsubsection.58}%
+\contentsline {subsection}{\numberline {1.5}Анализ методов дообучения предобученных моделей разделения источников}{27}{subsection.70}%
+\contentsline {subsubsection}{\numberline {1.5.1}Полное дообучение}{28}{subsubsection.71}%
+\contentsline {subsubsection}{\numberline {1.5.2}Методы «параметрического» дообучения (адаптация части параметров)}{29}{subsubsection.74}%
+\contentsline {subsubsection}{\numberline {1.5.3}Адаптация низкого ранга (LoRA, Low Rank Adaptaion)}{30}{subsubsection.80}%
+\contentsline {subsection}{\numberline {1.6}Метрики оценки качества (SDR, SIR, SAR)}{33}{subsection.90}%
+\contentsline {subsubsection}{\numberline {1.6.1}Декомпозиция сигнала по методу BSS Eval}{34}{subsubsection.91}%
+\contentsline {subsubsection}{\numberline {1.6.2}Scale-Invariant SDR (SI-SDR) — Масштабно-инвариантное отношение сигнал/искажение}{36}{subsubsection.96}%
+\contentsline {subsection}{\numberline {1.7}Выводы}{37}{subsection.99}%
+\contentsline {section}{\numberline {2}\MakeUppercase []{Реализация и проектирование архитектуры программного обеспечения}}{39}{section.100}%
+\contentsline {subsection}{\numberline {2.1}Общая схема взаимодействия компонент разрабатываемой системы}{39}{subsection.101}%
+\contentsline {subsection}{\numberline {2.2}Модуль сбора и подготовки данных}{42}{subsection.105}%
+\contentsline {subsubsection}{\numberline {2.2.1}Загрузка исходных аудиозаписей. Клиент взаимодействия с сервисом Freesound}{43}{subsubsection.106}%
+\contentsline {subsubsection}{\numberline {2.2.2}Синтез аудиомиксов из загруженных айдиофайлов и постобработка}{46}{subsubsection.108}%
+\contentsline {subsubsection}{\numberline {2.2.3}Состав и количество выборок}{48}{subsubsection.119}%
+\contentsline {subsubsection}{\numberline {2.2.4}Интеграция с платформой Hugging Face}{50}{subsubsection.127}%
+\contentsline {subsection}{\numberline {2.3}Адаптация Open-Unmix для полного дообучения}{52}{subsection.137}%
+\contentsline {subsubsection}{\numberline {2.3.1}Контур дообучения}{53}{subsubsection.139}%
+\contentsline {subsubsection}{\numberline {2.3.2}Контур валидации}{54}{subsubsection.147}%
+\contentsline {subsubsection}{\numberline {2.3.3}Спектральное маскирование}{55}{subsubsection.151}%
+\contentsline {subsubsection}{\numberline {2.3.4}Полное дообучение Open-Unmix с аугментацией спектрограмм}{56}{subsubsection.163}%
+\contentsline {subsection}{\numberline {2.4}Дообучение модели Demucs методом LoRA}{56}{subsection.164}%
+\contentsline {subsubsection}{\numberline {2.4.1}Интеграция LoRA в архитектуру Demucs v4}{56}{subsubsection.165}%
+\contentsline {subsubsection}{\numberline {2.4.2}Контур дообучения}{58}{subsubsection.168}%
+\contentsline {subsubsection}{\numberline {2.4.3}Валидационный контур}{60}{subsubsection.169}%
+\contentsline {subsection}{\numberline {2.5}Модуль оценки дообученных моделей}{60}{subsection.170}%
+\contentsline {subsubsection}{\numberline {2.5.1}Загрузка моделей для сравнительного анализа}{60}{subsubsection.171}%
+\contentsline {subsubsection}{\numberline {2.5.2}Адаптеры тестовых данных}{61}{subsubsection.172}%
+\contentsline {subsubsection}{\numberline {2.5.3}Процедура оценки}{62}{subsubsection.173}%
+\contentsline {subsection}{\numberline {2.6}Выводы}{63}{subsection.177}%
+\contentsline {section}{\numberline {3}\MakeUppercase []{Проведение вычислительных экспериментов}}{64}{section.178}%
+\contentsline {subsection}{\numberline {3.1}Инфраструктура и среда выполнения}{64}{subsection.179}%
+\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{64}{subsection.181}%
+\contentsline {subsubsection}{\numberline {3.2.1}Физическое обоснование проблемы}{65}{subsubsection.182}%
+\contentsline {subsubsection}{\numberline {3.2.2}Описание эксперимента}{66}{subsubsection.183}%
+\contentsline {subsubsection}{\numberline {3.2.3}Количественные результаты и субъективная оценка}{66}{subsubsection.184}%
+\contentsline {subsubsection}{\numberline {3.2.4}Статистическая значимость и выводы}{67}{subsubsection.185}%
+\contentsline {subsection}{\numberline {3.3}Количественная оценка качества разделения}{68}{subsection.186}%
+\contentsline {subsection}{\numberline {3.4}Анализ влияния спектральной аугментации}{70}{subsection.191}%
+\contentsline {subsection}{\numberline {3.5}Сравнение вычислительных затрат}{72}{subsection.192}%
+\contentsline {subsection}{\numberline {3.6}Субъективная оценка качества}{73}{subsection.193}%
+\contentsline {subsection}{\numberline {3.7}Выводы}{73}{subsection.194}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{75}{section.195}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{77}{section*.197}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ \MakeUppercase []{Репозитории и материалы исследования}}{81}{appendix.199}%

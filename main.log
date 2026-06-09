@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  9 JUN 2026 00:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  10 JUN 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -747,9 +747,6 @@ Package babel Info: 'russian' activates 'russian' shorthands.
 
 LaTeX Warning: Label `lst:split_sets' multiply defined.
 
-
-LaTeX Warning: Label `LoRA' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -952,7 +949,7 @@ Overfull \hbox (15.14423pt too wide) in paragraph at lines 329--329
 [7] [8
 
 ] [9]
-Вёрстка раздела "АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ"
+Вёрстка раздела "АНАЛИЗ СОСТОЯНИЯ ИССЛЕДОВАНИЯ В ОБЛАСТИ ИЗВЛЕЧЕНИЯ ИСТОЧНИКОВ ЗВУКА"
 [10]
 File: figures/задача извлечения источников.png Graphic file (type bmp)
 <figures/задача извлечения источников.png>
@@ -971,4 +968,191 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [15] [16]
 File: figures/open unmix.png Graphic file (type bmp)
 <figures/open unmix.png>
- [17] [18] [19] [20] [
+ [17] [18] [19] [20] [21] [22] [23] [24]
+File: figures/demucs схема.png Graphic file (type bmp)
+<figures/demucs схема.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26] [27] [28]
+
+LaTeX Warning: Citation `lora' on page 29 undefined on input line 1060.
+
+[29] [30]
+File: figures/lora.png Graphic file (type bmp)
+<figures/lora.png>
+ [31] [32] [33] [34] [35] [36] [37]
+Вёрстка раздела "\MakeUppercase    []{Реализация и проектирование архитектуры программного обеспечения}"
+[38] [39
+
+]
+File: figures/диаграмма классов сокр.png Graphic file (type bmp)
+<figures/диаграмма классов сокр.png>
+ [40]
+File: figures/диаграмма классов (датасет+модели).png Graphic file (type bmp)
+<figures/диаграмма классов (датасет+модели).png>
+File: figures/диаграмма классов (модели + оценка).png Graphic file (type bmp)
+<figures/диаграмма классов (модели + оценка).png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41] [42] [43]
+File: figures/dataset/dataset.png Graphic file (type bmp)
+<figures/dataset/dataset.png>
+ [44] [45] [46] [47]
+File: figures/состав выборок.png Graphic file (type bmp)
+<figures/состав выборок.png>
+ [48] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1642.
+LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 1642.
+LaTeX Font Info:    Font shape `TU/PT-Mono(0)/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 1643.
+ [49] [50] [51]
+File: figures/конвейер обучения open unmix.png Graphic file (type bmp)
+<figures/конвейер обучения open unmix.png>
+ [52] [53] [54] [55]
+
+LaTeX Font Warning: Font shape `TU/PT-Mono(0)/m/it' undefined
+(Font)              using `TU/PT-Mono(0)/m/n' instead on input line 1845.
+
+LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/it' will be
+(Font)              scaled to size 8.99994pt on input line 1845.
+[56]
+File: figures/demucs доработка архитектуры.png Graphic file (type bmp)
+<figures/demucs доработка архитектуры.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/конвейер обучения demucs.png Graphic file (type bmp)
+<figures/конвейер обучения demucs.png>
+[57] [58] [59] [60] [61] [62]
+Вёрстка раздела "\MakeUppercase    []{Проведение вычислительных экспериментов}"
+[63]
+File: figures/deployment/deployment.png Graphic file (type bmp)
+<figures/deployment/deployment.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[64
+
+] [65] [66] [67]
+File: figures/experiments/sdr_per_sample.png Graphic file (type bmp)
+<figures/experiments/sdr_per_sample.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/experiments/sir_per_sample.png Graphic file (type bmp)
+<figures/experiments/sir_per_sample.png>
+[68] [69]
+File: figures/experiments/sar_per_sample.png Graphic file (type bmp)
+<figures/experiments/sar_per_sample.png>
+File: figures/experiments/si_sdr_per_sample.png Graphic file (type bmp)
+<figures/experiments/si_sdr_per_sample.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[70] [71]
+Overfull \hbox (21.43234pt too wide) in paragraph at lines 2363--2363
+ []|[]| 
+ []
+
+
+Overfull \hbox (13.55463pt too wide) in paragraph at lines 2363--2363
+ []|[]| 
+ []
+
+[72] [73]
+Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
+[74] [75
+
+] [76]
+Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
+[77
+
+]
+Missing character: There is no   (U+202F) in font [./fonts/PT-Astra-Serif/PT-Astra-Serif-Regular.ttf]/OT:language=dflt;mapping=tex-text;!
+[78] [79] [80]
+Вёрстка раздела "ПРИЛОЖЕНИЕ\ А"
+LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 2657.
+
+Overfull \hbox (3.92845pt too wide) in paragraph at lines 2658--2658
+[]|\TU/PT-Mono(0)/m/n/12 guitar-piano-mixes-lora| 
+ []
+
+
+Overfull \hbox (13.41364pt too wide) in paragraph at lines 2654--2663
+ [][] 
+ []
+
+\c@lastPageNumber=\count369
+[81
+
+
+
+]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [1
+
+
+] [2]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [3
+
+
+]
+Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
+(./main.lol)
+\tf@lol=\write8
+\openout8 = `main.lol'.
+
+ [81
+
+
+] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B6248FCFC0572183456E1823D2C315E3;18834.
+ ) 
+Here is how much of TeX's memory you used:
+ 29793 strings out of 467991
+ 611865 string characters out of 5433157
+ 1267201 words of memory out of 5000000
+ 58137 multiletter control sequences out of 15000+600000
+ 636330 words of font info for 118 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 84i,12n,131p,713b,929s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (86 pages).
