@@ -10,10 +10,10 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Диаграмма последовательности процесса формирования набора данных. Авторский материал}}{44}{figure.caption.103}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Состав выборок. Авторский материал}}{48}{figure.caption.116}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Схема взаимодействия модулей в контурах дообучения и валидации для модели Open-Unmix. Авторский материал}}{52}{figure.caption.134}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs. Авторский материал}}{58}{figure.caption.162}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Контуры дообучения модели Demucs. Авторский материал}}{58}{figure.caption.163}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального конвейера дообучения модели разделения источников. Авторский материал}}{65}{figure.caption.176}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Динамика метрики SDR по аудиофайлам тестовой выборки для четырёх моделей}}{69}{figure.caption.183}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Динамика метрики SIR по аудиофайлам тестовой выборки для четырёх моделей}}{69}{figure.caption.184}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Динамика метрики SAR по аудиофайлам тестовой выборки для четырёх моделей}}{70}{figure.caption.185}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Динамика метрики SI-SDR по аудиофайлам тестовой выборки для четырёх моделей}}{71}{figure.caption.186}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs. Авторский материал}}{57}{figure.caption.161}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Контуры дообучения модели Demucs. Авторский материал}}{58}{figure.caption.162}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального конвейера дообучения модели разделения источников. Авторский материал}}{65}{figure.caption.175}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Динамика метрики SDR по аудиофайлам тестовой выборки для четырёх моделей}}{69}{figure.caption.182}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Динамика метрики SIR по аудиофайлам тестовой выборки для четырёх моделей}}{69}{figure.caption.183}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Динамика метрики SAR по аудиофайлам тестовой выборки для четырёх моделей}}{70}{figure.caption.184}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Динамика метрики SI-SDR по аудиофайлам тестовой выборки для четырёх моделей}}{71}{figure.caption.185}%

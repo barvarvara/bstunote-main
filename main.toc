@@ -23,34 +23,33 @@
 \contentsline {subsection}{\numberline {2.2}Модуль сбора и подготовки данных}{42}{subsection.101}%
 \contentsline {subsubsection}{\numberline {2.2.1}Загрузка исходных аудиозаписей. Клиент взаимодействия с сервисом Freesound}{43}{subsubsection.102}%
 \contentsline {subsubsection}{\numberline {2.2.2}Синтез аудиомиксов из загруженных айдиофайлов и постобработка}{46}{subsubsection.104}%
-\contentsline {subsubsection}{\numberline {2.2.3}Состав и количество выборок}{48}{subsubsection.115}%
-\contentsline {subsubsection}{\numberline {2.2.4}Интеграция с платформой Hugging Face}{50}{subsubsection.123}%
+\contentsline {subsubsection}{\numberline {2.2.3}Состав и количество выборок}{47}{subsubsection.115}%
+\contentsline {subsubsection}{\numberline {2.2.4}Интеграция с платформой Hugging Face}{49}{subsubsection.123}%
 \contentsline {subsection}{\numberline {2.3}Адаптация Open-Unmix для полного дообучения}{52}{subsection.133}%
-\contentsline {subsubsection}{\numberline {2.3.1}Контур дообучения}{53}{subsubsection.135}%
+\contentsline {subsubsection}{\numberline {2.3.1}Контур дообучения}{52}{subsubsection.135}%
 \contentsline {subsubsection}{\numberline {2.3.2}Контур валидации}{54}{subsubsection.143}%
-\contentsline {subsubsection}{\numberline {2.3.3}Спектральное маскирование}{55}{subsubsection.147}%
-\contentsline {subsubsection}{\numberline {2.3.4}Полное дообучение Open-Unmix с аугментацией спектрограмм}{56}{subsubsection.159}%
-\contentsline {subsection}{\numberline {2.4}Дообучение модели Demucs методом LoRA}{56}{subsection.160}%
-\contentsline {subsubsection}{\numberline {2.4.1}Интеграция LoRA в архитектуру Demucs v4}{56}{subsubsection.161}%
-\contentsline {subsubsection}{\numberline {2.4.2}Контур дообучения}{58}{subsubsection.164}%
-\contentsline {subsubsection}{\numberline {2.4.3}Валидационный контур}{60}{subsubsection.165}%
-\contentsline {subsection}{\numberline {2.5}Модуль оценки дообученных моделей}{60}{subsection.166}%
-\contentsline {subsubsection}{\numberline {2.5.1}Загрузка моделей для сравнительного анализа}{60}{subsubsection.167}%
-\contentsline {subsubsection}{\numberline {2.5.2}Адаптеры тестовых данных}{61}{subsubsection.168}%
-\contentsline {subsubsection}{\numberline {2.5.3}Процедура оценки}{62}{subsubsection.169}%
-\contentsline {subsection}{\numberline {2.6}Выводы}{63}{subsection.173}%
-\contentsline {section}{\numberline {3}\MakeUppercase []{Проведение вычислительных экспериментов}}{64}{section.174}%
-\contentsline {subsection}{\numberline {3.1}Инфраструктура и среда выполнения}{64}{subsection.175}%
-\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{64}{subsection.177}%
-\contentsline {subsubsection}{\numberline {3.2.1}Физическое обоснование проблемы}{65}{subsubsection.178}%
-\contentsline {subsubsection}{\numberline {3.2.2}Описание эксперимента}{66}{subsubsection.179}%
-\contentsline {subsubsection}{\numberline {3.2.3}Количественные результаты и субъективная оценка}{66}{subsubsection.180}%
-\contentsline {subsubsection}{\numberline {3.2.4}Статистическая значимость и выводы}{67}{subsubsection.181}%
-\contentsline {subsection}{\numberline {3.3}Количественная оценка качества разделения}{68}{subsection.182}%
-\contentsline {subsection}{\numberline {3.4}Анализ влияния спектральной аугментации}{70}{subsection.187}%
-\contentsline {subsection}{\numberline {3.5}Сравнение вычислительных затрат}{72}{subsection.188}%
-\contentsline {subsection}{\numberline {3.6}Субъективная оценка качества}{73}{subsection.189}%
-\contentsline {subsection}{\numberline {3.7}Выводы}{73}{subsection.190}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{75}{section.191}%
-\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{77}{section*.193}%
-\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ \MakeUppercase []{Репозитории и материалы исследования}}{81}{appendix.195}%
+\contentsline {subsubsection}{\numberline {2.3.3}Спектральное маскирование}{54}{subsubsection.147}%
+\contentsline {subsection}{\numberline {2.4}Дообучение модели Demucs методом LoRA}{56}{subsection.159}%
+\contentsline {subsubsection}{\numberline {2.4.1}Интеграция LoRA в архитектуру Demucs v4}{56}{subsubsection.160}%
+\contentsline {subsubsection}{\numberline {2.4.2}Контур дообучения}{58}{subsubsection.163}%
+\contentsline {subsubsection}{\numberline {2.4.3}Валидационный контур}{59}{subsubsection.164}%
+\contentsline {subsection}{\numberline {2.5}Модуль оценки дообученных моделей}{60}{subsection.165}%
+\contentsline {subsubsection}{\numberline {2.5.1}Загрузка моделей для сравнительного анализа}{60}{subsubsection.166}%
+\contentsline {subsubsection}{\numberline {2.5.2}Адаптеры тестовых данных}{61}{subsubsection.167}%
+\contentsline {subsubsection}{\numberline {2.5.3}Процедура оценки}{61}{subsubsection.168}%
+\contentsline {subsection}{\numberline {2.6}Выводы}{62}{subsection.172}%
+\contentsline {section}{\numberline {3}\MakeUppercase []{Проведение вычислительных экспериментов}}{64}{section.173}%
+\contentsline {subsection}{\numberline {3.1}Инфраструктура и среда выполнения}{64}{subsection.174}%
+\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{64}{subsection.176}%
+\contentsline {subsubsection}{\numberline {3.2.1}Физическое обоснование проблемы}{65}{subsubsection.177}%
+\contentsline {subsubsection}{\numberline {3.2.2}Описание эксперимента}{66}{subsubsection.178}%
+\contentsline {subsubsection}{\numberline {3.2.3}Количественные результаты и субъективная оценка}{66}{subsubsection.179}%
+\contentsline {subsubsection}{\numberline {3.2.4}Статистическая значимость и выводы}{67}{subsubsection.180}%
+\contentsline {subsection}{\numberline {3.3}Количественная оценка качества разделения}{68}{subsection.181}%
+\contentsline {subsection}{\numberline {3.4}Анализ влияния спектральной аугментации}{71}{subsection.186}%
+\contentsline {subsection}{\numberline {3.5}Сравнение вычислительных затрат}{72}{subsection.187}%
+\contentsline {subsection}{\numberline {3.6}Субъективная оценка качества}{73}{subsection.188}%
+\contentsline {subsection}{\numberline {3.7}Выводы}{73}{subsection.189}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{75}{section.190}%
+\contentsline {section}{СПИСОК ЛИТЕРАТУРЫ}{77}{section*.192}%
+\contentsline {section}{ПРИЛОЖЕНИЕ\ А\ \MakeUppercase []{Репозитории и материалы исследования}}{81}{appendix.194}%
