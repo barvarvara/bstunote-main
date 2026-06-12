@@ -13,7 +13,7 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Архитектурные изменения в Demucs. Авторский материал}}{57}{figure.caption.161}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Контуры дообучения модели Demucs. Авторский материал}}{58}{figure.caption.162}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Диаграмма развёртывания инфраструктуры экспериментального конвейера дообучения модели разделения источников. Авторский материал}}{65}{figure.caption.175}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Динамика метрики SDR по аудиофайлам тестовой выборки для четырёх моделей}}{69}{figure.caption.182}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Динамика метрики SIR по аудиофайлам тестовой выборки для четырёх моделей}}{69}{figure.caption.183}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Динамика метрики SAR по аудиофайлам тестовой выборки для четырёх моделей}}{70}{figure.caption.184}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Динамика метрики SI-SDR по аудиофайлам тестовой выборки для четырёх моделей}}{71}{figure.caption.185}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Динамика значений метрики SDR (качество сигнала) по аудиофайлам тестовой выборки для четырёх моделей}}{69}{figure.caption.182}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Динамика метрики SIR (качество подавления помех) по аудиофайлам тестовой выборки для четырёх моделей}}{70}{figure.caption.183}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Динамика метрики SAR (отсутствие артефактов) по аудиофайлам тестовой выборки для четырёх моделей}}{70}{figure.caption.184}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Динамика метрики SI-SDR (масштабно-инвариантный) по аудиофайлам тестовой выборки для четырёх моделей}}{71}{figure.caption.185}%

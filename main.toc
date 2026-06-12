@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {2.6}Выводы}{62}{subsection.172}%
 \contentsline {section}{\numberline {3}\MakeUppercase []{Проведение вычислительных экспериментов}}{64}{section.173}%
 \contentsline {subsection}{\numberline {3.1}Инфраструктура и среда выполнения}{64}{subsection.174}%
-\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{64}{subsection.176}%
+\contentsline {subsection}{\numberline {3.2}Определение проблемы спектрального перекрытия}{65}{subsection.176}%
 \contentsline {subsubsection}{\numberline {3.2.1}Физическое обоснование проблемы}{65}{subsubsection.177}%
 \contentsline {subsubsection}{\numberline {3.2.2}Описание эксперимента}{66}{subsubsection.178}%
 \contentsline {subsubsection}{\numberline {3.2.3}Количественные результаты и субъективная оценка}{66}{subsubsection.179}%
