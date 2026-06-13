@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  12 JUN 2026 10:03
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.4)  13 JUN 2026 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -917,7 +917,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] [2] [3]
-Overfull \hbox (15.14423pt too wide) in paragraph at lines 329--329
+Overfull \hbox (15.14423pt too wide) in paragraph at lines 338--338
  [][] 
  []
 
@@ -964,93 +964,87 @@ File: figures/lora.png Graphic file (type bmp)
 <figures/lora.png>
  [31] [32] [33] [34] [35] [36]
 Вёрстка раздела "\MakeUppercase    []{Реализация и проектирование архитектуры программного обеспечения}"
-[37] [38] [39
+[37] [38
 
 ]
 File: figures/диаграмма классов сокр.png Graphic file (type bmp)
 <figures/диаграмма классов сокр.png>
 LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 1390.
- [40]
+(Font)              scaled to size 12.9599pt on input line 1403.
+ [39]
 File: figures/диаграмма классов (датасет+модели).png Graphic file (type bmp)
 <figures/диаграмма классов (датасет+модели).png>
+ [40]
 File: figures/диаграмма классов (модели + оценка).png Graphic file (type bmp)
 <figures/диаграмма классов (модели + оценка).png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[41] [42] [43]
+ [41] [42]
 File: figures/dataset/dataset.png Graphic file (type bmp)
 <figures/dataset/dataset.png>
- [44]
-Overfull \hbox (3.08247pt too wide) in alignment at lines 1487--1493
+ [43]
+Overfull \hbox (3.08247pt too wide) in alignment at lines 1498--1504
  [] [] [] 
  []
 
 
-Overfull \hbox (3.08247pt too wide) in alignment at lines 1493--1498
+Overfull \hbox (3.08247pt too wide) in alignment at lines 1504--1509
  [] [] [] 
  []
 
 
-Overfull \hbox (3.08247pt too wide) in alignment at lines 1498--1501
+Overfull \hbox (3.08247pt too wide) in alignment at lines 1509--1512
  [] [] [] 
  []
 
 
-Overfull \hbox (3.08247pt too wide) in alignment at lines 1501--1504
+Overfull \hbox (3.08247pt too wide) in alignment at lines 1512--1515
  [] [] [] 
  []
 
 
-Overfull \hbox (3.08247pt too wide) in alignment at lines 1504--1514
+Overfull \hbox (3.08247pt too wide) in alignment at lines 1515--1525
  [] [] [] 
  []
 
-[45] [46]
+[44] [45]
 File: figures/состав выборок.png Graphic file (type bmp)
 <figures/состав выборок.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[47] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
+ [46] (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1611.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1622.
+ [47]
 LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 1611.
+(Font)              scaled to size 8.99994pt on input line 1622.
 LaTeX Font Info:    Font shape `TU/PT-Mono(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 1612.
- [48] [49] [50] [51]
+(Font)              scaled to size 8.99994pt on input line 1623.
+ [48] [49] [50]
 File: figures/конвейер обучения open unmix.png Graphic file (type bmp)
 <figures/конвейер обучения open unmix.png>
- [52] [53] [54]
+ [51] [52] [53]
 
 LaTeX Font Warning: Font shape `TU/PT-Mono(0)/m/it' undefined
-(Font)              using `TU/PT-Mono(0)/m/n' instead on input line 1816.
+(Font)              using `TU/PT-Mono(0)/m/n' instead on input line 1827.
 
 LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 1816.
-[55] [56]
+(Font)              scaled to size 8.99994pt on input line 1827.
+[54] [55]
 File: figures/demucs доработка архитектуры.png Graphic file (type bmp)
 <figures/demucs доработка архитектуры.png>
- [57]
+ [56]
 File: figures/конвейер обучения demucs.png Graphic file (type bmp)
 <figures/конвейер обучения demucs.png>
- [58] [59] [60] [61] [62]
+ [57] [58] [59] [60] [61]
 Вёрстка раздела "\MakeUppercase    []{Проведение вычислительных экспериментов}"
-[63]
+[62]
 File: figures/deployment/deployment.png Graphic file (type bmp)
 <figures/deployment/deployment.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[64
+[63
 
-] [65] [66] [67] [68]
+] [64] [65] [66] [67]
 File: figures/experiments/sdr_per_sample.png Graphic file (type bmp)
 <figures/experiments/sdr_per_sample.png>
 File: figures/experiments/sir_per_sample.png Graphic file (type bmp)
@@ -1064,68 +1058,78 @@ File: figures/experiments/sar_per_sample.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[69]
+[68]
 File: figures/experiments/si_sdr_per_sample.png Graphic file (type bmp)
 <figures/experiments/si_sdr_per_sample.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70] [71]
-Overfull \hbox (21.43234pt too wide) in paragraph at lines 2341--2341
+[69] [70]
+Overfull \hbox (21.43234pt too wide) in paragraph at lines 2352--2352
  []|[]| 
  []
 
 
-Overfull \hbox (13.55463pt too wide) in paragraph at lines 2341--2341
+Overfull \hbox (13.55463pt too wide) in paragraph at lines 2352--2352
  []|[]| 
  []
 
-[72] [73]
+[71] [72]
 Вёрстка раздела "ЗАКЛЮЧЕНИЕ"
-[74] [75
+[73] [74
 
-] [76]
+] [75]
 Вёрстка раздела "СПИСОК ЛИТЕРАТУРЫ"
-[77
+[76
 
 ]
 Missing character: There is no   (U+202F) in font [./fonts/PT-Astra-Serif/PT-Astra-Serif-Regular.ttf]/OT:language=dflt;mapping=tex-text;!
-[78] [79] [80]
+[77] [78] [79]
 Вёрстка раздела "ПРИЛОЖЕНИЕ\ А"
 LaTeX Font Info:    Font shape `TU/PT-Mono(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 2635.
+(Font)              scaled to size 10.79993pt on input line 2649.
 
-Overfull \hbox (3.92845pt too wide) in paragraph at lines 2636--2636
+Overfull \hbox (3.92845pt too wide) in paragraph at lines 2650--2650
 []|\TU/PT-Mono(0)/m/n/12 guitar-piano-mixes-lora| 
  []
 
 
-Overfull \hbox (13.41364pt too wide) in paragraph at lines 2632--2641
+Overfull \hbox (13.41364pt too wide) in paragraph at lines 2646--2656
  [][] 
  []
 
-\c@lastPageNumber=\count369
+[80
+
+
+
+]
+Вёрстка раздела "ПРИЛОЖЕНИЕ\ Б"
 [81
 
 
-
-]
+] [82] [83] [84] [85] [86]
+Missing character: There is no 🔹 (U+1F539) in font [./fonts/PT-Mono/PT-Mono-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;!
+[87] [88]
+Missing character: There is no 🔍 (U+1F50D) in font [./fonts/PT-Mono/PT-Mono-Regular.ttf]/OT:script=latn;language=dflt;mapping=tex-text;!
+[89]
+\c@lastPageNumber=\count369
+ [90]
 Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
-(./main.lof)
+(./main.lof [1
+
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [1
-
-
-]
+ [2]
 Вёрстка раздела "СЛУЖЕБНАЯ ИНФОРМАЦИЯ"
 (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [2
+ [3
 
 
 ]
@@ -1134,7 +1138,7 @@ Overfull \hbox (13.41364pt too wide) in paragraph at lines 2632--2641
 \tf@lol=\write8
 \openout8 = `main.lol'.
 
- [81
+ [90
 
 
 ] 
@@ -1149,15 +1153,15 @@ L3 programming layer <2026-03-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F5EEE60742BFEE613FDB6B89756077F5;18300.
+(rerunfilecheck)             Checksum: 52C24E9256D18F4B86C8E9436AA4618F;18868.
  ) 
 Here is how much of TeX's memory you used:
- 29796 strings out of 467991
- 611941 string characters out of 5433157
- 1256650 words of memory out of 5000000
- 58140 multiletter control sequences out of 15000+600000
- 636330 words of font info for 118 fonts, out of 8000000 for 9000
+ 30130 strings out of 467991
+ 615712 string characters out of 5433157
+ 1830497 words of memory out of 5000000
+ 58479 multiletter control sequences out of 15000+600000
+ 636290 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,12n,131p,713b,1364s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,131p,713b,1233s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (85 pages).
+Output written on main.pdf (95 pages).
